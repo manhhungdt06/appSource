@@ -48,7 +48,7 @@ class CustomTextField: UITextField {
         case 105:
             createLeftView("Confirm")
             configPlaceHolder("CONFIRM PASSWORD", "SFUIText-Light", 14)
-            isSecureTextEntry = true
+            isSecureTextEntry = true   
         default:
             print("no textfield")
         }
@@ -69,8 +69,8 @@ class CustomTextField: UITextField {
     }
     
     func configPlaceHolder(_ text: String,_ fontName: String,_ fontSize: CGFloat) {
-        let attribute = [NSFontAttributeName: UIFont.init(name: fontName, size: fontSize) , NSForegroundColorAttributeName: UIColor.white]
-        
+//
+        let attribute = [NSFontAttributeName: UIFont(name: fontName, size: fontSize)!]
         attributedPlaceholder = NSAttributedString(string: text, attributes: attribute)
     }
 }

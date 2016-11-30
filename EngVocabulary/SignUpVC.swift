@@ -48,7 +48,7 @@ class SignUpVC: BaseViewController {
                 if checkSignUp(userName.text!) {
                     alertBox("Error", "Exist user", "Try Again")
                 } else {
-                    let plistPath = self.getPath()
+                    let plistPath = getPath("/userInfo.plist")
                     let usersData = NSMutableDictionary(contentsOfFile: plistPath)!
                     usersData.setValue(pass.text!, forKey: userName.text!)
                     usersData.write(toFile: plistPath, atomically: true)
@@ -70,7 +70,7 @@ class SignUpVC: BaseViewController {
     }
     
     func checkSignUp(_ userName: String) -> Bool {
-        let plistPath = self.getPath()
+        let plistPath = getPath("/userInfo.plist")
         if let usersData = NSMutableDictionary(contentsOfFile: plistPath) {
             for (_, element) in usersData.enumerated() {
                 if userName == String(describing: element.key) {

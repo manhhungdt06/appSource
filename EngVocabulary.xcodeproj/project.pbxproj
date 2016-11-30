@@ -259,6 +259,7 @@
 		84F9F6801DED955100D4D238 /* yield_v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F5B81DED955100D4D238 /* yield_v.mp3 */; };
 		84F9F6811DED955100D4D238 /* zone_v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F5B91DED955100D4D238 /* zone_v.mp3 */; };
 		84F9F6831DED9A5B00D4D238 /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F6821DED9A5B00D4D238 /* word.swift */; };
+		E253C5261DEEC6FF0004D145 /* AddNewWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253C5251DEEC6FF0004D145 /* AddNewWordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -537,6 +538,7 @@
 		84F9F5B81DED955100D4D238 /* yield_v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yield_v.mp3; sourceTree = "<group>"; };
 		84F9F5B91DED955100D4D238 /* zone_v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zone_v.mp3; sourceTree = "<group>"; };
 		84F9F6821DED9A5B00D4D238 /* word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
+		E253C5251DEEC6FF0004D145 /* AddNewWordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewWordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -602,6 +604,7 @@
 				841852261DED42B000C06D95 /* DetailCellVC.swift */,
 				84F9F4EE1DED816E00D4D238 /* DetailWordVC.swift */,
 				84A1B2EB1DEE914C0027B476 /* HomeVC.swift */,
+				E253C5251DEEC6FF0004D145 /* AddNewWordVC.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -1348,6 +1351,7 @@
 				84F9F6831DED9A5B00D4D238 /* word.swift in Sources */,
 				84044C791DE7F874007E6B60 /* SignUpVC.swift in Sources */,
 				84A1B2E61DEE7A810027B476 /* CustomTextView.swift in Sources */,
+				E253C5261DEEC6FF0004D145 /* AddNewWordVC.swift in Sources */,
 				84F9F4EF1DED816E00D4D238 /* DetailWordVC.swift in Sources */,
 				84AD17C51DED3354001D7C1B /* TopicVC.swift in Sources */,
 				8420252E1DE84B4F00D356FC /* LanguageDetailVC.swift in Sources */,
@@ -1447,7 +1451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1491,7 +1495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -26,7 +26,7 @@ class LoginVC: BaseViewController {
         
         self.navigationController?.isNavigationBarHidden = true
         updateContraint(logoTop)
-        let userInfoPath = self.getPath()
+        let userInfoPath = getPath("/userInfo.plist")
         let userData: [String: String] = [:]
         if (!fileManager.fileExists(atPath: userInfoPath)) {
             let tempData = NSDictionary(dictionary: userData)
@@ -41,16 +41,20 @@ class LoginVC: BaseViewController {
     }
     
     @IBAction func loginAction(_ sender: UIButton) {
-        if userName.text == "" || passWord.text == "" {
-            alertBox("Error", "Vui lòng nhập username và password", "Try Again")
-        }
-        else if checkLogin(userName.text!, passWord.text!) {
-            let listLangVC = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
-            self.navigationController?.pushViewController(listLangVC, animated: true)
-        }
-        else {
-            alertBox("Error", "Username hoặc mật khẩu không đúng", "Try Again")
-        }
+//        if userName.text == "" || passWord.text == "" {
+//            alertBox("Error", "Vui lòng nhập username và password", "Try Again")
+//        }
+//        else if checkLogin(userName.text!, passWord.text!) {
+////            let listLangVC = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
+////            self.navigationController?.pushViewController(listLangVC, animated: true)
+//        }
+//        else {
+//            alertBox("Error", "Username hoặc mật khẩu không đúng", "Try Again")
+//        }
+        
+//         AddNewWordVC
+        let addNewWordVC = storyboard?.instantiateViewController(withIdentifier: "AddNewWordVC") as! AddNewWordVC
+        self.navigationController?.pushViewController(addNewWordVC, animated: true)
     }
     
     @IBAction func signupAction(_ sender: UIButton) {
@@ -63,7 +67,7 @@ class LoginVC: BaseViewController {
     
     func checkLogin(_ userName: String,_ pass: String) -> Bool {
         
-        let plistPath = self.getPath()
+        let plistPath = getPath("/userInfo.plist")
         
         if let usersData = NSMutableDictionary(contentsOfFile: plistPath) {
             for (_, element) in usersData.enumerated() {

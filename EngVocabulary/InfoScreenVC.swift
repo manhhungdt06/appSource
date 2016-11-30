@@ -52,6 +52,10 @@ class InfoScreenVC: UIViewController {
     }
     
 
+    @IBAction func next(_ sender: CustomButton) {
+        let nextScr = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
+        self.navigationController?.pushViewController(nextScr, animated: true)
+    }
     /*
      // MARK: - Navigation
      

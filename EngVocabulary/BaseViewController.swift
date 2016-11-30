@@ -40,12 +40,12 @@ class BaseViewController: UIViewController {
         print(contraint.constant)
     }
     
-    func getPath() -> String {
+    func getPath(_ fileName: String) -> String {
         
         let userFileDir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
         
-        let userInfoPath = userFileDir.appending("/userInfo.plist")
-        
+        let userInfoPath = userFileDir.appending(fileName)
+        print(userInfoPath)
         return userInfoPath
     }
     

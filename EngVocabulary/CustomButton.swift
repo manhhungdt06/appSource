@@ -40,7 +40,9 @@ class CustomButton: UIButton {
         case 107:
             self.setTitle("CONTINUE", for: UIControlState())
         case 108:
-            self.setTitle("Change avatar", for: UIControlState())
+            self.setTitle("NExt", for: UIControlState())
+        case 109:
+            self.setTitle("Add", for: UIControlState())
         default:
             print("no button")
         }
