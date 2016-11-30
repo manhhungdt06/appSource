@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>English</key>
+	<dict>
+		<key>TOEIC</key>
+		<dict>
+			<key>name</key>
+			<string>TOEIC</string>
+			<key>content</key>
+			<string>600 từ vựng TOEIC</string>
+			<key>image</key>
+			<string>toeic.png</string>
+		</dict>
+		<key>TOEFL</key>
+		<dict>
+			<key>name</key>
+			<string>TOEFL</string>
+			<key>content</key>
+			<string>TOEFL iBt</string>
+			<key>image</key>
+			<string>toefl.png</string>
+		</dict>
+		<key>IELTS</key>
+		<dict>
+			<key>name</key>
+			<string>IELTS</string>
+			<key>content</key>
+			<string>5000 từ vựng IELTS</string>
+			<key>image</key>
+			<string>ielts.png</string>
+		</dict>
+		<key>English Majors</key>
+		<dict>
+			<key>name</key>
+			<string>English Majors</string>
+			<key>content</key>
+			<string>Từ vựng theo chuyên ngành</string>
+			<key>image</key>
+			<string>major.png</string>
+		</dict>
+		<key>New added words</key>
+		<dict>
+			<key>name</key>
+			<string>New Added Words</string>
+			<key>content</key>
+			<string>Từ mới được thêm vào</string>
+			<key>image</key>
+			<string>new.png</string>
+		</dict>
+	</dict>
+	<key>Japanese</key>
+	<dict/>
+</dict>
+</plist>

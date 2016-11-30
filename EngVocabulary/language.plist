@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lang1</key>
+	<dict>
+		<key>name</key>
+		<string>English</string>
+		<key>content</key>
+		<string>Menu</string>
+		<key>nameImage</key>
+		<string>eng</string>
+		<key>menuText</key>
+		<array>
+			<string>Study word</string>
+			<string>Add new word</string>
+			<string>Settings</string>
+			<string>Practice</string>
+		</array>
+	</dict>
+	<key>lang2</key>
+	<dict>
+		<key>name</key>
+		<string>Italia</string>
+		<key>content</key>
+		<string>Menu</string>
+		<key>nameImage</key>
+		<string>italy</string>
+		<key>menuText</key>
+		<array>
+			<string>Parola di studio</string>
+			<string>Aggiungi nuova parola</string>
+			<string>Impostazioni</string>
+			<string>Pratica</string>
+		</array>
+	</dict>
+	<key>lang3</key>
+	<dict>
+		<key>name</key>
+		<string>French</string>
+		<key>content</key>
+		<string>Le menu</string>
+		<key>nameImage</key>
+		<string>france</string>
+		<key>menuText</key>
+		<array>
+			<string>Mot d&apos;étude</string>
+			<string>Ajouter un nouveau mot</string>
+			<string>Paramètres</string>
+			<string>Pratique</string>
+		</array>
+	</dict>
+	<key>lang4</key>
+	<dict>
+		<key>name</key>
+		<string>Deutsch</string>
+		<key>content</key>
+		<string>Menü</string>
+		<key>nameImage</key>
+		<string>ger</string>
+		<key>menuText</key>
+		<array>
+			<string>Studienwort</string>
+			<string>Neues Wort hinzufügen</string>
+			<string>Einstellungen</string>
+			<string>Praxis</string>
+		</array>
+	</dict>
+	<key>lang5</key>
+	<dict>
+		<key>name</key>
+		<string>Japanese</string>
+		<key>content</key>
+		<string>メニュー</string>
+		<key>nameImage</key>
+		<string>jap</string>
+		<key>menuText</key>
+		<array>
+			<string>単語を学ぶ</string>
+			<string>新しい単語を追加</string>
+			<string>設定</string>
+			<string>練習</string>
+		</array>
+	</dict>
+	<key>lang6</key>
+	<dict>
+		<key>name</key>
+		<string>Spain</string>
+		<key>content</key>
+		<string>Menú</string>
+		<key>nameImage</key>
+		<string>spain</string>
+		<key>menuText</key>
+		<array>
+			<string>Palabra de estudio</string>
+			<string>Añadir nueva palabra</string>
+			<string>Ajustes</string>
+			<string>Práctica</string>
+		</array>
+	</dict>
+</dict>
+</plist>
