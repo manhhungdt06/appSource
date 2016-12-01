@@ -18,6 +18,8 @@
 		<string>abandon.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>time</key>
+		<date>2016-12-01T09:41:40Z</date>
 	</dict>
 	<key>abbreviate</key>
 	<dict>
@@ -35,6 +37,8 @@
 		<string>abbreviate.jpeg</string>
 		<key>synonym</key>
 		<string>shorten</string>
+		<key>time</key>
+		<date>2016-12-01T09:43:09Z</date>
 	</dict>
 	<key>absorb</key>
 	<dict>
@@ -52,6 +56,8 @@
 		<string>absorb.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>time</key>
+		<date>2016-12-01T09:43:29Z</date>
 	</dict>
 	<key>accommodate</key>
 	<dict>
@@ -69,6 +75,8 @@
 		<string>accommodate.jpeg</string>
 		<key>synonym</key>
 		<string>house</string>
+		<key>time</key>
+		<date>2016-12-01T09:43:40Z</date>
 	</dict>
 	<key>accomplish</key>
 	<dict>
@@ -86,6 +94,8 @@
 		<string>accomplish.jpeg</string>
 		<key>synonym</key>
 		<string>complete</string>
+		<key>time</key>
+		<date>2016-12-01T09:44:01Z</date>
 	</dict>
 	<key>accompany</key>
 	<dict>
@@ -103,6 +113,8 @@
 		<string>accompany.jpeg</string>
 		<key>synonym</key>
 		<string>escort</string>
+		<key>time</key>
+		<date>2016-12-01T09:44:12Z</date>
 	</dict>
 	<key>adapt</key>
 	<dict>
@@ -120,6 +132,8 @@
 		<string>adapt.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>time</key>
+		<date>2016-12-01T09:44:38Z</date>
 	</dict>
 	<key>analyze</key>
 	<dict>
@@ -137,6 +151,8 @@
 		<string>analyze.jpeg</string>
 		<key>synonym</key>
 		<string>examine</string>
+		<key>time</key>
+		<date>2016-12-01T09:44:48Z</date>
 	</dict>
 	<key>anticipate</key>
 	<dict>
@@ -154,6 +170,8 @@
 		<string>anticipate.jpeg</string>
 		<key>synonym</key>
 		<string>expect</string>
+		<key>time</key>
+		<date>2016-12-01T09:44:58Z</date>
 	</dict>
 	<key>antipathy</key>
 	<dict>
@@ -171,6 +189,8 @@
 		<string>antipathy.jpeg</string>
 		<key>synonym</key>
 		<string>dislike</string>
+		<key>time</key>
+		<data></data>
 	</dict>
 	<key>attempt</key>
 	<dict>
@@ -188,6 +208,8 @@
 		<string>attempt.jpeg</string>
 		<key>synonym</key>
 		<string>try</string>
+		<key>time</key>
+		<date>2016-12-01T09:45:16Z</date>
 	</dict>
 	<key>balance</key>
 	<dict>
@@ -205,6 +227,8 @@
 		<string>balance.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>time</key>
+		<date>2016-12-01T09:45:26Z</date>
 	</dict>
 	<key>benefit</key>
 	<dict>
@@ -222,6 +246,8 @@
 		<string>benefit.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>time</key>
+		<date>2016-12-01T09:45:35Z</date>
 	</dict>
 	<key>bewilder</key>
 	<dict>
@@ -240,6 +266,8 @@
 		<string>bewilder.jpeg</string>
 		<key>synonym</key>
 		<string>confuse</string>
+		<key>date</key>
+		<date>2016-12-01T09:45:46Z</date>
 	</dict>
 	<key>boost</key>
 	<dict>
@@ -257,6 +285,8 @@
 		<string>boost.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>date</key>
+		<date>2016-12-01T09:46:00Z</date>
 	</dict>
 	<key>breach</key>
 	<dict>
@@ -274,6 +304,8 @@
 		<string>breach.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>date</key>
+		<date>2016-12-01T09:46:11Z</date>
 	</dict>
 	<key>browse</key>
 	<dict>
@@ -291,6 +323,8 @@
 		<string>browse.jpeg</string>
 		<key>synonym</key>
 		<string>scan</string>
+		<key>date</key>
+		<date>2016-12-01T09:46:21Z</date>
 	</dict>
 	<key>circulate</key>
 	<dict>
@@ -308,6 +342,8 @@
 		<string>circulate.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>date</key>
+		<date>2016-12-01T09:46:31Z</date>
 	</dict>
 	<key>claim</key>
 	<dict>
@@ -325,6 +361,8 @@
 		<string>claim.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>date</key>
+		<date>2016-12-01T09:46:39Z</date>
 	</dict>
 	<key>clarify</key>
 	<dict>
@@ -342,6 +380,8 @@
 		<string>clarify.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>date</key>
+		<date>2016-12-01T09:46:49Z</date>
 	</dict>
 	<key>coincide</key>
 	<dict>
@@ -359,6 +399,8 @@
 		<string>coincide.jpeg</string>
 		<key>synonym</key>
 		<string></string>
+		<key>date</key>
+		<date>2016-12-01T09:46:57Z</date>
 	</dict>
 </dict>
 </plist>

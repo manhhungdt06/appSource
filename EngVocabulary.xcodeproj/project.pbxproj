@@ -260,6 +260,9 @@
 		84F9F6811DED955100D4D238 /* zone_v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F5B91DED955100D4D238 /* zone_v.mp3 */; };
 		84F9F6831DED9A5B00D4D238 /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F6821DED9A5B00D4D238 /* word.swift */; };
 		E253C5261DEEC6FF0004D145 /* AddNewWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253C5251DEEC6FF0004D145 /* AddNewWordVC.swift */; };
+		E2BF3BAC1DEFE2E300AB20CE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF3BAB1DEFE2E300AB20CE /* SettingsVC.swift */; };
+		E2EF1C361DF023C700F370EE /* CustomButtonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF1C351DF023C700F370EE /* CustomButtonSettings.swift */; };
+		E2EF1C381DF0293500F370EE /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2EF1C371DF0293500F370EE /* settings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -539,6 +542,9 @@
 		84F9F5B91DED955100D4D238 /* zone_v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zone_v.mp3; sourceTree = "<group>"; };
 		84F9F6821DED9A5B00D4D238 /* word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
 		E253C5251DEEC6FF0004D145 /* AddNewWordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewWordVC.swift; sourceTree = "<group>"; };
+		E2BF3BAB1DEFE2E300AB20CE /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		E2EF1C351DF023C700F370EE /* CustomButtonSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonSettings.swift; sourceTree = "<group>"; };
+		E2EF1C371DF0293500F370EE /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -605,6 +611,7 @@
 				84F9F4EE1DED816E00D4D238 /* DetailWordVC.swift */,
 				84A1B2EB1DEE914C0027B476 /* HomeVC.swift */,
 				E253C5251DEEC6FF0004D145 /* AddNewWordVC.swift */,
+				E2BF3BAB1DEFE2E300AB20CE /* SettingsVC.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -635,6 +642,7 @@
 				8420251F1DE824C100D356FC /* CustomTextField.swift */,
 				84F9F4DF1DED772B00D4D238 /* CustomButton.swift */,
 				84A1B2E51DEE7A810027B476 /* CustomTextView.swift */,
+				E2EF1C351DF023C700F370EE /* CustomButtonSettings.swift */,
 			);
 			name = "Custom Class";
 			sourceTree = "<group>";
@@ -678,6 +686,7 @@
 				84A92A011DE87C02004CBA08 /* language.plist */,
 				84AD17C21DED2E45001D7C1B /* topic.plist */,
 				843EEFA01DEE5E5900468693 /* homeData.plist */,
+				E2EF1C371DF0293500F370EE /* settings.plist */,
 			);
 			name = "plist file";
 			sourceTree = "<group>";
@@ -1207,6 +1216,7 @@
 				84F9F6571DED955100D4D238 /* habituated_adj.mp3 in Resources */,
 				84F9F60D1DED955100D4D238 /* renowned.jpeg in Resources */,
 				84A1B2EA1DEE8C520027B476 /* maxVol.png in Resources */,
+				E2EF1C381DF0293500F370EE /* settings.plist in Resources */,
 				84F9F5C11DED955100D4D238 /* analyze.jpeg in Resources */,
 				84F9F63B1DED955100D4D238 /* contribute_v.mp3 in Resources */,
 				84F9F6171DED955100D4D238 /* ultimate.jpeg in Resources */,
@@ -1345,7 +1355,9 @@
 				84A1B2EE1DEE945C0027B476 /* HomeCell.swift in Sources */,
 				84044C771DE7F784007E6B60 /* LoginVC.swift in Sources */,
 				84A7F3851DEDEB9000EDC66A /* OthersViewController.swift in Sources */,
+				E2BF3BAC1DEFE2E300AB20CE /* SettingsVC.swift in Sources */,
 				84A7F3871DEDEBEC00EDC66A /* MenuViewController.swift in Sources */,
+				E2EF1C361DF023C700F370EE /* CustomButtonSettings.swift in Sources */,
 				84A1B2EC1DEE914C0027B476 /* HomeVC.swift in Sources */,
 				84AD17BF1DED288B001D7C1B /* UserInfo.swift in Sources */,
 				84F9F6831DED9A5B00D4D238 /* word.swift in Sources */,

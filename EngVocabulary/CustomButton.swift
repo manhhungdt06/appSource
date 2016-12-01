@@ -43,6 +43,8 @@ class CustomButton: UIButton {
             self.setTitle("NExt", for: UIControlState())
         case 109:
             self.setTitle("Add", for: UIControlState())
+        case 110:
+            self.setTitle("SAVE", for: UIControlState())
         default:
             print("no button")
         }

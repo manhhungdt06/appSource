@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -655,6 +657,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPE-7X-x1P" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GJw-WG-MU4"/>
+                                    <constraint firstAttribute="width" constant="50" id="Rpm-qk-LSs"/>
+                                </constraints>
+                                <state key="normal" title="Dễ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0G-o4-OTR" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="1tw-7b-Ngm"/>
+                                    <constraint firstAttribute="height" constant="50" id="Ab9-GN-wBc"/>
+                                </constraints>
+                                <state key="normal" title="Trung Bình">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vZ-vC-eBm" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Ras-GL-FEs"/>
+                                </constraints>
+                                <state key="normal" title="Khó">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0s-Dq-8a9">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="QrT-qz-scv"/>
@@ -669,9 +700,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.94901960780000005" green="0.93725490199999995" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="y0s-Dq-8a9" secondAttribute="trailing" constant="147" id="TPa-dP-Ckr"/>
-                            <constraint firstItem="NFk-G2-EwF" firstAttribute="top" secondItem="y0s-Dq-8a9" secondAttribute="bottom" constant="127" id="nUA-zK-J1E"/>
-                            <constraint firstItem="y0s-Dq-8a9" firstAttribute="leading" secondItem="5th-Ce-Kzs" secondAttribute="leadingMargin" constant="146" id="wgE-2S-RXo"/>
+                            <constraint firstItem="7vZ-vC-eBm" firstAttribute="baseline" secondItem="f0G-o4-OTR" secondAttribute="firstBaseline" id="2ZE-JP-Pn3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7vZ-vC-eBm" secondAttribute="trailing" constant="19" id="4ub-rR-xqI"/>
+                            <constraint firstItem="f0G-o4-OTR" firstAttribute="top" secondItem="AYE-Q7-2e4" secondAttribute="bottom" constant="498" id="Bv2-wA-Ib5"/>
+                            <constraint firstItem="NFk-G2-EwF" firstAttribute="top" secondItem="VPE-7X-x1P" secondAttribute="bottom" constant="119" id="FHv-Z2-bzl"/>
+                            <constraint firstItem="NFk-G2-EwF" firstAttribute="top" secondItem="f0G-o4-OTR" secondAttribute="bottom" constant="119" id="S6d-P6-m1l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y0s-Dq-8a9" secondAttribute="trailing" constant="246" id="TPa-dP-Ckr"/>
+                            <constraint firstItem="7vZ-vC-eBm" firstAttribute="top" secondItem="f0G-o4-OTR" secondAttribute="top" id="bBv-RB-U9Z"/>
+                            <constraint firstItem="VPE-7X-x1P" firstAttribute="leading" secondItem="y0s-Dq-8a9" secondAttribute="trailing" constant="36" id="hm5-fw-JlO"/>
+                            <constraint firstItem="VPE-7X-x1P" firstAttribute="top" secondItem="AYE-Q7-2e4" secondAttribute="bottom" constant="498" id="jue-mL-AxV"/>
+                            <constraint firstItem="NFk-G2-EwF" firstAttribute="top" secondItem="y0s-Dq-8a9" secondAttribute="bottom" constant="119" id="nUA-zK-J1E"/>
+                            <constraint firstItem="y0s-Dq-8a9" firstAttribute="leading" secondItem="5th-Ce-Kzs" secondAttribute="leadingMargin" constant="47" id="wgE-2S-RXo"/>
+                            <constraint firstItem="7vZ-vC-eBm" firstAttribute="leading" secondItem="f0G-o4-OTR" secondAttribute="trailing" constant="8" id="zUN-2T-7om"/>
+                            <constraint firstItem="7vZ-vC-eBm" firstAttribute="firstBaseline" secondItem="f0G-o4-OTR" secondAttribute="baseline" id="zhM-Ez-deM"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -786,6 +827,7 @@
                                 <frame key="frameInset" minX="31" minY="368" width="313" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-Fv-yfj">
@@ -837,10 +879,10 @@
             </objects>
             <point key="canvasLocation" x="1084" y="2168.3658170914546"/>
         </scene>
-        <!--View Controller-->
+        <!--SettingsVC-->
         <scene sceneID="hCV-NR-DJa">
             <objects>
-                <viewController id="WCX-py-i0l" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsVC" id="WCX-py-i0l" customClass="SettingsVC" customModule="EngVocabulary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WH7-we-N67"/>
                         <viewControllerLayoutGuide type="bottom" id="ZyH-G7-79n"/>
@@ -848,13 +890,269 @@
                     <view key="view" contentMode="scaleToFill" id="iLb-gN-hGh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Màu flash card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHA-yF-BAM">
+                                <frame key="frameInset" minX="32" minY="300" width="136" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Màu, font chữ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPz-88-hHQ">
+                                <frame key="frameInset" minX="32" minY="410" width="122" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trình học" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TD0-Tj-fkj">
+                                <frame key="frameInset" minX="32" minY="132" width="103" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="400" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEw-D3-iHu" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="148" minY="190" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="eng"/>
+                                <connections>
+                                    <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="cGK-sB-GJg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="403" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEn-XT-iZ4" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="148" minY="250" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="italy"/>
+                                <connections>
+                                    <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="cQ9-FW-1rm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="404" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0g-vK-4F9" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="208" minY="250" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="jap"/>
+                                <connections>
+                                    <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="w2F-IY-pJb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="405" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUD-z4-VRT" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="268" minY="250" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="spain"/>
+                                <connections>
+                                    <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="PLY-Of-0uQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="401" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R46-Fx-hjJ" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="208" minY="190" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="france"/>
+                                <connections>
+                                    <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="fvF-Dr-Wc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="402" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeD-pq-AGI" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="268" minY="190" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ger"/>
+                                <connections>
+                                    <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="9GZ-tm-7qP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="300" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgR-mm-Z0N" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="143" minY="127" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Dễ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseLevel:" destination="WCX-py-i0l" eventType="touchUpInside" id="rvn-JC-fb5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="301" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isv-Dv-gqp" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="201" minY="127" width="75" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trung Bình">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseLevel:" destination="WCX-py-i0l" eventType="touchUpInside" id="8Iv-gd-VP3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="302" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sz7-ha-y0P" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="284" minY="127" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Khó">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseLevel:" destination="WCX-py-i0l" eventType="touchUpInside" id="Jv1-t0-7O0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="500" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGM-ih-rp1" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="32" minY="340" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4351587253183089" green="0.48023328581773272" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Color1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseFlashCardColor:" destination="WCX-py-i0l" eventType="touchUpInside" id="l8N-WR-xUm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="501" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6B-DP-8te" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="92" minY="340" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37308301204086924" green="1" blue="0.34596016149004072" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Color2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseFlashCardColor:" destination="WCX-py-i0l" eventType="touchUpInside" id="9Dy-zK-EW2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="502" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGp-kb-znl" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="152" minY="340" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.49973853905647914" blue="0.35614069305353835" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Color3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseFlashCardColor:" destination="WCX-py-i0l" eventType="touchUpInside" id="VfJ-HZ-wCv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="503" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guH-K1-x4w" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="212" minY="340" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5880959708218545" green="0.71728682037426583" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Color4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseFlashCardColor:" destination="WCX-py-i0l" eventType="touchUpInside" id="JL3-mI-UJp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="504" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxP-ZW-eYq" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="272" minY="340" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.8626500270447619" blue="0.15746802413902949" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Color5">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseFlashCardColor:" destination="WCX-py-i0l" eventType="touchUpInside" id="HiJ-UW-J6D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huz-h3-DrY" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="165" minY="410" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43515872529999999" green="0.48023328580000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Type1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseColorFontWord:" destination="WCX-py-i0l" eventType="touchUpInside" id="PzS-ye-OTq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="601" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLK-0T-ltx" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="220" minY="410" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.25235235655736998" blue="0.26142209174498821" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Type2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseColorFontWord:" destination="WCX-py-i0l" eventType="touchUpInside" id="Jgk-0z-fof"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="602" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cca-Is-kjx" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="275" minY="410" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41812071004961782" green="1" blue="0.6302864710401872" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Type3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseColorFontWord:" destination="WCX-py-i0l" eventType="touchUpInside" id="tiO-1y-XLy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ngôn ngữ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikG-kk-hOf">
+                                <frame key="frameInset" minX="32" minY="220" width="103" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="110" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odm-Gx-jHd" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
+                                <frame key="frameInset" minX="112" minY="560" width="150" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="saveSettings:" destination="WCX-py-i0l" eventType="touchUpInside" id="QP6-NA-KeW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ôn lại từ trong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFU-Ci-3aS">
+                                <frame key="frameInset" minX="32" minY="460" width="125" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V3a-mN-aTd">
+                                <frame key="frameInset" minX="32" minY="500" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ngày" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jJ-88-bJP">
+                                <frame key="frameInset" minX="85" minY="500" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jQM-ch-Ksn">
+                                <frame key="frameInset" minX="130" minY="500" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="giờ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0a8-yY-5RW">
+                                <frame key="frameInset" minX="190" minY="500" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QvG-C6-Ojv">
+                                <frame key="frameInset" minX="230" minY="500" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="phút" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjJ-I1-LYN">
+                                <frame key="frameInset" minX="285" minY="500" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.94901960780000005" green="0.93725490199999995" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfe-k5-s17" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1908" y="2169"/>
+            <point key="canvasLocation" x="2637.5999999999999" y="1429.8350824587708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hV8-fK-jQm">
