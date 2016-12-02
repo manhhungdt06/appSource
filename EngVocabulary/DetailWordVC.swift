@@ -31,12 +31,13 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
     
     var count = 0
     var limitTime = 0
-    var dataPath = "", path = ""
+    var dataPath = "", path = "", studyPath = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // if need write word to restudy
         dataPath = getPath("/restudy.plist")
+        studyPath = getPath("/wordReStudy.plist")
         print("getPathdataPath = \(dataPath)")
         let tempData:[String: NSDictionary] = [:]
         if (!FileManager.default.fileExists(atPath: dataPath)) {
@@ -204,18 +205,17 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         
         // get time to restudy
         var curTime = items.time!
-        
+        var wordTime :Dictionary<String,String> = [:]
+        wordTime["sentence"] = items.sentence!
+        wordTime["meaning"] = items.meaning
+        wordTime["vocalization"] = items.vocal!
+        wordTime["type"] = items.type
+        wordTime["image"] = items.image
+        wordTime["sound"] = items.sound
+        wordTime["synonym"] = items.synonym
         if curTime == 0 {
             // ghi time vao items.plist
             curTime = Int(NSDate().timeIntervalSince1970) + settings.time!
-            var wordTime :Dictionary<String,String> = [:]
-            wordTime["sentence"] = items.sentence!
-            wordTime["meaning"] = items.meaning
-            wordTime["vocalization"] = items.vocal!
-            wordTime["type"] = items.type
-            wordTime["image"] = items.image
-            wordTime["sound"] = items.sound
-            wordTime["synonym"] = items.synonym
             wordTime["time"] = String(curTime)
             
             // if file exist
@@ -223,9 +223,13 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
             dataWord?[items.text! as String] = wordTime as NSDictionary
             dataWord?.write(toFile: dataPath, atomically: true)
         }
-//        else if (Int(NSDate().timeIntervalSince1970) > curTime) && (curTime != 0) {
-//            // ghi word vao file restudy
-//        }
+        if (Int(NSDate().timeIntervalSince1970) > curTime) && (curTime != 0) {
+            // ghi word vao file restudy
+            wordTime["time"] = String(Int(NSDate().timeIntervalSince1970))
+            let dataWord = NSMutableDictionary(contentsOfFile: studyPath)
+            dataWord?[items.text! as String] = wordTime as NSDictionary
+            dataWord?.write(toFile: studyPath, atomically: true)
+        }
 
         
         audio = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: items.sound!, ofType: "mp3")!))
