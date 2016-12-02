@@ -55,8 +55,7 @@ class AddNewWordVC: BaseViewController {
         dataWordDetail["type"] = typeText.text!
         dataWordDetail["image"] = imgText
         dataWordDetail["sound"] = soundText
-        
-        
+
         // if file exist
         let dataWord = NSMutableDictionary(contentsOfFile: dataPath)
         dataWord?[wordText.text! as String] = dataWordDetail as NSDictionary

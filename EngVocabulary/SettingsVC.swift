@@ -9,27 +9,22 @@
 import UIKit
 
 class SettingsVC: UIViewController {
-
-    var level: String = ""
-    var language: String = ""
-    var flashCardColor: String = ""
-    var wordType: String = ""
-    var wordTime: String = ""
+    
+    var setting: SettingParam!
+    
+    @IBOutlet weak var dayField: UITextField!
+    
+    @IBOutlet weak var hourField: UITextField!
+    
+    @IBOutlet weak var minuteField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "settings", ofType: "plist")!
-        
-        let dictData = NSDictionary(contentsOfFile: path)!
-//        var color = UIColor()
-        
-        for dic in dictData {
-            print("dic = \(dic)")
-        }
+        setting = SettingParam(level: "Easy", language: "English", flashCardColor: "ColorGroup1", wordType: "wordFont1", time: 86400)
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -38,11 +33,11 @@ class SettingsVC: UIViewController {
     @IBAction func chooseLevel(_ sender: CustomButtonSettings) {
         switch sender.tag {
         case 300:
-            level = "Easy"
+            setting.level = "Easy"
         case 301:
-            level = "Medium"
+            setting.level = "Medium"
         case 302:
-            level = "Hard"
+            setting.level = "Hard"
         default:
             print("none")
         }
@@ -51,17 +46,17 @@ class SettingsVC: UIViewController {
     @IBAction func chooseLanguage(_ sender: CustomButtonSettings) {
         switch sender.tag {
         case 400:
-            language = "English"
+            setting.language = "English"
         case 401:
-            language = "French"
+            setting.language = "French"
         case 402:
-            language = "German"
+            setting.language = "German"
         case 403:
-            language = "Italian"
+            setting.language = "Italian"
         case 404:
-            language = "Japanese"
+            setting.language = "Japanese"
         case 405:
-            language = "Spanish"
+            setting.language = "Spanish"
         default:
             print("no language")
         }
@@ -70,49 +65,60 @@ class SettingsVC: UIViewController {
     @IBAction func chooseFlashCardColor(_ sender: CustomButtonSettings) {
         switch sender.tag {
         case 500:
-            language = "ColorGroup1"
+            setting.flashCardColor = "ColorGroup1"
         case 501:
-            language = "ColorGroup2"
+            setting.flashCardColor = "ColorGroup2"
         case 502:
-            language = "ColorGroup3"
+            setting.flashCardColor = "ColorGroup3"
         case 503:
-            language = "ColorGroup4"
+            setting.flashCardColor = "ColorGroup4"
         case 504:
-            language = "ColorGroup5"
+            setting.flashCardColor = "ColorGroup5"
         default:
             print("no Color")
         }
     }
-
+    
     @IBAction func chooseColorFontWord(_ sender: CustomButtonSettings) {
         switch sender.tag {
         case 600:
-            language = "wordFontColor1"
+            setting.wordType = "wordFont1"
         case 601:
-            language = "wordFontColor2"
+            setting.wordType = "wordFont2"
         case 602:
-            language = "wordFontColor3"
+            setting.wordType = "wordFont3"
         default:
             print("no Font/ Color")
         }
     }
     
-    @IBAction func saveSettings(_ sender: CustomButton) {
-        // defaulSettings : ["Easy", "English", "ColorGroup1", "wordFontColor1", 86400]
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "TopicVC") {
+            
+            if dayField.text == "" { dayField.text = "0" }
+            if hourField.text == "" { hourField.text = "0" }
+            if minuteField.text == "" { minuteField.text = "0" }
+            
+            setting.time! = Int(dayField.text!)! * 86400 + Int(hourField.text!)! * 3600 + Int(minuteField.text!)! * 60
+            print("setting.time = \(setting.time!)")
+            
+            
+            let dest: TopicVC = segue.destination as! TopicVC
+            dest.settingParams = setting
+        }
+    }
+    
+    func alertBox(_ title: String,_ message: String,_ actionTitle: String) {
+        
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let alertAction = UIAlertAction(title: actionTitle, style: .default, handler: nil)
+        
+        alertController.addAction(alertAction)
+        
+        present(alertController, animated: true, completion: nil)
         
     }
 }
 
-extension UIColor {
-    convenience init(red: Int, green: Int, blue: Int) {
-        assert(red >= 0 && red <= 255, "Invalid red component")
-        assert(green >= 0 && green <= 255, "Invalid green component")
-        assert(blue >= 0 && blue <= 255, "Invalid blue component")
-        
-        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: 1.0)
-    }
-    
-    convenience init(netHex:Int) {
-        self.init(red:(netHex >> 16) & 0xff, green:(netHex >> 8) & 0xff, blue:netHex & 0xff)
-    }
-}
+

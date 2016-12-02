@@ -17,8 +17,9 @@ class word: NSObject {
     var sound: String?
     var image: String?
     var synonym: String?
+    var time: Int?
     
-    init(text: String, sentence: String, meaning: String, type: String, vocal: String, sound: String, image: String, synonym: String) {
+    init(text: String, sentence: String, meaning: String, type: String, vocal: String, sound: String, image: String, synonym: String, time: Int) {
         
         self.text = text
         self.sentence = sentence
@@ -28,6 +29,6 @@ class word: NSObject {
         self.sound = sound
         self.image = image
         self.synonym = synonym
-        
+        self.time = time
     }
 }

@@ -28,11 +28,11 @@ class LanguageDetailVC: UIViewController {
         self.navigationController?.isNavigationBarHidden = true
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if(segue.identifier == "TopicVC") {
-            let dest: TopicVC = segue.destination as! TopicVC
-            
-            dest.language = toPass
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if(segue.identifier == "TopicVC") {
+//            let dest: TopicVC = segue.destination as! TopicVC
+//            
+//            dest.settingParams.language = toPass
+//        }
+//    }
 }

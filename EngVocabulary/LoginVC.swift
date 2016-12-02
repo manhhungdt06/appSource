@@ -53,15 +53,16 @@ class LoginVC: BaseViewController {
         //        }
         
         // study word
-        let listLangVC = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
-        self.navigationController?.pushViewController(listLangVC, animated: true)
+//        let listLangVC = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
+//        self.navigationController?.pushViewController(listLangVC, animated: true)
+        
         //         AddNewWordVC
         //        let addNewWordVC = storyboard?.instantiateViewController(withIdentifier: "AddNewWordVC") as! AddNewWordVC
         //        self.navigationController?.pushViewController(addNewWordVC, animated: true)
         
-        //         AddNewWordVC
-//        let settingsVC = storyboard?.instantiateViewController(withIdentifier: "SettingsVC") as! SettingsVC
-//        self.navigationController?.pushViewController(settingsVC, animated: true)
+        //         SettingsVC
+        let settingsVC = storyboard?.instantiateViewController(withIdentifier: "SettingsVC") as! SettingsVC
+        self.navigationController?.pushViewController(settingsVC, animated: true)
     }
     
     @IBAction func signupAction(_ sender: UIButton) {

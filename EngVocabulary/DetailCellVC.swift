@@ -69,7 +69,7 @@ class DetailCellVC: UITableViewController {
             let key: String = arrayKeys[selectedRowIndex.row] as! String
             dictDetail = NSDictionary(dictionary: dictData[key]! as! Dictionary)
             
-            item = word(text: key, sentence: dictDetail["sentence"]! as! String, meaning: dictDetail["meaning"]! as! String, type: dictDetail["type"]! as! String, vocal: dictDetail["vocalization"]! as! String, sound: dictDetail["sound"]! as! String, image: dictDetail["image"]! as! String, synonym: dictDetail["synonym"]! as! String)
+            item = word(text: key, sentence: dictDetail["sentence"]! as! String, meaning: dictDetail["meaning"]! as! String, type: dictDetail["type"]! as! String, vocal: dictDetail["vocalization"]! as! String, sound: dictDetail["sound"]! as! String, image: dictDetail["image"]! as! String, synonym: dictDetail["synonym"]! as! String, time: dictDetail["time"]! as! Int)
 
             detaiWordlVC.items = item
         }

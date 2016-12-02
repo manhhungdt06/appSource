@@ -19,7 +19,7 @@
 		<key>synonym</key>
 		<string></string>
 		<key>time</key>
-		<date>2016-12-01T09:41:40Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>abbreviate</key>
 	<dict>
@@ -38,7 +38,7 @@
 		<key>synonym</key>
 		<string>shorten</string>
 		<key>time</key>
-		<date>2016-12-01T09:43:09Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>absorb</key>
 	<dict>
@@ -57,7 +57,7 @@
 		<key>synonym</key>
 		<string></string>
 		<key>time</key>
-		<date>2016-12-01T09:43:29Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>accommodate</key>
 	<dict>
@@ -76,7 +76,7 @@
 		<key>synonym</key>
 		<string>house</string>
 		<key>time</key>
-		<date>2016-12-01T09:43:40Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>accomplish</key>
 	<dict>
@@ -95,7 +95,7 @@
 		<key>synonym</key>
 		<string>complete</string>
 		<key>time</key>
-		<date>2016-12-01T09:44:01Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>accompany</key>
 	<dict>
@@ -114,7 +114,7 @@
 		<key>synonym</key>
 		<string>escort</string>
 		<key>time</key>
-		<date>2016-12-01T09:44:12Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>adapt</key>
 	<dict>
@@ -133,7 +133,7 @@
 		<key>synonym</key>
 		<string></string>
 		<key>time</key>
-		<date>2016-12-01T09:44:38Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>analyze</key>
 	<dict>
@@ -152,7 +152,7 @@
 		<key>synonym</key>
 		<string>examine</string>
 		<key>time</key>
-		<date>2016-12-01T09:44:48Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>anticipate</key>
 	<dict>
@@ -171,7 +171,7 @@
 		<key>synonym</key>
 		<string>expect</string>
 		<key>time</key>
-		<date>2016-12-01T09:44:58Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>antipathy</key>
 	<dict>
@@ -190,7 +190,7 @@
 		<key>synonym</key>
 		<string>dislike</string>
 		<key>time</key>
-		<data></data>
+		<integer>0</integer>
 	</dict>
 	<key>attempt</key>
 	<dict>
@@ -209,7 +209,7 @@
 		<key>synonym</key>
 		<string>try</string>
 		<key>time</key>
-		<date>2016-12-01T09:45:16Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>balance</key>
 	<dict>
@@ -228,7 +228,7 @@
 		<key>synonym</key>
 		<string></string>
 		<key>time</key>
-		<date>2016-12-01T09:45:26Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>benefit</key>
 	<dict>
@@ -247,7 +247,7 @@
 		<key>synonym</key>
 		<string></string>
 		<key>time</key>
-		<date>2016-12-01T09:45:35Z</date>
+		<integer>0</integer>
 	</dict>
 	<key>bewilder</key>
 	<dict>
@@ -266,8 +266,8 @@
 		<string>bewilder.jpeg</string>
 		<key>synonym</key>
 		<string>confuse</string>
-		<key>date</key>
-		<date>2016-12-01T09:45:46Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>boost</key>
 	<dict>
@@ -285,8 +285,8 @@
 		<string>boost.jpeg</string>
 		<key>synonym</key>
 		<string></string>
-		<key>date</key>
-		<date>2016-12-01T09:46:00Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>breach</key>
 	<dict>
@@ -304,8 +304,8 @@
 		<string>breach.jpeg</string>
 		<key>synonym</key>
 		<string></string>
-		<key>date</key>
-		<date>2016-12-01T09:46:11Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>browse</key>
 	<dict>
@@ -323,8 +323,8 @@
 		<string>browse.jpeg</string>
 		<key>synonym</key>
 		<string>scan</string>
-		<key>date</key>
-		<date>2016-12-01T09:46:21Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>circulate</key>
 	<dict>
@@ -342,8 +342,8 @@
 		<string>circulate.jpeg</string>
 		<key>synonym</key>
 		<string></string>
-		<key>date</key>
-		<date>2016-12-01T09:46:31Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>claim</key>
 	<dict>
@@ -361,8 +361,8 @@
 		<string>claim.jpeg</string>
 		<key>synonym</key>
 		<string></string>
-		<key>date</key>
-		<date>2016-12-01T09:46:39Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>clarify</key>
 	<dict>
@@ -380,8 +380,8 @@
 		<string>clarify.jpeg</string>
 		<key>synonym</key>
 		<string></string>
-		<key>date</key>
-		<date>2016-12-01T09:46:49Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 	<key>coincide</key>
 	<dict>
@@ -399,8 +399,8 @@
 		<string>coincide.jpeg</string>
 		<key>synonym</key>
 		<string></string>
-		<key>date</key>
-		<date>2016-12-01T09:46:57Z</date>
+		<key>time</key>
+		<integer>0</integer>
 	</dict>
 </dict>
 </plist>

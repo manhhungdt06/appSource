@@ -10,17 +10,17 @@ import UIKit
 
 class TopicVC: UIViewController {
     var items: [LangItem] = []
-    var language: String?
-    var keyword: String?
+    var settingParams: SettingParam!
+    var wordTime: Int!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
-        keyword = language
+
         var myDict: NSDictionary?
         if let path = Bundle.main.path(forResource: "topic", ofType: "plist") {
             myDict = NSDictionary(contentsOfFile: path)
             for key in (myDict?.allKeys)! {
-                if key as? String == keyword! {
+                if key as? String == settingParams.language! {
                     let dictDetail: NSDictionary = NSDictionary(dictionary: myDict?[key] as! Dictionary)
                     for detail in (dictDetail.allValues as? [[String: Any]])! {
                         self.items.append(LangItem(name: detail["name"] as! String, nameImg: detail["image"] as! String, content: detail["content"] as! String))
@@ -53,10 +53,14 @@ extension TopicVC: UICollectionViewDataSource {
 
 extension TopicVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let listView = self.storyboard?.instantiateViewController(withIdentifier: "DetailCellVC") as? DetailCellVC
-        listView?.langItem = items[(indexPath as NSIndexPath).item]
+        let studyWordView = self.storyboard?.instantiateViewController(withIdentifier: "DetailWordVC") as? DetailWordVC
         
+        studyWordView?.category = items[(indexPath as NSIndexPath).item].name
+        studyWordView?.settings = settingParams
+        
+        // get name of plist file: TOEIC/ TOEFL/ IELTS ...
+        // level, flashcardColor, wordType, ? time restudy
         print("items: \(items[(indexPath as NSIndexPath).item].name)")
-        self.navigationController?.pushViewController(listView!, animated: true)
+        self.navigationController?.pushViewController(studyWordView!, animated: true)
     }
 }

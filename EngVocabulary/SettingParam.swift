@@ -10,16 +10,18 @@ import UIKit
 class SettingParam {
     static let sharedInstance = SettingParam()
     private init() {}
-    var levelTime: Int?
+    var level: String?
     var language: String?
-    var color: UIColor?
-    var alignment: Int!
-    init (levelTime: Int, language: String, color: UIColor, alignment: Int)
+    var flashCardColor: String?
+    var wordType: String!
+    var time: Int!
+    init (level: String, language: String, flashCardColor: String, wordType: String, time: Int)
     {
-        self.levelTime = levelTime
+        self.level = level
         self.language = language
-        self.color = color
-        self.alignment = alignment
+        self.flashCardColor = flashCardColor
+        self.wordType = wordType
+        self.time = time
     }
     
 }
