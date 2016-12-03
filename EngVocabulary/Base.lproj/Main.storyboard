@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,7 +28,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HIj-jO-k0b" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="288" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="78P-95-pes"/>
                                 </constraints>
@@ -40,7 +36,6 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hwc-Lc-hHc" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="345" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="RhR-PD-Ik7"/>
                                 </constraints>
@@ -48,11 +43,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="learning" translatesAutoresizingMaskIntoConstraints="NO" id="8ao-An-CZE">
-                                <rect key="frame" x="136" y="101" width="104" height="105"/>
-                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="learning" translatesAutoresizingMaskIntoConstraints="NO" id="8ao-An-CZE"/>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a95-9e-7QD" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="418" width="313" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="9bO-vw-AjR"/>
                                 </constraints>
@@ -62,16 +54,13 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIq-oi-gP4">
-                                <rect key="frame" x="73" y="490" width="229" height="32"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DON'T HAVE AN ACCOUNT ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSu-ah-mHW">
-                                        <rect key="frame" x="12" y="10" width="136" height="12"/>
                                         <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="10"/>
                                         <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JS6-bo-EFH">
-                                        <rect key="frame" x="152" y="-4" width="63" height="40"/>
                                         <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="15"/>
                                         <state key="normal" title="SIGN UP">
                                             <color key="titleColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
@@ -142,14 +131,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="learning" translatesAutoresizingMaskIntoConstraints="NO" id="iqk-oN-sW3">
-                                <rect key="frame" x="153" y="88" width="69" height="69"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="69" id="Cio-va-Wrt"/>
                                     <constraint firstAttribute="height" constant="69" id="JDS-SH-fPh"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3r7-ql-efu" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="189" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="5zt-nu-ni4"/>
                                 </constraints>
@@ -158,7 +145,6 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UYN-8h-8ne" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="244" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="ohf-mV-B5U"/>
                                 </constraints>
@@ -167,7 +153,6 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dls-dD-8kt" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="303" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="OjC-lz-WLG"/>
                                 </constraints>
@@ -176,7 +161,6 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4M-r0-x7O" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="360" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="sKu-LB-LZ1"/>
                                 </constraints>
@@ -185,7 +169,6 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbf-p3-LEl" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="418" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="f1i-zW-6gI"/>
                                 </constraints>
@@ -243,7 +226,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BX-pw-cs3" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="255" width="313" height="45"/>
+                                <frame key="frameInset" minX="31" minY="255" width="313" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -251,7 +234,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjV-3c-oPr" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="320" width="313" height="45"/>
+                                <frame key="frameInset" minX="31" minY="320" width="313" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -259,7 +242,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RH-CU-5es" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="385" width="313" height="45"/>
+                                <frame key="frameInset" minX="31" minY="385" width="313" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -267,11 +250,11 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="learning" translatesAutoresizingMaskIntoConstraints="NO" id="shl-Na-SLk">
-                                <rect key="frame" x="153" y="108" width="69" height="69"/>
+                                <frame key="frameInset" minX="153" minY="108" width="69" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" tag="106" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kT4-UX-Ijn" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="450" width="313" height="45"/>
+                                <frame key="frameInset" minX="31" minY="450" width="313" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -297,7 +280,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cr5-Gb-VPT">
-                                <rect key="frame" x="27" y="288" width="93" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="n8g-am-XBa"/>
                                 </constraints>
@@ -306,7 +288,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0N-9p-fn6">
-                                <rect key="frame" x="27" y="364" width="93" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="UhJ-Bf-ziC"/>
                                 </constraints>
@@ -315,7 +296,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCd-hd-735">
-                                <rect key="frame" x="31" y="432" width="85" height="45"/>
+                                <frame key="frameInset" minX="31" minY="432" width="85" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="POA-kb-lGr"/>
                                 </constraints>
@@ -324,7 +305,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bI-Nl-Ej2">
-                                <rect key="frame" x="27" y="502" width="93" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="60O-lQ-rQ8"/>
                                 </constraints>
@@ -333,7 +313,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8WC-ul-VBy" customClass="CustomTextView" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="128" y="288" width="220" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="J8c-Y0-KIG"/>
@@ -342,7 +321,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IWj-Ie-jhf" customClass="CustomTextView" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="128" y="364" width="220" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="WcX-xn-Km1"/>
@@ -351,7 +329,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NmS-dC-8kf" customClass="CustomTextView" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="128" y="432" width="220" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="CAv-uE-l0v"/>
@@ -360,7 +337,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MLI-cO-4OQ" customClass="CustomTextView" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="128" y="502" width="220" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="Ykq-YL-Nav"/>
@@ -370,24 +346,20 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="learning" translatesAutoresizingMaskIntoConstraints="NO" id="xq8-hW-Ygh">
-                                <rect key="frame" x="153" y="85" width="69" height="69"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="69" id="dsW-gH-PIY"/>
                                     <constraint firstAttribute="height" constant="69" id="fk2-Nn-f7V"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user1.png" translatesAutoresizingMaskIntoConstraints="NO" id="KbB-Aa-HCs">
-                                <rect key="frame" x="27" y="179" width="80" height="80"/>
-                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user1.png" translatesAutoresizingMaskIntoConstraints="NO" id="KbB-Aa-HCs"/>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMu-rl-2hO">
-                                <rect key="frame" x="274" y="204" width="51" height="31"/>
+                                <frame key="frameInset" minX="274" minY="204" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="action_repeat:" destination="Rdj-aR-DCb" eventType="valueChanged" id="uru-up-5EP"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" tag="108" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9L7-Li-h2n" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="31" y="576" width="313" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="rbB-Lk-Pv2"/>
                                 </constraints>
@@ -456,7 +428,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="duk-Km-WXV">
-                                <rect key="frame" x="16" y="8" width="343" height="627"/>
                                 <color key="backgroundColor" red="0.94901960784313721" green="0.93725490196078431" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="10" id="4wB-UB-u3z">
                                     <size key="itemSize" width="100" height="160"/>
@@ -509,7 +480,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="700" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPE-7X-x1P" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="110" y="498" width="50" height="50"/>
+                                <frame key="frameInset" minX="110" minY="498" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Dễ">
@@ -517,7 +488,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="701" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0G-o4-OTR" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="170" y="498" width="75" height="50"/>
+                                <frame key="frameInset" minX="170" minY="498" width="75" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Trung Bình">
@@ -525,7 +496,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="702" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vZ-vC-eBm" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="260" y="498" width="50" height="50"/>
+                                <frame key="frameInset" minX="260" minY="498" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Khó">
@@ -533,7 +504,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0s-Dq-8a9">
-                                <rect key="frame" x="45" y="498" width="50" height="50"/>
+                                <frame key="frameInset" minX="45" minY="498" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Button" image="sound1.png"/>
@@ -542,7 +513,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbY-Ze-loU">
-                                <rect key="frame" x="45" y="570" width="50" height="50"/>
+                                <frame key="frameInset" minX="45" minY="570" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94901960784313721" green="0.93725490196078431" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -550,7 +521,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="111" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXH-YO-IX4" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="240" y="573" width="70" height="45"/>
+                                <frame key="frameInset" minX="240" minY="573" width="70" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -583,96 +554,91 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whZ-6h-Syj" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="119" y="90" width="225" height="40"/>
+                                <frame key="frameInset" minX="119" minY="90" width="225" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPf-77-XZ4" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="119" y="150" width="225" height="40"/>
+                                <frame key="frameInset" minX="119" minY="150" width="225" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P3c-pt-nKv" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="119" y="210" width="225" height="40"/>
+                                <frame key="frameInset" minX="119" minY="210" width="225" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IiG-Jp-lfX" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="119" y="270" width="225" height="40"/>
+                                <frame key="frameInset" minX="119" minY="270" width="225" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIg-vE-dc6">
-                                <rect key="frame" x="31" y="90" width="70" height="40"/>
+                                <frame key="frameInset" minX="31" minY="90" width="70" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyc-ji-R6k">
-                                <rect key="frame" x="31" y="150" width="70" height="40"/>
+                                <frame key="frameInset" minX="31" minY="150" width="70" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meaning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9f-Um-b4a">
-                                <rect key="frame" x="31" y="210" width="70" height="40"/>
+                                <frame key="frameInset" minX="31" minY="210" width="70" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pronun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tob-tP-hDE">
-                                <rect key="frame" x="31" y="270" width="70" height="40"/>
+                                <frame key="frameInset" minX="31" minY="270" width="70" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sentence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVP-yY-CP3">
-                                <rect key="frame" x="31" y="330" width="78" height="40"/>
+                                <frame key="frameInset" minX="31" minY="330" width="78" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5OY-JU-nAt" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="119" y="331" width="225" height="40"/>
+                                <frame key="frameInset" minX="119" minY="331" width="225" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-Fv-yfj">
-                                <rect key="frame" x="31" y="455" width="93" height="40"/>
+                                <frame key="frameInset" minX="31" minY="455" width="93" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhL-H9-ahI">
-                                <rect key="frame" x="31" y="515" width="93" height="40"/>
+                                <frame key="frameInset" minX="31" minY="515" width="93" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxk-Xx-atI">
-                                <rect key="frame" x="132" y="458" width="163" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Record"/>
-                            </button>
                             <button opaque="NO" tag="109" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4o-vS-FWd" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="69" y="575" width="236" height="45"/>
+                                <frame key="frameInset" minX="113" minY="577" width="149" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -680,24 +646,31 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8je-ex-2zr">
-                                <rect key="frame" x="132" y="518" width="163" height="35"/>
+                                <frame key="frameInset" minX="119" minY="518" width="99" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Choose file"/>
+                                <connections>
+                                    <action selector="loadImgBtn:" destination="ICt-0V-CAi" eventType="touchUpInside" id="gn8-gB-FX2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Synonym" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zkm-SP-O0L">
-                                <rect key="frame" x="31" y="396" width="78" height="40"/>
+                                <frame key="frameInset" minX="31" minY="396" width="78" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WJA-4L-gGX" customClass="CustomTextField" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="119" y="396" width="225" height="40"/>
+                                <frame key="frameInset" minX="119" minY="396" width="225" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vqy-se-0sx">
+                                <frame key="frameInset" minX="242" minY="498" width="102" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960780000005" green="0.93725490199999995" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -705,6 +678,7 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="SynoText" destination="WJA-4L-gGX" id="uGu-t9-QoT"/>
+                        <outlet property="imageView" destination="Vqy-se-0sx" id="P6g-WW-FdZ"/>
                         <outlet property="meanText" destination="P3c-pt-nKv" id="DJm-2E-6pK"/>
                         <outlet property="pronunText" destination="IiG-Jp-lfX" id="ApV-Oq-EjO"/>
                         <outlet property="senText" destination="5OY-JU-nAt" id="15d-EZ-drT"/>
@@ -729,28 +703,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Màu flash card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHA-yF-BAM">
-                                <rect key="frame" x="32" y="300" width="136" height="45"/>
+                                <frame key="frameInset" minX="32" minY="300" width="136" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Màu, font chữ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPz-88-hHQ">
-                                <rect key="frame" x="32" y="410" width="122" height="45"/>
+                                <frame key="frameInset" minX="32" minY="410" width="122" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trình học" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TD0-Tj-fkj">
-                                <rect key="frame" x="32" y="132" width="103" height="45"/>
+                                <frame key="frameInset" minX="32" minY="132" width="103" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="400" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEw-D3-iHu" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="148" y="190" width="50" height="50"/>
+                                <frame key="frameInset" minX="148" minY="190" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="eng"/>
                                 <connections>
@@ -758,15 +732,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="403" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEn-XT-iZ4" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="148" y="250" width="50" height="50"/>
+                                <frame key="frameInset" minX="148" minY="250" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="italy"/>
+                                <state key="normal" image="AA5C2CAF-28FC-4D19-8451-419EEFEF3C78"/>
                                 <connections>
                                     <action selector="chooseLanguage:" destination="WCX-py-i0l" eventType="touchUpInside" id="cQ9-FW-1rm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="404" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0g-vK-4F9" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="208" y="250" width="50" height="50"/>
+                                <frame key="frameInset" minX="208" minY="250" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="jap"/>
                                 <connections>
@@ -774,7 +748,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="405" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUD-z4-VRT" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="268" y="250" width="50" height="50"/>
+                                <frame key="frameInset" minX="268" minY="250" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="spain"/>
                                 <connections>
@@ -782,7 +756,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="401" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R46-Fx-hjJ" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="208" y="190" width="50" height="50"/>
+                                <frame key="frameInset" minX="208" minY="190" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="france"/>
                                 <connections>
@@ -790,7 +764,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="402" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeD-pq-AGI" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="268" y="190" width="50" height="50"/>
+                                <frame key="frameInset" minX="268" minY="190" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ger"/>
                                 <connections>
@@ -798,7 +772,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="300" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgR-mm-Z0N" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="143" y="127" width="50" height="50"/>
+                                <frame key="frameInset" minX="143" minY="127" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Dễ">
@@ -809,7 +783,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="301" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isv-Dv-gqp" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="201" y="127" width="75" height="50"/>
+                                <frame key="frameInset" minX="201" minY="127" width="75" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Trung Bình">
@@ -820,7 +794,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="302" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sz7-ha-y0P" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="284" y="127" width="50" height="50"/>
+                                <frame key="frameInset" minX="284" minY="127" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Khó">
@@ -831,7 +805,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="500" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGM-ih-rp1" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="32" y="340" width="50" height="50"/>
+                                <frame key="frameInset" minX="32" minY="340" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4351587253183089" green="0.48023328581773272" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Color1">
@@ -842,7 +816,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="501" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6B-DP-8te" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="92" y="340" width="50" height="50"/>
+                                <frame key="frameInset" minX="92" minY="340" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.37308301204086924" green="1" blue="0.34596016149004072" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Color2">
@@ -853,7 +827,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="502" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGp-kb-znl" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="152" y="340" width="50" height="50"/>
+                                <frame key="frameInset" minX="152" minY="340" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.49973853905647914" blue="0.35614069305353835" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Color3">
@@ -864,7 +838,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="503" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guH-K1-x4w" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="212" y="340" width="50" height="50"/>
+                                <frame key="frameInset" minX="212" minY="340" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5880959708218545" green="0.71728682037426583" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Color4">
@@ -875,7 +849,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="504" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxP-ZW-eYq" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="272" y="340" width="50" height="50"/>
+                                <frame key="frameInset" minX="272" minY="340" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.8626500270447619" blue="0.15746802413902949" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Color5">
@@ -886,7 +860,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="600" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huz-h3-DrY" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="165" y="410" width="50" height="50"/>
+                                <frame key="frameInset" minX="165" minY="410" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43515872529999999" green="0.48023328580000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Type1">
@@ -897,7 +871,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="601" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLK-0T-ltx" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="220" y="410" width="50" height="50"/>
+                                <frame key="frameInset" minX="220" minY="410" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.25235235655736998" blue="0.26142209174498821" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Type2">
@@ -908,7 +882,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="602" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cca-Is-kjx" customClass="CustomButtonSettings" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="275" y="410" width="50" height="50"/>
+                                <frame key="frameInset" minX="275" minY="410" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.41812071004961782" green="1" blue="0.6302864710401872" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Type3">
@@ -919,14 +893,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ngôn ngữ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikG-kk-hOf">
-                                <rect key="frame" x="32" y="220" width="103" height="45"/>
+                                <frame key="frameInset" minX="32" minY="220" width="103" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="110" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odm-Gx-jHd" customClass="CustomButton" customModule="EngVocabulary" customModuleProvider="target">
-                                <rect key="frame" x="112" y="560" width="150" height="45"/>
+                                <frame key="frameInset" minX="112" minY="560" width="150" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -934,49 +908,49 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ôn lại từ trong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFU-Ci-3aS">
-                                <rect key="frame" x="32" y="460" width="125" height="40"/>
+                                <frame key="frameInset" minX="32" minY="460" width="125" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V3a-mN-aTd">
-                                <rect key="frame" x="32" y="500" width="50" height="30"/>
+                                <frame key="frameInset" minX="32" minY="500" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ngày" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jJ-88-bJP">
-                                <rect key="frame" x="85" y="500" width="45" height="30"/>
+                                <frame key="frameInset" minX="85" minY="500" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jQM-ch-Ksn">
-                                <rect key="frame" x="130" y="500" width="50" height="30"/>
+                                <frame key="frameInset" minX="130" minY="500" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="giờ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0a8-yY-5RW">
-                                <rect key="frame" x="190" y="500" width="32" height="30"/>
+                                <frame key="frameInset" minX="190" minY="500" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QvG-C6-Ojv">
-                                <rect key="frame" x="230" y="500" width="50" height="30"/>
+                                <frame key="frameInset" minX="230" minY="500" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="phút" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjJ-I1-LYN">
-                                <rect key="frame" x="285" y="500" width="37" height="30"/>
+                                <frame key="frameInset" minX="285" minY="500" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -998,10 +972,915 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AA5C2CAF-28FC-4D19-8451-419EEFEF3C78" width="112" height="112">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
+GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
+DBIAwAAAgAKACtISCRMVWk5TLm9iamVjdHOhFIADgAnSEgkXGqIYGYAEgAWACBAA0h0JHh9fEBROU1RJ
+RkZSZXByZXNlbnRhdGlvboAGgAdPEdEOTU0AKgAAxAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wLf398Q5OTkHN3W1iXg4OA53d3dSt3d3VPc3NxY
+29vbW9jY2FzY2NVc2NjVXNjY2Fzd2tpa29vbVtvb20/a2t1E1tbWMtff3yDe3ukXxuPjCQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzAXi4uIa2traMNvb3k7f2txn
+3t7ci93d3Kfc29u43Nzb09zb2uXd3dzv3dzb9dvb2/jb29r429va+Nvb2vjb29r43dvb9tzc2/Lc3Nvr
+29va3tva2sjc3Nyv29vandvb2XnY2Nhc29fXQN3d3SXf388QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADk5OQT
+3t7aPt7e3nPe3Nyh29vbyN7d3N/d29r03Nvb/+Df3//i4uH/4uHh/+Df3//g397/39/e/9/f3v/g397/
+4d/e/+Df3//g39//4N/e/+Df3v/f397/39/e/+Df3v/h4OD/4uLh/+Hh4P/f3t3/29va+9vb2uvb29vW
+29vauNjY2I/Y2Nhb1tbRLICAgAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAJJIkBw96LjKAsotw1NjUqt3c3NPd3Nvu3Nzc/uHg4P/h4OD/397e/9/e3P/f397/
+4ODf/+Li4f/m5eX/6Ofn/+np6P/s6+v/7u7t/+/v7v/w7+//8O/v/+/v7v/t7ez/6+rq/+no6P/n5ub/
+5eTk/+Hh4P/g4N//4N7e/9/e3f/g39//4eHg/9/f3v/b29r529vb49vb2cTX09WSvImVVIQACR0AAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzmTMKJ4hBTyiGPpgegDXOcah+7dLX0v7h4OD/
+4N/e/97e3f/f3t3/4uHh/+bl5f/q6en/7u7t//Hx8f/z8/L/9vX1//f39v/49/f/+fj3//n5+P/5+fj/
++vr5//r6+f/5+fj/+fn4//j49//39/f/9/b2//X19f/y8vL/8PDv/+zs6//o5+b/5OPi/+Dg3//f3t7/
+3t7d/+Hg4P/g4N//2tXW+Lp2g+KTAxu6lAYgeYwFHjMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACedOw0miUBQ
+KYU+oSqFP+Iqhj75H4M2/26pfP/S19P/4N7f/+Pi4v/o5+f/7u7t//Ly8v/29fX/+Pf3//n5+P/6+vn/
++vr5//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/
++vr5//n5+P/4+ff/9vb2//X09P/y8fH/7ezs/+bm5f/i4eD/39/f/9zX1/+9dYH/lwUf/5gHJPGWCSXR
+kwgif4cFGjEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAGpkzCieIQU8qhj+rKYY/5CqGP/ophz//J4Y8/x6CNf91rYL/3eLd//Dv7//09PT/
+9/f3//j4+P/6+fn/+vr5//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/
++vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vn/+vn5//j4+P/29vX/
+8/Ly/+zs7P/j3d3/vnaC/5cBHP+aByP/mgkl/5cIJfOVByPRkQgihoAGHC4AAAACAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqlUDKIY/OSiHQKAphj/nKodA+yqHQP8ohj7/
+LIhB/0WXWP9ysYH/vtnE//P18v/5+Pj/+fn5//r5+f/6+vn/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/
++/v6//v7+v/7+/v/+/r7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v6+//7+/v/+/v6//v7+v/6+vr/
++vr6//r6+v/6+vr/+vr6//r6+v/6+vn/+vn5//n5+f/4+fj/9PLy/9uxuP+zQ1j/oBcw/5oHI/+aCCT/
+mgol/5gJJPaUByPRjQYgd28AGh4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuiUAc
+KIc+gCiHPt0qhz/7KoY//yiGPv8siEL/RJZX/4W7kf+01bv/x+HN/9/s4v/2+Pf/+fn5//r5+f/6+vn/
++vr6//r6+v/6+vr/+vr6//v6+v/7+/r/+/v6//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/
++/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v6//v7+v/7+vr/+vr6//r6+v/6+vr/+vr6//r6+f/6+fn/
++fn5//j4+P/w3+L/47e//9ORnv+6Umf/oRYw/5oIJP+aCCT/mgkl/pgIJfWTCCO/gwYeVE4AAA0AAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAECAIAgnh0BIKog/vimGPvgqhj//KoY//yyIQv9Dl1b/ebWH/67St//L4tD/
+zeTT/8ri0P/d7OD/9/j2//r6+f/6+vr/+vr6//r6+v/7+vr/+/v6//v7+//7+/v/+/v7//v7+//7+/v/
+/Pz7//z7+//8+/z//Pv8//z7/P/8/Pz//Pz8//z7/P/8+/z//Pv8//z7+//8/Pv/+/v7//v7+//7+/v/
++/v7//v7+//7+/r/+/r6//r6+v/6+vr/+vr6//r6+f/5+Pj/8d/i/+fEyv/pxcz/5bzE/9CHlf+0Q1r/
+oRUw/5sJJf+aCiX/mgkl/pYJJOqMByGSbQAYKkAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAS6LOhYohj9+KYY/5SqGP/8qhkD/
+K4dB/zySUf9vr33/q9C0/8nhzv/M49H/yuLQ/8riz//I4c3/3Ozg//f49v/6+vr/+vr6//v6+v/7+/r/
++/v7//v7+//7+/v/+/v7//z7+//8+/v//Pz7//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz/
+/Pz8//z8/P/8/Pz//Pz8//z8+//8+/v//Pv7//v7+//7+/v/+/v7//v7+//7+/r/+/r6//r6+v/6+vr/
++ff4//Dd4f/nwMf/58LI/+fCyf/oxMv/4rW+/8x/jf+vOE//nhIs/5oJJf+aCiX/mAgk/JIII8R8Bh1Q
+TgAUDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+QIBABCiMPDMpiT+pKYU/+CqHP/8phj//MoxH/1miav+ax6X/xd7L/8vi0f/J4c7/yOHO/8jhzv/I4s7/
+xeHM/9zs3//4+Pf/+/v6//v7+//7+/v/+/v7//z7+//8/Pv//Pz8//z8/P/8/Pz//fz8//38/P/9/P3/
+/f38//39/P/9/fz//f38//39/P/9/fz//f38//39/P/9/fz//f38//38/f/9/Pz//fz8//z8/P/8/Pz/
+/Pz8//z8+//8+/v/+/v7//v7+//7+/v/+/v6//r4+f/x3eD/5r7G/+e/x//nwMf/5r/H/+fByP/owsr/
+3au0/8JneP+oJj7/mwwo/5oJJP+aCSX/lAgk5IUGH31YCRIdAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM4BNCieJPk4ohj/KKYdA/ymGP/8qiED/QJRT/3u1iP+3177/
+yuLP/8fgzf/F4Mv/xuDM/8bgzP/G4cz/xuHM/8Pgyf/a697/+Pn4//v7+//7+/v//Pv7//z8+//8/Pz/
+/fz8//39/P/9/f3//f39//39/f/+/f3//f39//3+/f/+/f3//v39//79/v/+/f7//v3+//79/v/+/f3/
+/v39//3+/f/9/f3//v39//39/f/9/f3//f39//39/P/9/Pz//Pz8//z8+//8+/v/+/v7//v7+//6+Pn/
+8dzg/+a7wv/mvMT/5rzE/+a8xP/mvMT/5bzE/+bAyP/mvcX/05Cb/7NDV/+fEi7/mggk/5sJJf+WCSP1
+hwgfnWMFFTEAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMIBAECiJQGwohkDf
+KodA/yiGP/8tikP/UZ5j/5XEoP/C3sj/xt/M/8Pfyf/D38n/w9/J/8Pfyf/D4Mn/w+DK/8Pgyf/A38f/
+2evd//j5+P/8/Pv//Pz8//z8/P/8/Pz//fz8//39/P/9/f3//v39//7+/f/+/v3//v7+//7+/v///v7/
+//7+///+/v////7////+/////v////7///7+///+/v///v7//v7+//7+/v/+/v3//v79//79/f/9/f3/
+/f38//38/P/8/Pz//Pz8//z8/P/8/Pv/+/n6//Hb3//luL//5rnB/+a5wf/lucH/5bnB/+W5wf/lucH/
+5brD/+a+xv/dqLL/v19y/6QeOP+aCSX/mwkk/5cIJP2MByG6bAQZRxoAAAoAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAGpkzCiiGP34ohj/qKohA/yiFPf8wjEb/Yqdz/6jPsf/C3sn/wt7I/8Ddx//A3sf/
+wN7H/8Hex//B3sj/wN/I/8HfyP/B38f/vt7F/9jq3P/4+vn//Pz8//39/P/9/f3//f39//7+/f/+/v7/
+/v7+//7+/v///v7////+////////////////////////////////////////////////////////////
+///////////////////+///+/v/+/v7//v7+//7+/v/+/v3//f39//39/f/9/fz//Pz8//v6+f/x2t7/
+5bW9/+W2v//ltr//5ba//+W2v//ktr//5La//+O2v//jt7//5LrC/+Kzu//JeIf/qitE/5sKJv+bCST/
+mQkl/40GIslvAxtVAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALotGCyaHPWQphj/uKohA/yeFPf82jkv/
+cK9//6/TuP/B3cj/vtzF/77cxf++3MX/vt3F/77dxf++3cX/vt7G/77exv+/3sb/vt/F/7vdw//X6tv/
++fv4//39/f/9/f3//v39//7+/v/+/v7///7+////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////v7/
+/v7+//7+/v/+/f3//f39//39/f/8+vr/8dnd/+Szu//ltL3/5bO9/+S0vf/ktL3/5LS9/+O0vf/jtL3/
+47S8/+K0vP/jtb//4rS9/9CIlf+vOU//nAsn/5sIJP+aCSX/jQki0GMIF0MAAAAIAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+GoAzCiiGP2Uqhz/dKohA/yeGPf85kE7/ebSH/7LVu/++28X/u9vD/7vbwv+728P/vNzD/7zcw/+83MP/
+vNzD/7zdxP+83cP/vN7E/7zew/+53cH/1uva//r7+f/+/v3//v7+///+/v//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////7+//7+/v/+/v3//fv7//HY3P/kr7j/
+5LG6/+Sxu//ksbv/47G6/+Oxuv/jsLr/4rG6/+Kxuv/isbr/4bC6/+Gxuv/hs7z/05Kd/7NBWP+dDir/
+mggj/5oKJf+ICCG4XgQXRAAAAAkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIBHEieFP4Iphz/uKohA/yeGPf9Hl1r/jsCa/7fXv/+62cH/
+uNjA/7jZwf+52cD/udnB/7nawf+52sH/udrB/7nbwf+528L/udzB/7rcwv+53cH/ttu//9Tq2f/6/fv/
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////78/P/y1tv/46u2/+StuP/jrrj/4664/+KuuP/irrj/4q24/+GtuP/hrLf/
+4ay3/+Cst//grLf/3624/+Cwuv/aoKv/v19y/6EYMv+aByP/mgkl/4wHIdJnAxlcEAAAEAAAAAIAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK4BADCmHP3UphT/t
+KolA/yeFPf9ClVX/ib6V/7TWvP+32L//tte+/7bXvv+22L7/tti+/7bYv/+22b//ttm//7fav/+32r//
+t9rA/7fbwP+328D/t9y//7Tbvf/T6tj/+v37////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////++/z/8tXa/+Oos//jqrX/
+46q1/+Kqtf/iqrX/4aq1/+Gqtf/hqrX/4Kq1/+Cqtf/fqrT/36q0/9+qtP/eqrT/3622/9mfqv++XnH/
+oBYw/5oIJP+aCSX/iAYgzl0DFlIAAAAOAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAVapVAyqIQFwphj/mKohB/yiGPv8xjEb/gLiO/7HUuf+11r3/s9a8/7PWvP+017z/
+tNe8/7TXvP+02L3/tNi9/7TYvf+02b3/tdm9/7Xavv+12r7/tdu+/7Xbvf+x2rv/0uvX//r9+///////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////vv8//LU2f/jprD/46iz/+Ons//ip7P/4qez/+Gns//hp7L/4Kez/+Cnsv/fp7L/
+36ey/9+nsv/ep7L/3aey/92nsv/eqrT/15un/7tWaf+bCyf/mwgl/5oJJf6ECB7BRwAQQQAAAAsAAAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqKPz0phT7VKohA/yiGP/8riUH/
+WqNs/6rPs/+z1rr/sdS5/7HVuf+x1br/sda6/7HWuv+x1rv/sde7/7LXu/+y2Lv/sti7/7LZuv+y2bz/
+s9m8/7PavP+z2rv/r9m4/9Dq1v/6/fv/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////77/P/y09j/46Kt/+OksP/jpLH/
+4qSw/+GksP/hpLD/4KSv/+CksP/fpLD/36Sw/96ksP/epLD/3aSv/92kr//cpK//3KSv/9ymsf/UlKD/
+rTNK/5sIJf+bCSX/mAkl+3sGHqoxAAUvAAAACQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACKDPiUphkC8KodA/imHQP8ohj//R5lZ/5DBnP+w1Ln/rtO3/67Ttv+u1Lb/rtS3/67Vt/+u1bf/
+rtW4/67WuP+v1rj/r9e4/6/XuP+v2Ln/r9i5/7DZuf+w2rn/sNq5/6zZtv/Q6tb/+v37////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////++/z/8tLX/+Ofq//joa3/4qGu/+Ghrf/hoa3/4aGt/+Chrf/foa3/36Gt/96hrf/eoa3/
+3aGt/92hrP/coaz/3KGs/9uhrP/boaz/26Ou/8h0hP+mIjv/mgcj/5wKJf+TCCP3bwUbjxcAACIAAAAG
+AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWVKwwohT2SKYY/+yqGQP8ohj7/NY9L/3a0hf+p0LP/
+q9G0/6rSs/+q0rT/qtO0/6vTtP+r1LX/q9S0/6vVtf+r1bX/q9W1/6zWtv+s17b/rNe2/6zXtv+s2Lf/
+rNm3/6zZtv+o17P/z+rV//r9+///////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////vv8//PQ1v/inKj/4p2q/+Kdqv/hnKr/
+4Zyq/+Ccqv/fnKr/35yq/96cqf/enKn/3Zyp/92cqf/cnKn/3Jyp/9udqP/anaj/2pyo/9meqv/Ymqf/
+vVtt/6AUL/+aCCT/mwkl/48II+lYBRVrAAAAGAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnhkBj
+KIU+8SqGP/8ph0D/LIpC/1aiaP+dyqj/qdGz/6fQsf+o0LH/qNGx/6jSsv+o0rL/qNOy/6jTsv+o1LP/
+qdSz/6nVs/+p1bT/qdaz/6nWtP+q17T/qte0/6rYtf+q2bT/pdix/87q1P/6/fv/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////77/P/zz9X/4pil/+Kap//imqj/4Zqo/+Cap//gmqf/35qn/96ap//emqf/3Zqn/92apv/cmqb/
+3Jqm/9uapv/amab/2pmm/9mZpf/YmaX/2Zun/9KMm/+wO1H/nAsn/5oJJf+aCSb/hAYg0TcADkoAAAAQ
+AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAqhz4xKYY/0iqGP/8qh0D/KYc//zuSUP+Buo7/qM+x/6XOrv+lz6//
+pdCv/6XQr/+l0K//pdGw/6bSsP+m0rD/ptOw/6bUsf+m1LH/p9Wy/6fVsf+n1rL/p9ay/6fXsv+o2LP/
+p9my/6PXr//N6tP/+v37////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////++/z/8s7U/+GVo//ilqX/4pal/+GXpf/gl6X/
+4Jek/9+XpP/el6T/3pek/92XpP/cl6T/3Jek/9uXo//al6P/2paj/9mWo//ZlaP/2JWj/9eWo//Ymab/
+xWx9/6QcN/+bCSX/mgom/5YII/5yBRqqEAAALwAAAAoAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXi0YLJoU/nymFPv0qhkD/
+KohA/y2KQ/9Yo2v/ncqo/6TOrf+izaz/os6s/6LPrf+jz63/o9Ct/6PQrv+j0a7/o9Ku/6PSr/+j06//
+pNSv/6TUsP+k1bD/pNWw/6XWsP+l1rD/pdex/6XYsP+g1q3/y+rT//r9+///////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/vv8//PM0//ikZ//4pOi/+KTo//hk6P/4JOi/9+Tov/fk6L/3pOi/92Tov/dk6H/3JOh/9uTof/bk6H/
+2pOh/9mToP/Zk6D/2JKg/9eSoP/Wkp//1pSh/9ONmv+zP1T/ng0o/5sJJf+aCiX/jwci71UCEXgAAAAc
+AAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABKIg+WimFPu4qhj//KodA/ymIQP84kU3/fLiJ/6PNrf+ezKn/nsyq/5/Nqv+gzqv/
+oM6r/5/Pq/+gz6z/odCs/6HRrP+h0az/odKt/6HTrf+i063/otSu/6LVrv+h1a7/otav/6PXr/+i2K7/
+ndar/8vq0//6/fv/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////77+//zy9L/4o6d/+KQoP/ikJ//4JCg/+CQoP/fkJ//
+3pCe/96Qnv/dkJ7/3I+f/9yPn//bj53/2o+d/9mPnf/Zj57/2I+d/9ePnP/Xj5z/1Y+d/9WPnP/WlKH/
+w2d6/6QZNP+cCSX/mgom/5kJJf+ABx/QJgAHSgAAABEAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI4Q+HSiFPsEphj7+KodA/yqIQP8sikH/
+TJ1g/5TFn/+dy6j/nMqn/5zLpv+czKj/nM2n/5zNqP+dzqn/nc+o/53PqP+d0Kn/ndGq/53Rqf+e0qv/
+ntOr/57Tqv+f1Kz/ntWs/5/Vq/+g1q3/n9es/5rVqP/J6tH/+v37////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////++/v/
+88rQ/+KKmv/ijJz/4oyc/+GMnP/gjJz/34yc/96MnP/djJz/3Yyc/9yLm//bi5v/2oub/9qLm//Zi5v/
+2Iua/9eLmv/Wi5r/1oua/9SLmf/Ui5n/046b/9CDkf+tMEj/nQom/5sKJv+aCiX/lAgk+WQFGZsGAAAp
+AAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AFVVAymIP3YphT/0KoY//yqHQP8riUH/L41G/2esd/+byaf/mcik/5nJpP+ZyqT/mcul/5nMpf+ZzKX/
+ms2m/5rOpv+az6b/ms+m/5rQp/+b0af/m9Go/5vSqP+b06j/nNOp/5zUqf+c1ar/ndaq/5zXqf+X1ab/
+yerQ//r9+///////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////vv7//PI0P/ih5f/4omZ/+KJmv/hiZn/4ImZ/9+Jmf/eiZn/
+3YmZ/9yJmf/ciZj/24iY/9qImP/ZiJj/2IiY/9eIl//XiJf/1oiX/9WIl//UiJb/04iW/9KIlv/Ti5n/
+uk5j/6APK/+cCSb/mwom/5kJJf+GCCDgNQMLYAAAABYAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWDPikohT/MKYY//yqHQP8qiEH/K4lB/ziTTv9/uIz/
+msmk/5bHof+WyKH/lsmi/5fKo/+Xy6P/l8yj/5fMpP+XzaT/mM6k/5jPpf+Yz6X/mdCl/5nRpv+Z0qb/
+mdKm/5nTp/+a1Kf/mtWo/5rWqP+a16f/lNWj/8fqz//6/fr/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////77+//0x87/
+44SU/+OGl//ihpj/4YaX/+CGl//fhpf/3oaW/92Glv/chpb/24WW/9uFlf/ahZX/2YWV/9iFlf/XhZX/
+1oWU/9WFlP/VhZT/04WU/9KFk//ShZP/04iX/8VqfP+lGjT/nQom/5sKJv+aCib/lAkj+2kGGKoKAAAy
+AAAADAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACqVQMoiD96
+KYY+9CqHQP8qiED/K4lB/yuKQv9Gm1r/jMGY/5XGoP+Txp//k8ef/5TIn/+UyaD/lMqh/5XLof+VzKL/
+lcyi/5XNov+VzqP/ls+j/5bPo/+W0KT/ltGk/5fSpf+X06X/l9Ol/5fUpv+Y1qb/mNem/5LVov/G6s7/
++v36////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////++/v/9cbO/+OBkf/jg5T/44OV/+GClf/ggpT/34KU/96ClP/dgpT/
+3IKU/9uCk//bgpP/2YKT/9mCk//YgpL/14KS/9aCkv/VgpL/1IKS/9KBkf/RgZH/0YGR/9CCkv/MeYn/
+rClC/54JJ/+cCib/mwom/5oKJf+GCCDhNgIMaAAAABkAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAiij4lKIc/xSqHP/4qh0D/KohA/yuJQf8sjEP/VqRp/5DEnf+QxJ3/
+kMWd/5HGnf+Rx53/kcie/5LJnv+Syp//ksuf/5LMoP+TzaD/k82g/5POof+Tz6H/lNCi/5TRov+U0qP/
+lNKj/5XTo/+V1KT/ldak/5XXpP+Q1aD/xOrN//n9+v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////v7//bEzf/kfY//
+44CS/+OAkv/hgJL/4H+S/99+kv/efpH/3X6R/9x+kf/bfpH/2n6Q/9l+kP/YfpD/13+Q/9d/j//Vf4//
+1H+P/9R/j//Sf47/0X6O/9B+jv/PfY7/z3+O/7M7Uv+gDCj/nQom/5wKJv+bCib/kggj+WQGGKkAAAA0
+AAAADQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKIU+fymFP/Qqh0D/
+KohA/yuJQf8ri0L/L49G/2iteP+Qw53/jcKa/43Dmv+NxJr/jsWb/47HnP+Ox5z/j8ic/4/Jnf+Pyp3/
+j8ue/5DMnv+QzZ//kM6f/5HPoP+R0KD/kdGg/5HSof+S06H/ktSi/5PVov+T1qH/jdSd/8LqzP/5/fr/
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////7+//2w8z/5XmM/+R7j//je5D/4XuP/+B7j//fe47/3nuO/917jv/ce47/
+23uN/9p7jf/Ze43/2HuN/9d6jP/Weoz/1HqM/9N6i//Seov/0XqL/9B6iv/PeYr/znmK/859jf+8T2T/
+og8s/58KJ/+dCib/nAom/5oKJf+FBx7kMgILcAAAAB8AAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAK4A5JCiFPsEqhz/+KodA/yuJQf8rikH/K4tC/zSRS/9ws4D/jMKZ/4rBl/+Kwpj/
+i8OY/4vEmf+Mxpr/jMea/4zImv+MyZv/jcqb/43KnP+Ny5z/js2d/47Nnf+Ozp7/js+e/4/Qnv+P0Z//
+kNKf/5DToP+Q1aD/kNag/4vUm//C6sv/+f36////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////+vv/98LL/+V2iv/ld4z/
+5HeN/+J4jP/heIz/4HiM/954jP/deIv/3HiL/9t4i//aeIr/2HiK/9d4iv/Wd4r/1XeJ/9R3if/Td4n/
+0neJ/9B3iP/Pd4j/zneI/813h//Oeon/wVpu/6QTL/+fCif/ngon/5wKJv+cCib/kwgj+GAFF6oAAAA5
+AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACeJPmMohD7pKohA/yqIQP8riUH/
+K4tC/yuMQv83k07/draF/4jBlv+HwJX/h8GV/4fClv+Iw5b/iMWX/4nGl/+Jx5j/iciY/4rJmf+Kypn/
+isua/4vMmv+LzZv/i86b/4zPnP+M0Jz/jNGd/43Snf+N057/jtWf/47Wnv+I1Jn/werK//n9+v//////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////r7//fAyv/lcof/5XSJ/+R0iv/idIr/4XSJ/+B0if/edIn/3XSI/9x0iP/bdIj/
+2XSH/9h0h//XdIf/1nSH/9Vzhv/Tc4b/0nOG/9Fzhv/Pc4X/znOF/81zhP/Mc4T/zXWG/8Ngcv+mFjL/
+oAkn/58KJ/+dCib/mwom/5oJJf57Bh7XIgMIYgAAAB0AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAADOIMw8nhj2iKYU+/SqHQP8riEH/K4pB/yyLQv8rjEL/OpVP/3m4iP+FwJT/hL+S/4TAk/+EwZP/
+hcKT/4XElP+GxZT/hsaV/4bHlf+HyJb/h8mW/4jKl/+Iy5f/iMyY/4nNmP+Jzpn/idCZ/4rRmv+K0pr/
+i9Ob/4vVnP+L1pv/hdSW/7/qyP/5/fr/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////6+//4vsn/5m+E/+Zxh//kcYj/
+4nGH/+Fxhv/gcYb/33GG/91xhv/ccIX/23CF/9lwhf/YcIT/13CE/9Zwg//UcIP/02+D/9Jvg//Rb4L/
+z2+C/85vgv/Nb4H/y2+B/8txg//FY3X/qRk1/6AJJv+fCif/ngom/5wKJv+dCib/iwki8EsDEZMAAAAx
+AAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArgkE7KIQ+0iqIQf8qiED/K4lB/yuLQv8sjEL/
+K41D/zuWUf96uYj/gr2R/4G+j/+Bv5D/gsCQ/4LBkP+Dw5L/g8SS/4PFkv+DxpP/hMeT/4TIlP+FypX/
+hcuV/4XMlv+GzZb/hs6X/4bPl/+H0Zj/h9KY/4jTmf+I1Zr/iNaZ/4LVlf+968j/+f36////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////+vv/+L7I/+Zsgf/mboT/5W6F/+NuhP/hboP/4G6D/99ug//dboP/3G2C/9ttgv/ZbIL/
+2G2B/9dtgf/VbYD/1G2A/9NsgP/RbID/0Gx//85sf//NbH//zGx+/8tsfv/KbX//xmN2/6obN/+hCSf/
+oAon/54KJ/+cCib/nAom/5QJJP1qBRnABgAATwAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+KoY+dCmFP+8qiED/KohB/yuJQf8ri0L/LIxD/yyOQ/87l1H/eLiH/3+8jf9+vY3/fr6N/36/jv9/wI7/
+gMKP/4DDkP+AxJD/gMWR/4HHkf+ByJL/gcmT/4LKk/+Cy5T/g82U/4POlf+Dz5X/hNCW/4TSl/+F05f/
+hdSY/4XWl/9+1ZP/vOvH//n9+v//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////r7//i8x//naH7/5mqB/+Vqgv/jaYH/
+4mmB/+FpgP/faYD/3WmA/9xpf//aaX//2Wh//9hofv/WaH7/1Wh9/9Roff/SaH3/0Wh8/9BofP/OaXv/
+zGl7/8tpe//KaHv/yWl8/8Zhdf+qGjf/ogkn/6AKJ/+fCif/nQom/5sKJv+bCib/fwcd4SsCCXYAAAAc
+AAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAIIBACCmFP6cqhz/+KodA/yuIQf8rikH/LIxC/yyNQ/8sjkP/
+OpdQ/3O2g/98vIv/e7yK/3u9i/98vov/fL+M/33Bjf99wo3/fsOO/37Fj/9+xo//fseQ/3/IkP9/ypH/
+gMuR/4DMkv+BzZP/gc+U/4HQlP+C0pX/gtOV/4PVlv+D1pX/fNWR/7vrx//5/fr/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////6+//4u8b/52V8/+dmfv/mZn//5GZ+/+Jmfv/hZX7/32V9/91lff/cZX3/2mV8/9llfP/YZXv/
+1mV7/9Vle//TZXr/0mV6/9Flev/PZXn/zWR5/8xkeP/LZHj/yWV4/8hmef/EW3H/qhk1/6MJJ/+hCif/
+nwon/54KJv+cCib/nQom/4wIIvJMAxKeAAAALQAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAACiAQCAohD/Q
+KohB/yqIQP8riUH/K4tC/yyMQv8sjUP/LI9D/ziXTv9us37/eruJ/3m7iP95vIn/eb2J/3m+iv96wIv/
+e8KL/3vDjP97xI3/fMWN/3zHjv99yI7/fcmP/33Lj/9+zJD/fs2R/37Pkv9/0JL/gNGT/4DSk/+B1JX/
+gNaU/3nVjv+67MX/+f76////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////+vv/+LrG/+hhef/oY3z/5mN9/+RjfP/jY3z/
+4WJ7/+Bie//dYnv/3GJ6/9tiev/ZYnn/2GJ5/9Zief/VYnj/02J4/9Fid//QYnf/z2F3/81hdv/LYXb/
+ymF1/8hhdf/IY3b/wlVq/6oWNP+jCSf/ogon/6AKJ/+eCif/nQom/5wKJv+UCSP+ZgUYwwAAAEQAAAAT
+AAAAAQAAAAAAAAAAAAAAAAAAAAAmhj89KIY/6SqJQf8qiED/K4lB/yuLQv8sjEP/LI5D/y2PRP81lUz/
+ZbB3/3e6h/92uob/druG/3a8h/93vYf/eL+J/3jBif94wor/ecOK/3nFi/96xoz/eseM/3rJjf97yo7/
+e8yO/3zNj/98z5D/fdCQ/33Rkf9+05L/ftWT/37Wkv931Y3/uezF//n++v//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//r7//i5xP/pXnf/6GB5/+dgev/lYHr/42B5/+FgeP/gYHj/3mB4/9xgd//aYHf/2WB2/9dfdv/WX3b/
+1F92/9Nfdf/RX3X/0F90/85edP/MXnP/y15z/8pec//IXnP/yGB0/79MY/+pFDH/pAoo/6IKJ/+gCif/
+nwon/5wKJv+bCib/mgkm/3kGHd0TAANeAAAAHgAAAAQAAAAAAAAAAAAAAAAAgAACKIU6YCmGP/wqiED/
+K4hB/yuKQf8ri0L/LI1D/yyORP8tkET/MpVJ/16scP91uYX/crmE/3S6hP90u4X/c72F/3W/hv92wIf/
+dsGI/3bDiP93xIn/d8aK/3jHiv94yIv/ecqM/3nLjP96zY3/es6O/3rQjv970Y//e9OQ/3zVkf981pD/
+ddaL/7ftxP/4/vr/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////6+//4uMT/6Vp0/+lcd//nXHj/5Vx3/+Rcd//iXHb/
+31x2/95cdv/cXHX/2lx1/9lcdP/XXHT/1lp0/9Rbcv/TW3P/0Vty/89bcv/OWnL/zFtx/8pacP/JWm//
+yFpv/8ddcf+8Q1r/qQ8v/6QKKP+jCij/oQon/58KJ/+dCib/nAom/50KJv+FCCDuKAIGegAAACwAAAAK
+AAAAAAAAAAAAAAAAIohEDyeGPIkqiD//KodA/yuIQf8rikL/LIxC/yyNQ/8tj0T/LZBE/zCUR/9Tp2f/
+criC/3C4gP9wuYL/cLqB/3G8g/9yvoT/cr+F/3PBhf9zwob/dMSH/3TFiP91xoj/dciJ/3XJiv92y4r/
+dsyL/3bOjP930Iz/eNGN/3jTjv961Y//edaO/3LWif+37cP/+P76////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////+vv/
++LfD/+pXcf/pWXT/6Fl1/+ZZdP/kWXT/4llz/+BYc//eWHL/3Fhy/9pYcf/ZWHH/11hx/9ZXcP/UV3D/
+0ldv/9BXb//PV27/zVdu/8tXbf/KV23/yFdt/8dXbP/GWm7/uDZP/6gMK/+lCij/owoo/6EKJ/+gCif/
+nQon/5wKJv+dCib/jgci+DcCDJUAAAA9AAAAEQAAAAEAAAAAAAAAACuIRB4nhz6sK4lB/yqHQP8riUH/
+K4tC/yyMQv8sjUP/LY9E/y2RRf8vk0b/R6Fc/221fv9tt37/bbh//225f/9uu4D/b72B/2++gv9wv4L/
+cMGD/3HDhP9xxIX/csaF/3LHhv9yyYf/c8qH/3PMiP90zYn/dNCK/3XRi/910ov/d9SN/3bWjP9v1oj/
+te3C//j++f//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////r7//i1wv/qVG7/6lZx/+hWcv/mVnH/5FZx/+JWcP/hVXD/
+3lVv/9xUb//bVG7/2VRu/9dUbv/VVG3/01Rt/9JUbP/QVGz/zlRr/81Ua//LU2r/yVRq/8hUav/GVGn/
+xVNq/7QnQv+oCyr/pgoo/6QKKP+iCif/oAon/54KJ/+cCib/nAom/5QJI/5JAxCrAAAATgAAABgAAAAD
+AAAAAAAAAAAmgjwvKIU8xyuJQf8qh0H/K4lB/yuLQv8sjEP/LI5D/y2QRP8tkUX/LpJG/z2cVP9lsnj/
+a7d9/2q3fP9ruH3/a7p+/2y8f/9tvYD/bb+A/27Bgf9uwoH/b8OC/2/Fg/9vx4T/cMiF/3DKhf9xy4b/
+cs6H/3LPiP9z0Yn/c9KK/3TUi/901or/bdaF/7Ttwv/4/vr/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////6+//5tMH/
+7FBs/+pTb//pU2//51Jv/+VSbv/jUm7/4VJt/95Rbf/cUWz/2lFs/9lRa//XUWv/1VFq/9NRav/SUWr/
+z1Fp/85Raf/MUWj/ylBo/8lQZ//HUGf/xlFn/8JKYv+wHDj/pwsp/6YKKf+kCij/ogoo/6AKJ/+eCif/
+nAom/5wKJv+aCiT/WAQUwAgAA2AAAAAiAAAABQAAAAAAAAAAJoU7SSiFPuQqiUD/KohA/yuJQf8si0L/
+LI1D/yyOQ/8tkET/LZJF/y6TRv81mE3/Waxt/2q1fP9otnr/aLd7/2i5e/9qu33/arx+/2u+fv9rwH//
+a8F//2zDgP9txYH/bcaC/23Ig/9uyYP/b8uE/2/Ohf9wz4b/cNGH/3HSiP9y1In/ctaI/2vWg/+y7cH/
++P75////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////+vv/+bPA/+xNav/rUGz/6VBt/+dPbP/lT2z/409r/+FPa//eTmr/
+3E5q/9tOaf/YTmn/105o/9VOaP/TTmj/0U5n/89OZ//NTmb/y05m/8lNZf/ITWX/xk1k/8VPZv+9PFX/
+rhMw/6gKKf+mCin/pQoo/6IKKP+hCif/ngon/50KJv+cCib/nQol/2cFF9MWAARyAAAAKgAAAAgAAAAA
+AAAAACaIOlgohj30KohA/yuIQf8riUL/K4tC/yyNQ/8tjkT/LZBE/y6SRf8uk0b/MZdJ/0ulYP9ms3n/
+ZbV4/2a3ef9muHn/Z7p7/2i7fP9ovXz/ab99/2nBff9qwn7/asR//2vGgP9rx4H/bMmB/2zLgv9tzYP/
+bc+E/27Rhf9u0ob/cNSH/2/Whv9n1oH/se3A//j++f//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////r7//qyv//tSmf/
+60tq/+lMa//nTGr/5Utp/+NLaf/hS2j/3kto/9xLZ//aS2f/2Etm/9ZLZv/VS2X/00tl/9BKZf/OS2T/
+zUtk/8tLY//JSmL/x0li/8ZJYv/ESmL/uCxG/6wNLP+oCyn/pwop/6UKKP+jCij/oQon/58KJ/+dCib/
+nAom/54KJf9xBxreIAIGgQAAADUAAAANAAAAACCAQAgnhT11KIU9/SqHQP8riEH/K4pC/yyMQ/8sjUP/
+LY9E/y2RRP8ukkb/LpRG/y+WR/87nlL/W69v/2O0dv9itXb/YrZ2/2S4eP9kunn/Zbt5/2W9ev9mv3v/
+ZsF8/2fDff9nxH7/aMZ+/2nIf/9pyoD/asyB/2rOgv9r0IP/bNKE/23Uhf9s1oT/ZNZ//7Duvv/4/vn/
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////6+//6sL7/7kZk/+xHZ//qSGj/6Ehn/+VIZv/jSGb/4Uhl/95HZP/cR2T/
+2kZk/9hGY//WRmL/1Edi/9JGYf/QRWH/zUVg/8xFYP/KRWD/yEVf/8ZFXv/FRl//wT5X/7IYNv+rCyr/
+qQsp/6cKKf+lCij/pAoo/6EKJ/+gCif/ngom/5wKJv+eCib/fgke6ywDCZUAAABCAAAAEwAAAAErjjkS
+J4U8kCmGPv8qh0D/K4hB/yuKQv8sjEP/LI5D/y2PRP8tkUX/LpJF/y6UR/8vlkf/M5pL/02nYv9gs3T/
+X7Rz/2C1dP9ht3b/Yrl3/2K6d/9jvHj/Y755/2TAev9kwnv/ZcR8/2bGfP9myH3/Z8l+/2fMf/9ozoD/
+adCB/2nSgv9q1IP/ataC/2LWff+u7r3/+P75////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////+fv/+q69/+5CYf/sRGT/
+6kVl/+hFZP/mRGP/40Rj/+FEY//eRGL/3ERh/9pDYf/YQ2D/1kNg/9RDX//RQ1//0EJe/81CXv/LQl3/
+yUJd/8dCXP/FQlz/xERd/7ssSP+vDy7/rAsq/6oLKf+nCyn/pgop/6QKKP+iCif/nwon/50KJ/+cCib/
+nQom/4UIIPQ2AwukAAAATAAAABcAAAACK4pAGCeEPKIrikD/KohA/yuJQf8rikL/LIxC/yyOQ/8tkET/
+LZFF/y6SRf8vlUb/L5ZI/y+YSP8+oVX/Wa9t/16zcv9etHL/X7Z0/1+4df9gunX/Ybt2/2G+d/9iv3j/
+YsJ5/2PDev9jxXr/ZMd7/2XJfP9lzH3/Zs5+/2fQf/9n0YD/aNOC/2jWgf9g1nv/re68//j++f//////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////n7//qtvP/uQF//7EFi/+pCY//oQmL/5kFh/+NBYf/hQWH/3kFg/9xBX//aQF7/
+10Be/9VAXv/TQF3/0UBd/89AXP/MQFz/ykBb/8hAWv/GQFr/xUBa/8E6Vf+1Gzn/rQsq/6wLKv+pCyr/
+qAop/6YKKP+kCij/ogoo/6AKJ/+eCif/nAom/50KJv+JCCH5PgMPrgAAAFUAAAAdAAAAAyaOORsohTyr
+K4pA/yqIQP8riUH/K4pC/yyMQ/8sjkT/LY9E/y2RRf8uk0b/L5RG/y+XR/8wmEj/NJ1N/0upYf9bs3D/
+W7Nv/121cf9ct3P/Xblz/166c/9fvXT/X791/2DBdv9gwnf/YMV5/2LGef9iyHv/Y8t8/2PNff9kz33/
+ZNF+/2bTf/9l1X7/XtZ6/6zuvP/3/vn/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////5+//6rLz/7z1c/+0+YP/qP2D/
+6D9g/+Y+X//jPl//4T5e/98+Xf/bPl3/2T5b/9c+XP/VPlv/0z5b/9E+Wv/OPVr/zD1Z/8o9WP/IPVj/
+xj1X/8Q+V/+8KUb/shAv/64LKv+sCyr/qgsq/6gKKf+mCij/pAoo/6IKKP+gCif/ngon/5wKJv+cCib/
+jQgh/EEDDrUAAABdAAAAIgAAAAUigDweJ4U8ryuKP/8qiED/K4lB/yuKQv8sjEP/LI5E/y2QRP8tkUX/
+LpNG/y6VRv8vlkf/MJlJ/zCaSf87olT/U65o/1mzbv9atW//WrZw/1q4cP9bunH/XLxy/1y+c/9dwHT/
+XcJ1/17Edv9fxnf/X8h3/1/Lef9gzXr/Yc96/2LRfP9j033/Y9V8/1vWd/+r7rv/9/75////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////+fv/+qu6/+46Wv/tO13/6jxe/+g8Xf/mOlv/4zpc/+A6Wv/dOlr/2zpa/9k7Wf/XO1n/
+1DtY/9I7WP/QO1f/zTpX/8s6Vv/JOlX/xzpV/8U7Vf/CM07/txg2/7ALK/+uCyr/rAsq/6oLKv+oCin/
+pgop/6QKKP+iCif/oAon/54KJ/+cCib/nAom/5AJIv5FAw+5AAAAZAAAACYAAAAGKXs6HyiDO7Erij//
+KohA/yuJQf8rikL/LIxD/yyOQ/8tkET/LZFF/y6TRv8vlUb/L5ZH/zCZSf8wmkr/NJ1M/0SnWv9VsWv/
+V7Rs/1e1bf9Yt27/WLhv/1m7cP9avXH/Wr9y/1vBc/9bw3T/XMV1/13Hdv9dynf/Xsx4/1/Oef9g0Hr/
+YdJ8/2HVe/9Y1XX/qu66//f++f//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////n7//qquv/uNlf/7Dda/+o4W//oOFr/
+5ThZ/+M4Wf/gOFj/3ThX/9s4V//ZN1b/1jdW/9Q3Vf/SN1X/zzdU/8w2VP/KNlP/yDZS/8Y2Uv/ENVH/
+vCA//7MOL/+xCyv/rwsq/6wLKv+qCyr/qAop/6YKKf+lCij/ogon/58KJ/+eCif/nAom/5wKJv+UCSL+
+RgMQvQAAAGkAAAAqAAAACCF7Oh8nhDyyK4o//yqIQP8riUH/LIpC/yyMQ/8sjkP/LZBE/y2RRf8uk0b/
+L5VG/y+WR/8wmkn/MJtK/zGdSv83ok//Saxg/1Sza/9VtGz/VbZs/1a3bf9Xum7/V7xv/1i+cP9YwHH/
+WcJy/1rEc/9axnT/W8l1/1zLdv9dznf/XtB4/1/Sev9e1Hn/VtVz/6juuf/3/vn/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////5+v/6qbj/7jNV/+01WP/rNln/6DZY/+U1V//jNVf/4DVW/901Vf/aNVT/2DRU/9Y0U//TNFP/
+0TRS/880Uv/MM1H/yjNR/8gzUP/GNFD/vydE/7cSMv+zCyz/sQsr/68LKv+sCyr/qgsq/6gLKf+mCin/
+pQoo/6IKJ/+fCif/ngon/50KJv+cCib/lQki/kgEEL8AAABtAAAALQAAAAghezofJ4I8siuKP/8qiED/
+K4lB/yyKQv8sjEP/LI5D/y2QRP8tkUX/LpNG/y+VRv8vlkf/MJlJ/zCbSv8xnUr/MZ9L/zulVP9PsGb/
+UrRq/1O1av9Utmv/VLls/1W7bf9VvW7/VsBv/1fBcP9Yw3H/WMVy/1nIc/9Zy3T/Ws11/1vPdv9d0Xj/
+XNR3/1TUcf+n7rj/9/75////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////+fr/+qe3/+4wUv/sMlX/6jNX/+czVf/lMlX/
+4jJU/+AyVP/dMlP/2jJS/9gxUv/VMVH/0zFQ/9ExUP/OMU//yzBP/8kwTv/IMU7/xCxK/7sWNf+2Cyz/
+swss/7ELK/+vCyr/rAsq/6oLKv+oCyn/pgop/6UKKP+iCif/nwon/54KJ/+dCib/nAom/5UJI/5HBBDB
+AAAAcAAAAC8AAAAIIXs6HyeCPLIrij//KohA/yuJQf8rikL/LIxD/yyOQ/8tkET/LZFF/y6TRv8vlUb/
+L5ZH/zCZSf8wm0r/MZ1K/zGeS/8zoU3/Qqtb/0+yZv9RtGj/UrVp/1K4av9Tumv/U7xs/1S+bf9VwG7/
+VcJv/1bGcP9XyHH/WMpy/1jMc/9ZznX/WtF2/1rTdf9S02//p+63//f++f//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//n6//qnt//uLlD/7DBT/+owVf/nMFP/5C9S/+IvUv/fL1L/3C9R/9kvUP/XLk//1S5P/9IuTv/QLk7/
+zS5N/8ouTP/ILUz/xixK/8AePf+4DS7/tgss/7MLLP+xCyv/rwsq/6wLKv+qCyr/qAop/6YKKf+lCij/
+ogon/58KJ/+eCif/nAom/5wKJv+UCSL+RQMQwQAAAHIAAAAvAAAACCF7Oh8ngzuxK4o//yqIQP8riUH/
+K4pC/yyMQ/8sjkT/LZBE/y2RRf8uk0b/LpVG/y+WR/8wmkj/MJtK/zGdSv8yn0v/MqFM/zalUP9DrVz/
+TbJk/0+1Z/9Pt2j/ULpp/1G7av9SvWv/UsBs/1PCbf9UxG7/VMdv/1XJcP9Wy3L/Vs1z/1jQdP9Y0nP/
+T9Jt/6Tutv/3/vn/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////5+v/6pbX/7StO/+ssUf/pLVL/5i1R/+QsUP/hLE//
+3ixP/9ssTv/ZLE7/1itN/9QrTP/RK0z/zytL/80rS//LK0r/yCpI/8IfPv+8DzH/uAwt/7ULLP+zCyz/
+sgsr/68LKv+sCyr/qgsq/6gKKf+mCin/pAoo/6IKJ/+gCif/ngon/5wKJv+cCib/kgki/kMDEMEAAABy
+AAAALwAAAAgigDweKIQ8riuKP/8qiED/K4lB/yuKQv8sjEP/LI5E/y2PRP8tkUX/LpNG/y+URv8vl0f/
+MJhJ/zCbSf8xnUr/MZ9L/zKhTP8zo03/N6dR/0SvXf9MtGT/TbZm/064aP9Pumj/T7xp/1C/af9RwWr/
+UsNr/1LGbv9TyG//VMtw/1XNcf9Wz3H/VtFw/03Rav+k7bX/9/74////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////+fr/
++qS1/+0oTP/rKU7/6SpQ/+YqTv/jKk7/4CpN/94qTf/bKkz/2ClL/9UpS//TKUr/0SlJ/84pSf/MKUn/
+yShH/8QfPv++EDH/uwst/7gMLf+1Cyz/swss/7ELK/+uCyr/rAsq/6oLKv+oCin/pgoo/6QKKP+iCij/
+oAon/54KJ/+cCib/nAom/44JIv0+Aw/AAAAAcQAAAC8AAAAIJoQ5GyaDO6kqi0D/KohA/yuJQf8rikL/
+LIxC/yyOQ/8tkET/LZFF/y6SRf8vlUb/L5ZI/y+YSP8wm0n/MZ1K/zGfS/8yoEz/M6NO/zOlTv84qVL/
+RLBd/0q0ZP9Mt2b/TLpl/027Z/9NvWj/TsBp/0/Cav9PxWv/UMds/1HJbf9SzG7/U85w/1PQb/9K0Gn/
+ouyz//f++P//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////n6//mis//rJUn/6iZM/+gnTf/lJ0v/4idL/+AnSv/dJ0r/
+2idJ/9cmSP/VJkj/0iZH/9AmRv/OJ0f/yiZF/8YdPv/AETL/vQwu/7oMLv+3DCz/tQss/7MLK/+xCyv/
+rgsq/6wLKv+pCyr/qAop/6YKKP+kCij/ogoo/6AKJ/+eCif/nAom/5wKJv+KCCH7OwMNvQAAAG4AAAAu
+AAAACCOAOhYmgzucKYg+/yqHQP8riEH/K4pC/yyMQ/8sjkP/LY9E/y2RRf8ukkX/LpRH/y+WR/8vmEj/
+MJpJ/zGcSv8xn0v/MqFM/zOjTv80pU//NKdP/zirU/9CsFz/SbVi/0u4ZP9LumX/S7xm/0y+Z/9NwWj/
+TcRp/07Gav9PyGv/UMps/1HNbv9Rz23/R89n/6Hss//3/vj/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////5+v/4orL/
+6iJH/+kkSv/nJUv/5CVJ/+ElSf/fJUj/3CVI/9klR//WJEb/1CRG/9EkRf/PJEX/zCNE/8gcPP/DDzL/
+vwsu/7wMLv+6DC7/twws/7ULLP+zCyv/sAsr/64LK/+sCyr/qgsp/6cLKf+mCin/pAoo/6IKJ/+fCif/
+nQon/5wKJv+dCib/hggf+DMDC7gAAABqAAAAKwAAAAgidzMPJoE5himGPf8qh0D/K4hB/yuKQv8sjEP/
+LI1D/y2PRP8tkUT/LpJG/y6URv8vlkf/MJhI/zCbSf8wnEr/MZ5K/zKgS/8zok3/NKRP/zSmT/80qFD/
+OKxU/0CxW/9HtmH/SLlk/0m7ZP9KvWX/SsBm/0vDZ/9MxWj/TMdp/03Jav9PzGz/T85r/0XNZP+g67L/
+9v74////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////+fr/+KCx/+kgRP/oIkf/5iNJ/+MiR//gIkf/3iJG/9siRf/YIkX/
+1SFE/9MhQ//QIUP/zSBB/8kZO//EEDP/wAwv/74ML/+8DC7/ugwu/7cLLP+1Cyz/swss/7ALK/+tCyr/
+qwsq/6kLKf+nCin/pQoo/6QKKP+hCif/oAon/54KJv+cCib/nQom/4AIHfMqAwmxAAAAZQAAACgAAAAH
+AEBABCZ9OmYohTz5KohA/yuIQf8riUL/K4tC/yyNQ/8tjkT/LZBE/y6SRf8uk0b/L5VH/y+XSP8wmkn/
+MJxK/zGdSv8xn0v/M6FN/zOjTv80pk//NalQ/zWrUf83rVP/PLFY/0O2Xv9GuWL/SLtj/0i+ZP9JwWX/
+SsNm/0rFZ/9Lx2j/Tcpq/03Maf9Cy2L/nuqw//b++P//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////j6//iesP/oHkH/
+5iBF/+QgRv/hH0X/3x9E/9wfRP/ZH0P/1h9C/9MfQv/RHkH/zho9/8oTNv/GDTH/wwww/8AML/+9DC//
+uwwu/7kMLv+2Cyz/tAss/7ILK/+wCyv/rQsq/6sLKv+pCyn/pwop/6UKKP+jCij/oQon/58KJ/+dCib/
+nAom/54KJf9yCBrqHQIGpQAAAF0AAAAjAAAABQAAAAAnejhWKIU87iqIQP8qiED/K4lB/yyLQv8sjUP/
+LI5D/y2QRP8tkkX/LpNG/y+VR/8vl0f/MJlJ/zCbSf8xnUr/MZ9L/zOhTf8zo07/NKVP/zWoUP81qlH/
+NqxS/zevU/86slf/QbZd/0W7YP9GvWL/R8Bj/0jCZP9IxGb/ScZn/0vJaP9Ly2f/QMph/5zprv/2/vj/
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////4+v/4na7/5hs//+UdQ//jHkT/4B1D/90dQv/bHUL/2B1B/9YcQP/TGz//
+zxc7/8sRNP/IDTH/xQ0w/8IMMP/ADC//vQwu/7oMLv+4DC3/tgss/7MLLP+xCyv/rwsr/6wLKv+qCyn/
+qAsp/6YKKf+lCij/ogoo/6EKJ/+eCif/nQom/5wKJv+dCiX/ZgYW4xUCBZ0AAABWAAAAHgAAAAMAAAAA
+I3g2QieEPNkqiED/KodB/yuJQf8ri0L/LIxD/yyOQ/8tkET/LZFF/y6TRv8ulUf/L5ZH/zCZSP8wm0n/
+MZ1K/zGeS/8zoE3/M6JO/zSkT/80plD/NalR/zasUv83rlP/N7BU/zmzV/8+t1v/Qrtf/0W+Yv9GwGL/
+RsNk/0fEZf9Jx2b/Scll/z7IXv+c563/9v34////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////+Pr/95yt/+UZPf/kG0H/
+4hxC/98bQf/cG0D/2RtA/9cbP//UGD3/0BM4/80PM//JDTH/xw0x/8QNMP/BDDD/vwwv/7wMLv+6DC7/
+twwt/7ULLP+zCyz/sQsr/68LK/+sCyr/qgsp/6gKKf+mCin/pAoo/6IKKP+gCif/ngon/5wKJv+bCib/
+mwok/1gFFNoKAAKTAAAATgAAABkAAAACAAAAACV2MikmgTy8K4lB/yqHQP8riUH/K4tC/yyMQv8sjUP/
+LY9E/y2RRf8ukkX/LpRG/y+WR/8vmEj/MJpJ/zCcSv8xnkr/MqBM/zOiTf80pE7/NKZP/zWpUP82q1H/
+Nq1S/zevU/84sVT/ObRW/zy4Wv9Au13/Q79g/0TBYv9Fw2P/R8Zk/0fIY/88x1z/m+es//b9+P//////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////j5//aarP/kFzr/4xg//+AZQP/eGT//2xk+/9gYPf/VFTr/0hE2/80OM//LDTL/
+yA0x/8YNMf/DDDD/wQwv/74ML/+7DC7/uQwu/7cMLf+0Cyz/sgsr/7ALK/+uCyr/qwsq/6kLKf+nCin/
+pgoo/6QKKP+iCif/oAon/54KJ/+cCib/nAom/5cJI/9EAg/NAgAAhgAAAEQAAAATAAAAAQAAAAAdbDEa
+JoA7oSqIQP8qh0D/K4hB/yuKQv8sjEL/LI1D/y2PRP8tkET/LZJF/y6URv8vlUf/L5hI/zCaSf8wm0r/
+MZ1K/zKfTP8zoU3/M6NO/zSlT/81qFD/NapR/zasUv83r1P/N7FU/zizVf85tVb/OrhY/z28W/9Av17/
+Q8Fh/0XDYv9ExmH/OsVZ/5nmq//2/ff/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////4+f/2mqr/4hQ5/+AWPP/eFz7/
+2xc9/9kUOv/VETf/0g40/88NM//MDTL/yg0x/8cNMf/FDTD/wwww/8AML/++DC7/uwwu/7gMLf+2DC3/
+tAss/7ILK/+wCyv/rgsq/6sLKv+pCyn/pwop/6UKKP+jCij/oQon/6AKJ/+dCif/mwom/5wKJv+PCCH9
+NQMMwQAAAHsAAAA6AAAADgAAAAAAAAAAHFUcCSR8OXkphj7/KodA/yuIQf8rikH/K4tC/yyNQ/8sjkT/
+LZBE/y2RRf8uk0b/L5VH/y+XSP8wmUj/MJtJ/zGdSv8yn0z/M6FN/zOiTv80pU//NKdQ/zWpUf82rFL/
+N65S/zewVP84slX/ObRW/zm3V/86uVj/PLxa/z6/XP9BwV//QsRf/zjDWP+Y5Kr/9v33////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////+Pn/9pmq/+ETN//fFDr/3BQ7/9kROP/WDzb/0w40/9ENM//PDTP/yw0y/8kNMf/GDTH/
+xA0w/8IMMP+/DC//vAwu/7oMLv+4DC3/tQwt/7MLLP+xCyv/rwsr/60LKv+qCyr/qAsp/6YKKf+kCij/
+owoo/6EKJ/+fCif/nQom/5sKJv+dCif/hQcg9yMBCbEAAABtAAAAMAAAAAoAAAAAAAAAAAAAAAEhejhW
+KYQ99SqIQP8qiED/K4lB/yuLQv8sjEP/LI5D/y2PRP8tkUX/LpNG/y6URv8vl0f/L5hI/zCaSf8xnEr/
+Mp5L/zKgTP8zok3/NKRO/zSnT/81qVD/NqtR/zatUv83r1P/N7FU/zizVf85tlb/ObhX/zq6WP87vFn/
+Pb9b/z7BW/81wVX/l+Op//X99///////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////f5//WWqP/eDzT/3BA1/9oPNv/XDjX/
+1Q40/9INM//QDTP/zQ0y/8oNMf/HDTH/xQ0w/8MMMP/BDC//vgwv/7sMLv+5DC7/twwt/7ULLP+yCyv/
+sAsr/64LKv+rCyr/qgsp/6gKKf+mCin/pAoo/6IKJ/+gCif/nwon/5wKJv+bCib/mwom/3kGHe8TAAOh
+AAAAXwAAACUAAAAFAAAAAAAAAAAAAAAAH3AzMiiCPeAriUH/KodA/yuJQf8ri0L/LIxC/yyNQ/8tj0T/
+LZFE/y6SRf8ulEb/L5VH/y+YSP8wmkn/MJtK/zGdS/8yn0z/M6FN/zOjTv80pk//NKhQ/zWqUf82rFL/
+N65T/zewVP84slX/OLVW/zm3V/86uVj/O7tZ/zy9Wv88v1n/Mb5S/5Tipv/1/ff/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////3+f/1lKb/3Asw/9oNNP/YDjb/1g40/9QONP/RDTP/zw0z/8wNMv/JDTH/xg0x/8QNMP/CDDD/
+wAwv/70MLv+6DC7/uAwt/7YMLf+0Cyz/sgsr/7ALK/+uCyr/rAsq/6kLKf+nCin/pQoo/6MKKP+iCif/
+oAon/54KJ/+dCib/nAom/5YJJP9jBRjiAgAAkAAAAFAAAAAbAAAAAwAAAAAAAAAAAAAAACFkNxcngTvC
+KohA/yqHQP8riEH/K4pB/yyMQv8sjUP/LI5E/y2QRP8tkkX/LpNG/y+VR/8vl0f/MJlI/zCbSf8xnUv/
+Mp5M/zOgTf8zok7/NKVP/zSnT/81qVD/NqtR/zatUv83r1P/OLFU/zi0Vf85tlb/ObhX/zq6WP87vFr/
+O75Z/zG9Uf+T4aX/9f33////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////9/n/9JSl/9oLMP/ZDTT/1w41/9QONP/SDTP/
+0A0z/80NMv/KDTH/xw0x/8UNMP/DDDD/wQwv/78ML/+8DC7/uQwu/7cMLf+1DCz/swss/7ELK/+vCyr/
+rQsq/6sLKv+oCyn/pgop/6UKKP+jCij/oQon/58KJ/+eCib/mwom/5wKJv+OCCL8SgQS0wAAAH8AAABB
+AAAAEgAAAAEAAAAAAAAAAAAAAAAAAAADJns4lSmEPfoqh0D/KohB/yuJQf8ri0L/LIxD/yyOQ/8tkET/
+LZFF/y6TRf8ulUb/L5ZH/y+YSP8wmkn/MZxK/zGeS/8yn0z/M6FN/zOkTv80pk//NKhQ/zWqUf82rFH/
+N61T/zewVP84sVT/OLRW/zm2Vv86uFf/O7pZ/zu8WP8wu1D/k9+l//X99///////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//f4//OUpP/YCy//1w0z/9UONf/TDTP/0Q0z/84NMv/MDTL/yg0x/8YNMf/EDTD/wgwv/8AML/++DC7/
+uwwu/7gMLf+2DC3/tAss/7ILLP+wCyv/rgsq/6wLKv+qCyn/pwop/6YKKf+kCij/ogon/6AKJ/+fCif/
+nQom/5sKJv+dCib/fgce9CgDCb0AAABtAAAAMQAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAACNyNWAogj7k
+KohB/yqIQP8riUH/K4tC/yyMQv8sjUP/LY9E/y2QRP8tkkX/LpNG/y+WR/8vl0j/MJlJ/zGbSv8xnUv/
+Mp9M/zOgTf8zo03/NKVP/zSnT/81qFD/NatR/zasUv83rlP/N7FU/zizVf84tVb/ObdX/zq5WP86u1f/
+MLlP/5LepP/1/Pf/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////3+P/zk6T/1wsv/9UNM//TDjT/0Q0z/88NM//NDTL/
+yg0x/8cNMf/FDTD/wwww/8EML/+/DC//vAwu/7oMLv+3DC3/tQws/7MLLP+xCyz/rwsr/60LKv+rCyr/
+qQsp/6cKKf+lCij/owoo/6EKJ/+gCif/ngon/5wKJv+bCib/lwkl/2cGGOYMAAKnAAAAWwAAACMAAAAF
+AAAAAAAAAAAAAAAAAAAAAAAAAAAcYC0tJn47wiqGP/8qh0D/K4hB/yuKQf8si0L/LI1D/yyORP8tkET/
+LZFF/y6TRv8ulUf/L5dH/zCYSP8xmkr/MZxK/zGeS/8yn0z/M6JN/zOkTv80pk//NKdQ/zWpUf82q1H/
+Nq1S/zevU/83slT/OLRV/zm1Vv86t1f/OrlW/y+4Tv+S3aT/9fz3////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////9/j/
+85Kj/9UKLv/UDTL/0g40/88NM//MDTL/yg0x/8kNMf/GDTH/xAww/8IMMP+/DC//vQwu/7sMLv+5DC3/
+tgwt/7QLLP+yCyz/sAsr/64LKv+sCyr/qgsp/6kKKf+mCin/pAoo/6IKKP+hCif/nwon/54KJv+cCib/
+nAom/44IIvtGBBHTAAAAkgAAAEcAAAAWAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCJ3OI4ogj73
+KodA/yqIQP8riUH/K4tC/yyMQ/8sjkP/LY9E/y2RRP8uk0X/LpRG/y+WR/8vl0j/MJlJ/zGbSv8xnUv/
+Mp5M/zOhTf8zo03/NKRO/zSmT/81qFD/NapR/zarUv83rVP/N7BT/ziyVP84s1X/ObVW/zm3Vf8vtU3/
+ktuj//X89v//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////f4//KSo//SCi3/0Q0y/88NM//NDTL/yw0y/8kNMf/HDTH/
+xA0w/8IMMP/ADC//vgwu/7wMLv+6DC7/uAwt/7UMLP+zCyz/sQss/68LK/+tCyr/qwsq/6oLKf+oCin/
+pQoo/6MKKP+iCif/oAon/58KJ/+dCib/mwom/5sKJv97Bh3zIAEHugAAAH8AAAA0AAAADAAAAAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAdZzBPJ4A93SqIQf8qh0D/K4lB/yuKQf8sjEL/LI1D/yyORP8tkET/
+LZJF/y6TRv8ulUf/L5dH/zCZSf8wmkr/MZxK/zGeS/8yoEz/M6JN/zOjTv80pU7/NKdP/zWoUP81qlH/
+NqxS/zeuU/83sFT/OLFV/zmzVv85tVX/LrNN/5Hao//1/Pb/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////3+P/wkaL/
+0Akt/88MMf/NDTP/yw0y/8kNMf/HDTH/xQ0w/8IMMP/ADC//vgwv/7wMLv+6DC7/uAwt/7cMLf+0Cyz/
+sgss/7ALK/+uCyv/rAsq/6oLKf+pCyn/pgop/6QKKP+jCij/oQon/58KJ/+eCif/nAom/5sKJv+VCSP+
+XAUW4AMAAKMAAABqAAAAIwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEUdGiN6OK0phT/8
+KodA/yqIQP8riUH/K4tC/yyMQ/8sjkP/LY9E/y2RRP8uk0X/LpRG/y+WR/8wmEj/MJlJ/zGbSv8xnUv/
+Mp9L/zKgTP8zok3/M6RO/zSlT/80p1D/NalQ/zWqUf82rVL/N65T/zewVP84slX/OLRU/y6yTP+R2aH/
+9fz2////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////+9/j/7pGh/84JLP/NDDH/yw0y/8kNMf/HDTH/xQ0w/8MMMP/BDC//
+vwwv/70MLv+7DC7/uQwt/7cMLf+1Cyz/swss/7ELLP+vCyv/rQsr/6sLKv+pCyn/qAop/6UKKP+kCij/
+ogon/6AKJ/+fCif/nQom/5wKJv+bCib/hwcg9zIDC8gAAACNAAAAVAAAABQAAAACAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEdZS5YJ3884yqHQP8qh0D/KohA/yuJQf8ri0L/LIxD/yyOQ/8tj0T/
+LZFF/y2SRf8ulEb/L5ZI/zCXSP8wmUn/MJtK/zGdSv8xnkv/MqBM/zOiTf8zo03/NKVO/zSnT/81qVD/
+NatR/zasUf82rlL/N7BT/zeyUv8ssEr/kNeg//X79v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////vb4/+yQoP/LCSv/
+ywww/8kNMf/HDTD/xQww/8MMMP/BDC//vwwv/70MLv+7DC7/uQwt/7cMLf+1Cyz/swss/7ELK/+vCyv/
+rQsq/6sLKv+pCyn/pwop/6YKKP+jCij/ogon/6AKJ/+fCif/nQom/5wKJv+bCib/lQgk/mAGFuQGAAKo
+AAAAcgAAADYAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACTUSHSR4N7AohT78
+KoZA/yqIQP8riUH/K4pB/yyMQv8sjUP/LI9D/y2QRP8tkUX/LpNG/y+VR/8vlkj/MJhI/zCZSf8xnEr/
+MZ1L/zKfS/8yoEz/M6JN/zOkTv80pU7/NKhP/zWpUP81q1H/NqxR/zeuUv83sFH/LK5J/4/Wn//0+/b/
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////72+P/rj5//yQgq/8kML//HDTH/xQww/8MMMP/CDC//wAwv/70MLv+7DC7/
+uQwt/7cMLf+2Cyz/tAss/7ILLP+wCyv/rgsr/6wLKv+qCyr/qAop/6YKKP+lCij/ogoo/6EKJ/+fCif/
+ngom/5wKJv+bCib/mwol/4cHIfkxAwrKAAAAkAAAAFgAAAAiAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAIfZC5jJ4E86SqGP/8qh0D/KohB/yuJQf8ri0L/LIxC/yyOQ/8tj0T/
+LZBE/y2SRf8ulEb/L5VH/y+XSP8wmUn/MJtJ/zGcSv8xnkv/Mp9L/zKhTP8zok3/M6RO/zSmT/80qE//
+NalQ/zWqUf82rFL/Nq5R/yusSP+P1Z//9Pv2////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////+9vj/6o+f/8cIKv/HDS//
+xQ0w/8MMMP/CDC//wAwv/70MLv+7DC7/ugwt/7gMLf+2Cyz/tAss/7MLLP+xCyv/rwsr/6wLKv+rCyr/
+qQsp/6cKKf+lCij/pAoo/6IKJ/+gCif/ngon/50KJv+bCib/mgom/5gJJP5lBRjoBwABrQAAAHoAAAA9
+AAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCkQHyR2OLMohT/8
+KoZA/yqHQP8riUH/K4pC/yyLQv8sjUP/LI5D/y2QRP8tkUT/LpNG/y+UR/8vlkf/L5hI/zCZSf8wm0r/
+MZxK/zGeS/8yn0z/MqFM/zOiTf8zpE7/NKZP/zSoT/81qVD/NqtR/zasUP8rqkf/jtOe//T79v//////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////vb4/+mOnv/FCCn/xAwu/8MMMP/BDC//wAwv/74MLv+7DC7/ugwt/7cMLf+2DCz/
+tQss/7MLLP+xCyv/rwsr/64LKv+rCyr/qgsq/6gLKf+mCij/pAoo/6MKJ/+hCif/nwon/54KJv+cCib/
+mwom/5oJJf+HByH5MAMKygAAAJQAAABdAAAAJQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAUcXCpbJ3485iqGP/8qh0D/KohA/yuJQf8rikL/LIxC/yyNQ/8sj0T/
+LZBE/y6SRf8uk0b/L5VH/y+XSP8wmEj/MJlJ/zCbSv8xnEr/MZ5L/zKfTP8yoUz/M6JN/zOkTv80pU7/
+NKZP/zWoUP81qk//KadG/43Snf/0+/b/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////329//mjp3/wggo/8ILLv/BDC//
+vwwv/70MLv+7DC7/ugwt/7gMLf+2DCz/tAss/7MLLP+xCyv/rwsr/64LKv+sCyr/qgsq/6gLKf+nCin/
+pQoo/6MKKP+iCif/oAon/54KJ/+dCib/mwom/5oKJf+XCSX/XwQW5QYAAa0AAAB7AAAAPwAAABIAAAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABChQKGiFvNKEqhD77
+KoY//yqHQP8riEH/K4pB/yuLQv8sjEP/LI5D/y2PRP8tkUX/LpJG/y6URv8vlkf/L5dI/zCYSP8wmkn/
+MJtK/zGcSv8xnkv/Mp9M/zKhTP8zok3/M6RO/zSlTv80p0//NKlO/ymlRv+M0J3/9Pv2////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////99vf/5Y2d/78HKP/ACy3/vwwv/70MLv+7DC7/ugwt/7cMLf+2DCz/tAss/7MLLP+xCyv/
+rwsr/64LK/+sCyr/qwsq/6kLKf+nCin/pgop/6QKKP+iCif/oQon/58KJ/+dCib/nAom/5oKJv+ZCSX/
+gQcf9iMBCcQAAACTAAAAWwAAACQAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAUSSiVFJns52CmFP/4qhkD/KodA/yuJQf8rikH/K4tC/yyNQ/8sjkP/
+LZBE/y2RRf8uk0b/LpRG/y+WR/8vl0j/MJhI/zCaSf8wm0r/MZxK/zGeS/8yn0z/MqFM/zOiTf8zo03/
+NKVO/zSnTf8po0X/i8+b//T79f//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////fb3/+ONnP+9Byf/vgst/70MLv+7DC7/
+uQwt/7gMLf+2DCz/tAss/7MLLP+xCyv/sAsr/64LK/+sCyr/qwsq/6kLKf+nCyn/pgop/6QKKP+iCif/
+oQon/6AKJ/+eCib/nAom/5sKJv+aCiX/kwgi/UsFEdwCAACmAAAAdgAAADoAAAARAAAAAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA8AER1gLX0ofzz1
+KoY//yqHQP8qiED/K4lB/yuLQv8sjEL/LI1D/y2PRP8tkET/LZJF/y6TRv8ulEb/L5ZH/y+XSP8wmEj/
+MJpJ/zCbSv8xnEr/MZ5L/zKfS/8yoEz/M6FN/zOjTv8zpU3/KKFE/4rOmv/0+vX/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////329//hjJv/uwcn/7wLLP+7DC7/uQwt/7cMLf+2Cyz/tQss/7MLLP+xCyv/sAsr/64LK/+tCyr/
+qwsq/6oLKf+oCyn/pgop/6UKKP+jCij/oQon/6AKJ/+fCif/nQom/5sKJv+aCib/mQkl/24FG+4RAAO5
+AAAAiwAAAFMAAAAfAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAAUGJRMpIXA0simEPf4qhj//KodA/yqIQf8rikH/K4tC/yyMQv8sjkT/
+LY9E/y2QRf8ukkX/LpNG/y6UR/8vlkf/L5dI/zCYSP8wmkn/MJtK/zGcSv8xnkv/Mp9L/zKgTP8zok3/
+M6NM/yifQ/+IzZj/8/r1////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////99vf/4Iya/7kHJv+6Cyz/uQwt/7cMLf+2Cyz/
+tAss/7MLLP+xCyv/rwsr/64LK/+tCyr/qwsq/6oLKf+oCyn/pwop/6UKKP+kCij/ogoo/6AKJ/+fCif/
+nQom/5wKJv+aCib/mwkl/4UHIfgsAQvLAAAAnQAAAGkAAAAxAAAADAAAAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACxNEHU8ldzfY
+KYZA/yqGQP8qh0D/K4lB/yuKQf8ri0L/LI1D/yyORP8tj0T/LZFF/y6SRf8uk0b/LpRH/y+WR/8vl0j/
+MJhI/zCZSf8wm0r/MZxK/zGdS/8xnkv/MqBM/zKhS/8nnUL/h8yW//P69P//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/fb3/9+Lmf+3Byb/uAws/7cMLf+1Cyz/tAss/7MLLP+xCyv/rwsr/64LK/+sCyr/qwsq/6oLKf+oCyn/
+pwop/6YKKP+kCij/ogoo/6EKJ/+fCif/ngom/5wKJv+bCib/mwkl/5III/5LAxHbAwABrAAAAH4AAABE
+AAAAFwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAWGFMldSZ9O+8piED/KodA/yqIQP8riUH/K4pB/yyMQ/8sjUP/
+LI5E/y2QRP8tkUX/LpJF/y6TRv8ulEb/L5ZH/y+XSP8wmEj/MJlJ/zCbSf8xnEr/MZ1K/zKeS/8yoEr/
+J5xB/4XJlf/z+vT/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////z19//eipn/tQcl/7ULK/+1Cyz/swss/7ILLP+xCyv/
+rwsr/64LKv+sCyr/qwsq/6oLKf+oCyn/pwop/6YKKP+kCij/owoo/6EKJ/+gCif/ngom/50KJv+bCib/
+mwol/5gJJf9kBRjpDgAEtwAAAI4AAABXAAAAIwAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABwYaBigcYS6b
+KII9+CqIQP8qh0D/KohA/yuJQf8ri0L/LIxD/yyNQ/8sj0T/LZBE/y2RRf8ukkX/LpNG/y6URv8vlkf/
+L5dI/y+YSP8wmEn/MJlJ/zCaSv8xnUr/MZ1J/yaZQf+DxpL/8vr0////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////89ff/
+3IqY/7IGJP+zCir/sgss/7ILK/+wCyv/rgsr/64LKv+sCyr/qwsq/6kLKf+oCyn/pwop/6YKKP+kCij/
+owoo/6EKJ/+gCif/nwon/50KJv+bCib/mwol/5sJJv91BhvyIQEHxAAAAJwAAABqAAAAMQAAAA4AAAAB
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAMDSMROx5pMrgohD/8KodA/yqHQP8qiED/K4pC/yuLQv8sjEP/
+LI1D/yyORP8tj0T/LZBF/y2SRf8uk0b/LpRG/y+VR/8vlkf/L5dI/zCYSP8wmUn/MZpK/zGcSf8lmED/
+gsSR//L59P//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////PX2/9uIl/+wBiT/sQsq/7ELLP+vCyv/rgsr/6wLKv+rCyr/
+qgsq/6kLKf+nCyn/pgop/6UKKP+kCij/owoo/6EKJ/+gCif/nwon/50KJv+bCib/mgom/5wJJv+BBx/3
+MAILzgIAAKYAAAB4AAAAQQAAABYAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAABMPNhtV
+Im41zCmEP/8qh0D/KodA/yuJQf8rikL/K4tC/yyMQ/8sjUP/LI5E/y2PRP8tkET/LZFF/y6SRv8uk0b/
+L5RH/y+VR/8vlkj/MJdI/zCZSf8wmkj/JZY//4HCj//y+fP/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////z19v/Zh5X/
+rgYk/68LKv+vCyv/rQsq/6wLKv+rCyr/qgsq/6gLKf+nCin/pgop/6UKKP+kCij/ogoo/6EKJ/+gCif/
+nwon/50KJv+cCib/mgom/5wJJv+HByD6QQQO1wMAAa4AAACFAAAATgAAAB8AAAAHAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAGxREHmYjcTbWKYU//yqHQP8qiED/K4lB/yuKQv8ri0L/
+LIxD/yyNQ/8sjkT/LY9E/y2QRP8tkUX/LpJF/y6TRv8ulEb/L5VH/y+WSP8wl0j/MJlH/yWVP/+AwI7/
+8vjy////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////////79fb/14aT/6wGJP+uCyn/rQsr/6sLKv+qCyr/qQsp/6gLKf+nCin/
+pgop/6QKKP+jCij/ogoo/6EKJ/+gCif/nwon/50KJv+cCib/mwom/5wJJv+LByL7SwMR3QoAAbMAAACN
+AAAAWwAAACgAAAALAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAZ
+ETMXWiBqMcUogz3+KodA/yqHQP8qiED/K4lB/yuKQf8ri0L/LIxC/yyNQ/8sjkP/LY9E/y2QRP8tkUT/
+LZJF/y6TRv8ulEb/L5VH/y+XRv8kkz7/fr6M/+/17v/+/fz//v38///+/f////7////+////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////v////7///79//79/P/9/fz/+PPz/9SEkf+qBiP/
+rAso/6sLKv+pCyn/qAop/6cKKf+mCij/pQoo/6QKKP+iCif/oQon/6AKJ/+fCif/ngom/50KJv+bCib/
+mgom/5wJJv+DBx/2PQIO1QYAAa8AAACKAAAAWAAAACgAAAAMAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAB4QNRhgH2kxxSmGP/8qiED/KodA/yqIQP8riUH/
+K4pB/yuLQv8sjEL/LI1D/yyOQ/8sj0T/LZBE/y2QRP8tkUX/LZJF/y6URv8ulUX/JJE9/3y8i//s8uz/
++/n5//v6+v/8+/v//fz8//79/f///v7//v/+///+//////7/////////////////////////////////
+/////////////////////////////////////////////////////////v///v///v/+///+/v/+/f3/
+/fz8//z7+//7+vr/+vr5//bw8P/RgpD/qAYi/6oLKP+pCyn/pwop/6YKKP+lCij/pAoo/6MKKP+iCif/
+oQon/6AKJ/+fCif/ngom/50KJv+cCib/mgom/5wKJv+MCCL7PgQO1QcAAbEAAACOAAAAXwAAAC4AAAAO
+AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAK
+AAAAIBAvF2IibjXaKYQ//yqIQP8qh0D/KohA/yuJQf8rikH/K4tC/yyMQv8sjEP/LI1D/yyOQ/8tj0T/
+LZBE/y2RRf8ukkX/LpNE/yOPPP97uon/6e/q//j29//49/f/+fn4//r6+f/7+/r//Pv7//38+//+/fz/
+/v79//7+/v/+/v7///7+///+/v////7////+/////v////7////+/////v////7////+///+/v///v7/
+/v7+//7+/v/+/v3//v38//38+//8+/v/+/v6//r6+f/5+fj/+Pf3//f39//z7u7/z4CO/6YGIv+oCij/
+pwop/6YKKP+lCij/pAoo/6MKKP+iCif/oQon/6AKJ/+fCif/nQom/5wKJv+bCib/mgol/5wJJv+KByL6
+TgMS3gYAAbEAAACPAAAAYgAAADIAAAASAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAoAAAAiDzkadR9pMtMogj3/KodA/yqHQP8qh0D/
+KohB/yuJQf8rikH/K4tC/yyMQv8sjUP/LI5D/yyPRP8tj0T/LZFE/y2SQ/8jjjv/eriI/+ft5//29PT/
+9vX0//f29f/39/b/+Pj3//n5+P/6+fn/+/r5//z7+v/8+/r//fz8//79/P/+/fz//v39//7+/f/+/v3/
+/v79//7+/f/+/v3//v79//79/f/+/fz//v38//38/P/8+/r//Pv6//v6+f/6+fn/+fn4//j49//39/b/
+9/b1//b19P/09fT/8evr/81+i/+kBiH/pgon/6YKKP+jCij/ogoo/6IKJ/+hCif/oAon/58KJ/+eCib/
+nQom/5wKJv+bCib/mgol/5sJJf+FByD4RQMQ2wsAA7YAAACOAAAAYgAAADIAAAASAAAABAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC
+AAAACgAGACoMLBNpHmAuxCd/PPsqh0D/KoZA/yqHQP8qiED/K4lB/yuKQf8rikL/LItC/yyMQv8sjUP/
+LI5D/y2PRP8tkEP/I4w7/3i1hv/k6uT/8/Hx//Py8f/08/L/9PTz//X19P/29vX/9/b2//j39v/5+Pf/
++fj3//r5+f/6+vn/+/r5//v6+f/8+vr/+/r6//v6+v/7+vr/+/r6//z6+v/7+vn/+/r5//r6+f/6+fn/
++fj3//n49//49/b/9/b2//b29f/19fT/9PTz//Tz8v/z8vH/8fLx/+7o6P/Kfov/ogYh/6QKJ/+jCij/
+ogon/6EKJ/+gCif/nwon/54KJ/+dCib/nAom/5sKJv+aCib/mwkl/5oJJf97Bx30NgIM0wcAAbIAAACS
+AAAAXgAAADIAAAASAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAANAAAAJQYXC1kZUyawJXk49CqGQP8qhj//
+KodA/yqHQP8riEH/K4lB/yuKQv8ri0L/LIxC/yyMQ/8sjUP/LI5C/yKKOv93s4T/4efh/+/u7v/v7u7/
+8O/v//Hw8P/y8fD/8/Lx//Pz8v/08/P/9fTz//X09P/29fX/9/b1//f29f/39/X/+Pf2//n39v/49/b/
++Pf2//n39v/49/b/9/f1//f29f/39vX/9vX1//X09P/19PP/9PPz//Pz8v/z8vH/8vHw//Hw8P/w7+//
+7+7u/+7v7v/r5eX/x3yJ/6AFIf+iCib/ogon/6AKJ/+fCif/ngon/54KJv+dCib/nAom/5sKJv+aCib/
+mwkl/5UJJP9uBhvtJgEJyQMAAKsAAACMAAAAYgAAAC0AAAAQAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAgAAAAoAAAAgAwoHSxM+HZUibzTjKIQ9/iqGP/8qhkD/KodA/yqIQP8riUH/K4lB/yuKQf8ri0L/
+LIxC/yyNQf8iiTr/dbGD/97k3//t6+v/7ezr/+7t7P/u7u3/7+7u//Dv7v/x8O//8fDw//Lx8P/z8fH/
+8/Py//Tz8v/08/P/9PTz//T08//09PP/9fTz//X08//09PP/9PTz//T08//08/P/9PPy//Pz8v/z8fH/
+8vHw//Hw8P/x8O//8O/u/+/u7v/u7u3/7u3s/+3s6//s7Ov/6OLj/8V6h/+eBSH/oAom/6AKJ/+fCif/
+ngon/50KJv+cCib/mwom/5oKJv+aCiX/mQkl/4sHIfxXBRXiFQAFvwIAAKQAAACDAAAAWAAAAC8AAAAO
+AAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAABsABAA8DSgRehxcK8smfDz4
+KYU//yqGP/8qh0D/KodA/yqIQf8riUH/K4lB/yuLQv8ri0H/Ioc5/3Ovgv/c4tz/6unp/+rp6f/r6ur/
+7Ovq/+zs6//t7Oz/7u3s/+/u7f/v7u3/8O/u//Dw7//x8O//8fDw//Hw8P/x8fD/8fHw//Hx8P/x8fD/
+8fHw//Hx8P/x8PD/8fDw//Hw7//w8O//8O/u/+/u7f/v7u3/7u3s/+3s7P/s7Ov/7Ovq/+vq6v/q6en/
+6enp/+bg4P/Eeob/nQUg/58KJf+eCif/nQom/5wKJv+bCib/mwom/5oKJf+aCSX/lwkl/noGHfQ6Ag3U
+BwADtAAAAJoAAAB2AAAATAAAACYAAAAPAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAGAAAAFQAAADEDDgVeFEUfpyJvNOcogj78KoY//yqGQP8qh0D/KohA/yqIQP8riUH/
+K4pA/yGGOP9zroD/2t/a/+jm5v/o5+b/6Ojn/+no6P/q6ej/6+rp/+vr6v/s6+v/7Ozr/+3s6//u7ez/
+7u3s/+/t7f/v7u3/7+7t/+/u7f/v7u3/7+7t/+/u7f/v7u3/7+7t/+/t7f/u7ez/7u3s/+3s6//s7Ov/
+7Ovr/+vr6v/r6un/6uno/+no6P/o6Of/6Ofm/+fn5v/k3t7/wniF/5sFIP+dCiX/nQom/5wKJv+bCib/
+mgom/5oJJf+YCSX/iwch+l0EFuYdAQjEAAAAqQAAAI4AAABnAAAAPgAAAB0AAAAJAAAAAgAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAOAAAAJQAAAEcIIBCB
+G1UoxiR3N/Epgz79KoY//yqGQP8qh0D/KohA/yqJP/8hhTj/cqx//9jd2P/m5OT/5eTk/+bl5P/n5uX/
+5+fm/+jn5//p6Of/6ejo/+rp6P/q6en/6+vp/+zr6v/s6+r/7Ovr/+zr6//s7Ov/7Ozr/+zs6//s7Ov/
+7Ovr/+zr6//s6+r/7Ovq/+vr6f/q6en/6uno/+no6P/p6Of/6Ofn/+fn5v/n5uX/5uXk/+Xk5P/k5eT/
+4dvc/793g/+aBSD/nAol/5sKJv+aCiX/mwol/5kJJf+QCCL8cQYc7jYEDNEGAAG0AAAAnAAAAH0AAABV
+AAAAMAAAABUAAAAGAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAZAAAANAAAAF4PMBaaHF0r1SR3OPUpgz7+KodA/yqIQP8qhz//
+IIM3/3Cqfv/V2tb/4+Hi/+Li4f/j4uL/5OPi/+Xk4//l5OT/5uXk/+bm5f/n5uX/5+bm/+jn5v/o5+f/
+6efn/+no5//p6Of/6ejn/+np5//p6ef/6ejn/+no5//p6Of/6efn/+jn5//o5+b/5+bm/+fm5f/m5uX/
+5uXk/+Xk5P/l5OP/5OPi/+Pi4v/i4uH/4uLh/97a2v++doL/mAUf/5oKJP+bCib/mAkl/5AHIvx3Bh3x
+RQQQ2hABA7wAAACkAAAAiwAAAGkAAABCAAAAIgAAAA4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAABEAAAAm
+AAAAQwIHAm0RNRelG1wr1iR1NvIogz3+Koc+/yCDOP9vqH3/0tjU/+De3//f397/4N/f/+Lg3//i4eD/
+4+Hh/+Pj4f/j4+L/5OPi/+Tj4//l5OP/5eTk/+bk5P/m5eT/5uXk/+bl5P/m5uT/5ubk/+bl5P/m5eT/
+5uXk/+bk5P/l5OT/5eTj/+Tj4//k4+L/4+Pi/+Pj4f/j4eH/4uHg/+Lg3//g39//39/e/9/f3v/c2Nj/
+vXWB/5kFH/+ZCST/kQgi/HQGG/BKAxHcGAAFvwAAAKgAAACSAAAAdQAAAFIAAAAwAAAAFgAAAAgAAAAB
+AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAABcAAAAuAAAASwAHBHIOLxajG1ss1yNxNfEdejT8
+b6h8/9TZ1f/h39//3t3d/97d3P/f3t3/397e/+Df3v/g4N//4eDf/+Hg4P/i4eD/4uLh/+Pi4f/j4uL/
+4+Li/+Pj4v/j4+L/4+Pi/+Pj4v/j4+L/4+Pi/+Pi4v/j4uL/4+Lh/+Li4f/i4eD/4eDg/+Hg3//g4N//
+4N/e/9/e3v/f3t3/397d/9/e3f/g4eD/3tjY/7Zzfv+HAxv6cgUa70wDEt0VAAS+AAAAqQAAAJMAAAB6
+AAAAWwAAADoAAAAeAAAADQAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD
+AAAADAAAABwAAAAyAAAATQIGAngOLBSjD0kcylmCY+a4vLn11NLT/t7d3P/h4N//4N/f/9/e3f/e3t3/
+3t3c/97e3f/f3t7/39/e/+Df3//g39//4ODf/+Dg3//g4N//4eDf/+Hg3//h4N//4eDf/+Dg3//g4N//
+4ODf/+Df3//g39//39/e/9/e3v/e3t3/393d/97e3v/g397/4eDg/+Df3//a2dj/zMzL+7KtrfR5Uljn
+OgAK1BYABL0AAACnAAAAkAAAAHgAAABcAAAAPgAAACQAAAARAAAABgAAAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAFAAAADgAAAB0AAAA3AAAAUAAAAG0bIhyQ
+VlhWtIaEhNKoqKfnvr699M/Ozfza2dn/4N/e/+Lh4P/h4eD/4ODe/9/e3v/f3d3/397d/9/e3P/e3t3/
+3t7d/9/e3f/f3t3/397d/9/e3f/e3t3/3t7d/9/e3f/f3t3/397d/+Df3v/g4N//4uHh/+Lh4P/e3dz/
+1NTU/8fHxvqxsLDzk5KR52dnZ9g1NDXFCgwKsQAAAJ8AAACNAAAAdwAAAFcAAAA8AAAAJQAAABMAAAAH
+AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAADAAAACQAAABUAAAAkAAAAOAAAAE8AAABoFxcVhDAyMJ5RUVG3b21ty4yMit2jo6Po
+uLi388XFxPvQ0M/+2trZ/93d3P/g39//4eDh/+Lh4f/j4uL/4+Pi/+Pi4v/j4uL/4uHh/+Df3//f3t7/
+3Nzb/9fX1v/Lysn9vr69+Kyrq/CVlJTpeHh431dXV9I5OTnEHh4etQYFBaUAAACWAAAAhAAAAHEAAABa
+AAAAQgAAAC0AAAAYAAAADAAAAAUAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABwAAABAAAAAc
+AAAALAAAAD4AAABTAAAAaAYGBnwbGxuQKSsroD8/PrJQTlDAYGBfyXl5eNeFhYTgkZCQ5JiYl+efnp7p
+o6Oi6aWlpOmjo6LqoJ+f6puamumUlJPniomJ5X59feBtbGzXU1NSzkNDQ8cvLy+9Hh4esg4ODqgAAACa
+AAAAjQAAAH4AAABuAAAAXAAAAEcAAAAzAAAAIgAAABQAAAAKAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAoAAAASAAAAHQAAACsAAAA6AAAASQAAAFgAAABn
+AAAAdAAAAIAODg6PFhYWmR0bG6AhIR+kIyMjqCUlJKslJSWsJSUlriMjI64gICCtHBwcqxcXF6gRERGj
+CAYGnQAAAJQAAACMAAAAgwAAAHgAAABsAAAAXwAAAE8AAABAAAAAMAAAACIAAAAWAAAADAAAAAUAAAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAAAAMAAAAIAAAADwAAABcAAAAhAAAAKgAAADQAAAA+AAAASQAAAFIAAABaAAAAYAAAAGQAAABp
+AAAAbAAAAG4AAABuAAAAbQAAAGoAAABnAAAAYwAAAF0AAABUAAAATAAAAEIAAAA4AAAALgAAACMAAAAa
+AAAAEQAAAAsAAAAFAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAABAAAAAgAAAAM
+AAAAEAAAABYAAAAbAAAAIAAAACQAAAAoAAAAKwAAAC0AAAAtAAAALQAAAC0AAAArAAAAKAAAACYAAAAi
+AAAAGwAAABYAAAARAAAADQAAAAkAAAAFAAAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABwAAAAcAAAAH
+AAAABwAAAAcAAAAHAAAABwAAAAcAAAAFAAAABQAAAAMAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4BAAADAAAAAQBw
+AAABAQADAAAAAQBwAAABAgADAAAABAAAxLYBAwADAAAAAQABAAABBgADAAAAAQACAAABEQAEAAAAAQAA
+AAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQBwAAABFwAEAAAAAQAAxAABHAADAAAAAQAB
+AAABUgADAAAAAQACAAABUwADAAAABAAAxL6HcwAHAAAMSAAAxMYAAAAAAAgACAAIAAgAAQABAAEAAQAA
+DEhMaW5vAhAAAG1udHJSR0IgWFlaIAfOAAIACQAGADEAAGFjc3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAA
+AAAAAAAAAAD21gABAAAAANMtSFAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEWNwcnQAAAFQAAAAM2Rlc2MAAAGEAAAAbHd0cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJY
+WVoAAAIYAAAAFGdYWVoAAAIsAAAAFGJYWVoAAAJAAAAAFGRtbmQAAAJUAAAAcGRtZGQAAALEAAAAiHZ1
+ZWQAAANMAAAAhnZpZXcAAAPUAAAAJGx1bWkAAAP4AAAAFG1lYXMAAAQMAAAAJHRlY2gAAAQwAAAADHJU
+UkMAAAQ8AAAIDGdUUkMAAAQ8AAAIDGJUUkMAAAQ8AAAIDHRleHQAAAAAQ29weXJpZ2h0IChjKSAxOTk4
+IEhld2xldHQtUGFja2FyZCBDb21wYW55AABkZXNjAAAAAAAAABJzUkdCIElFQzYxOTY2LTIuMQAAAAAA
+AAAAAAAAEnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAABYWVogAAAAAAAA81EAAQAAAAEWzFhZWiAAAAAAAAAAAAAAAAAAAAAAWFlaIAAA
+AAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZWiAAAAAAAAAkoAAAD4QAALbPZGVzYwAA
+AAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNo
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAALklF
+QyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAALklFQyA2
+MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AABkZXNjAAAAAAAAACxSZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAA
+AAAAAAAAAAAsUmVmZXJlbmNlIFZpZXdpbmcgQ29uZGl0aW9uIGluIElFQzYxOTY2LTIuMQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAdmlldwAAAAAAE6T+ABRfLgAQzxQAA+3MAAQTCwADXJ4AAAABWFlaIAAA
+AAAATAlWAFAAAABXH+dtZWFzAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACjwAAAAJzaWcgAAAAAENS
+VCBjdXJ2AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABt
+AHIAdwB8AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEH
+AQ0BEwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZ
+AeEB6QHyAfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC6wL1
+AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAELQQ7BEgEVQRj
+BHEEfgSMBJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYn
+BjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghG
+CFoIbgiCCJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrF
+CtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2p
+DcMN3g34DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1
+ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixSt
+FM4U8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjV
+GPoZIBlFGWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1w
+HZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKC
+Iq8i3SMKIzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgN
+KD8ocSiiKNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4W
+Lkwugi63Lu4vJC9aL5Evxy/+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSe
+NNg1EzVNNYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuq
+O+g8JzxlPKQ84z0iPWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6
+Q31DwEQDREdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtT
+S5pL4kwqTHJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2
+VEJUj1TbVShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0n
+XXhdyV4aXmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1mkmbo
+Zz1nk2fpaD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6
+cZVx8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwh
+fIF84X1BfaF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4ef
+iASIaYjOiTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2
+lCCUipT0lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf+qBp
+oNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24
+ri2uoa8Wr4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7urW7Lrun
+vCG8m70VvY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4
+yrfLNsu2zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls
+2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG
+6dDqW+rl63Dr++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH
++lf65/t3/Af8mP0p/br+S/7c/23//9IiIyQlWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU0JpdG1hcElt
+YWdlUmVwoyQmJ1pOU0ltYWdlUmVwWE5TT2JqZWN00iIjKSpXTlNBcnJheaIpJ9IiIywtXk5TTXV0YWJs
+ZUFycmF5oywpJ9MvMAkxMjNXTlNXaGl0ZVxOU0NvbG9yU3BhY2VEMCAwABADgAvSIiM1NldOU0NvbG9y
+ojUn0iIjODlXTlNJbWFnZaI4J18QD05TS2V5ZWRBcmNoaXZlctE8PVRyb290gAEACAARABoAIwAtADIA
+NwBFAEsAVABbAGgAbwB3AHkAfgCAAIIAhwCSAJQAlgCYAJ0AoACiAKQApgCoAK0AxADGAMjR2tHf0erR
+89IG0grSFdIe0iPSK9Iu0jPSQtJG0k3SVdJi0mfSadJr0nDSeNJ70oDSiNKL0p3SoNKlAAAAAAAAAgEA
+AAAAAAAAPgAAAAAAAAAAAAAAAAAA0qc
+</mutableData>
+        </image>
         <image name="eng" width="81" height="81"/>
         <image name="france" width="121" height="121"/>
         <image name="ger" width="110" height="110"/>
-        <image name="italy" width="112" height="112"/>
         <image name="jap" width="120" height="120"/>
         <image name="learning" width="104" height="105"/>
         <image name="sound1.png" width="50" height="44"/>

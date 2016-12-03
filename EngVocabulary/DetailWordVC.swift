@@ -51,13 +51,19 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(DetailWordVC.update), userInfo: nil, repeats: true)
         if category == "New Added Words" {
             path = getPath("/newdata.plist")
+            if let tempData = NSMutableDictionary(contentsOfFile: path) {
+                for (_, element) in tempData.enumerated() {
+                    print("element = \(element.value)")
+                }
+            }
+            
         } else {
             path = Bundle.main.path(forResource: category, ofType: "plist")!
+            dictData = NSDictionary(contentsOfFile: path)!
+            arrayKeys = dictData.allKeys as NSArray!
         }
+ 
         
-        dictData = NSDictionary(contentsOfFile: path)!
-        
-        arrayKeys = dictData.allKeys as NSArray!
         
         switch settings.level! {
         case "Easy":
@@ -300,23 +306,3 @@ extension UIColor {
     }
 }
 
-
-typealias UnixTime = Int
-
-extension UnixTime {
-    private func formatType(form: String) -> DateFormatter {
-        let dateFormatter = DateFormatter()
-        dateFormatter.locale = NSLocale(localeIdentifier: "en_US") as Locale!
-        dateFormatter.dateFormat = form
-        return dateFormatter
-    }
-    var dateFull: NSDate {
-        return NSDate(timeIntervalSince1970: Double(self))
-    }
-    var toHour: String {
-        return formatType(form: "HH:mm").string(from: dateFull as Date)
-    }
-    var toDay: String {
-        return formatType(form: "MM/dd/yyyy").string(from: dateFull as Date)
-    }
-}
