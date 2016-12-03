@@ -38,7 +38,9 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         // if need write word to restudy
         dataPath = getPath("/restudy.plist")
         studyPath = getPath("/wordReStudy.plist")
-        print("getPathdataPath = \(dataPath)")
+        
+        print("category = \(category)")
+        
         let tempData:[String: NSDictionary] = [:]
         if (!FileManager.default.fileExists(atPath: dataPath)) {
             let temp = NSDictionary(dictionary: tempData)
@@ -47,8 +49,11 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         
         // T.O.D.O
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(DetailWordVC.update), userInfo: nil, repeats: true)
-        
-        path = Bundle.main.path(forResource: "items", ofType: "plist")!
+        if category == "New Added Words" {
+            path = getPath("/newdata.plist")
+        } else {
+            path = Bundle.main.path(forResource: category, ofType: "plist")!
+        }
         
         dictData = NSDictionary(contentsOfFile: path)!
         
@@ -67,13 +72,12 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         count = limitTime
         
         let key: String = arrayKeys[index] as! String
-//        print("arrayKeys count = \(arrayKeys.count)")
         changeContent(key: key, colorGroup: settings.flashCardColor!, wordType: settings.wordType)
     }
     
     
     @IBAction func setWordLevel(_ sender: CustomButtonSettings) {
-
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -109,7 +113,7 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
     //
     func createText(_ textView: UITextView,_ text: String,_ color: UIColor,_ font: UIFont) {
         textView.text = text
-//        textView.textColor = colorText // colorText: UIColor
+        //        textView.textColor = colorText // colorText: UIColor
         textView.font = font
         textView.backgroundColor = color
         textView.textAlignment = .center
@@ -179,7 +183,7 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         default:
             print("not found color")
         }
-
+        
         switch wordType {
         case "wordFont1":
             wordFontNames = ["Avenir-BlackOblique", "Baskerville-BoldItalic", "ChalkboardSE-Bold", "Superclarendon-BoldItalic"]
@@ -200,7 +204,7 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
         }
         
         dictDetail = NSDictionary(dictionary: dictData[key]! as! Dictionary)
-  
+        
         items = word(text: key, sentence: dictDetail["sentence"]! as! String, meaning: dictDetail["meaning"]! as! String, type: dictDetail["type"]! as! String, vocal: dictDetail["vocalization"]! as! String, sound: dictDetail["sound"]! as! String, image: dictDetail["image"]! as! String, synonym: dictDetail["synonym"]! as! String, time: dictDetail["time"]! as! Int)
         
         // get time to restudy
@@ -230,7 +234,7 @@ class DetailWordVC: BaseViewController, AVAudioPlayerDelegate {
             dataWord?[items.text! as String] = wordTime as NSDictionary
             dataWord?.write(toFile: studyPath, atomically: true)
         }
-
+        
         
         audio = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: items.sound!, ofType: "mp3")!))
         audio.delegate = self

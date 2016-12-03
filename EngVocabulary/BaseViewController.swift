@@ -45,8 +45,11 @@ class BaseViewController: UIViewController {
         let userFileDir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
         
         let userInfoPath = userFileDir.appending(fileName)
+        
         print(userInfoPath)
+        
         return userInfoPath
+        
     }
     
     func alertBox(_ title: String,_ message: String,_ actionTitle: String) {

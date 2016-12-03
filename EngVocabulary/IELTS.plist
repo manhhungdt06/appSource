@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abandon</key>
+	<dict>
+		<key>sentence</key>
+		<string>Fearing further attacks, most of the population abandoned the city.</string>
+		<key>meaning</key>
+		<string>từ bỏ</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əˈbændən /</string>
+		<key>sound</key>
+		<string>abandon_v</string>
+		<key>image</key>
+		<string>abandon.jpeg</string>
+		<key>synonym</key>
+		<string></string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>abbreviate</key>
+	<dict>
+		<key>sentence</key>
+		<string>In writing, the title &quot;Doctor&quot; is abbreviated to &quot;Dr&quot;.</string>
+		<key>meaning</key>
+		<string>viết tắt</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əˈbriːvieɪt /</string>
+		<key>sound</key>
+		<string>abbreviate_v</string>
+		<key>image</key>
+		<string>abbreviate.jpeg</string>
+		<key>synonym</key>
+		<string>shorten</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>absorb</key>
+	<dict>
+		<key>sentence</key>
+		<string>If you stay out in the sun too long, UV radiation will be absorbed into your skin and causes skin cancer.</string>
+		<key>meaning</key>
+		<string>hấp thụ</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əbˈsɔːrb /</string>
+		<key>sound</key>
+		<string>absorb_v</string>
+		<key>image</key>
+		<string>absorb.jpeg</string>
+		<key>synonym</key>
+		<string></string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>accommodate</key>
+	<dict>
+		<key>sentence</key>
+		<string>I was accommodated in this hotel during my business trip.</string>
+		<key>meaning</key>
+		<string>cung cấp nơi ở</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əˈkɑːmədeɪt /</string>
+		<key>sound</key>
+		<string>accommodate_v</string>
+		<key>image</key>
+		<string>accommodate.jpeg</string>
+		<key>synonym</key>
+		<string>house</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>balance</key>
+	<dict>
+		<key>sentence</key>
+		<string>The tightrope walker can balance on a piece of rope expertly.</string>
+		<key>meaning</key>
+		<string>giữ thăng bằng</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ ˈbæləns /</string>
+		<key>sound</key>
+		<string>balance_v</string>
+		<key>image</key>
+		<string>balance.jpeg</string>
+		<key>synonym</key>
+		<string></string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

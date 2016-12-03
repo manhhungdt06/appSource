@@ -53,17 +53,7 @@ class InfoScreenVC: UIViewController {
     
 
     @IBAction func next(_ sender: CustomButton) {
-        let nextScr = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
+        let nextScr = storyboard?.instantiateViewController(withIdentifier: "LangDetailVC") as! LanguageDetailVC
         self.navigationController?.pushViewController(nextScr, animated: true)
-    }
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
+    }    
 }

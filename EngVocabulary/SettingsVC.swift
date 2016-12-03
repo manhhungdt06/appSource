@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingsVC: UIViewController {
+class SettingsVC: BaseViewController {
     
     var setting: SettingParam!
     
@@ -20,7 +20,7 @@ class SettingsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.isNavigationBarHidden = false
         setting = SettingParam(level: "Easy", language: "English", flashCardColor: "ColorGroup1", wordType: "wordFont1", time: 86400)
         // Do any additional setup after loading the view.
     }
@@ -92,8 +92,13 @@ class SettingsVC: UIViewController {
         }
     }
     
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        self.navigationController?.isNavigationBarHidden = true
+//    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if(segue.identifier == "TopicVC") {
+        if(segue.identifier == "MenuVC") {
             
             if dayField.text == "" { dayField.text = "0" }
             if hourField.text == "" { hourField.text = "0" }
@@ -103,21 +108,9 @@ class SettingsVC: UIViewController {
             print("setting.time = \(setting.time!)")
             
             
-            let dest: TopicVC = segue.destination as! TopicVC
+            let dest: LanguageDetailVC = segue.destination as! LanguageDetailVC
             dest.settingParams = setting
         }
-    }
-    
-    func alertBox(_ title: String,_ message: String,_ actionTitle: String) {
-        
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
-        let alertAction = UIAlertAction(title: actionTitle, style: .default, handler: nil)
-        
-        alertController.addAction(alertAction)
-        
-        present(alertController, animated: true, completion: nil)
-        
     }
 }
 

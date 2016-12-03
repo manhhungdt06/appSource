@@ -22,8 +22,6 @@ class LoginVC: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        userName.becomeFirstResponder()
-        
         self.navigationController?.isNavigationBarHidden = true
         updateContraint(logoTop)
         let userInfoPath = getPath("/userInfo.plist")
@@ -41,28 +39,17 @@ class LoginVC: BaseViewController {
     }
     
     @IBAction func loginAction(_ sender: UIButton) {
-        //        if userName.text == "" || passWord.text == "" {
-        //            alertBox("Error", "Vui lòng nhập username và password", "Try Again")
-        //        }
-        //        else if checkLogin(userName.text!, passWord.text!) {
-        ////            let listLangVC = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
-        ////            self.navigationController?.pushViewController(listLangVC, animated: true)
-        //        }
-        //        else {
-        //            alertBox("Error", "Username hoặc mật khẩu không đúng", "Try Again")
-        //        }
+        if userName.text == "" || passWord.text == "" {
+            alertBox("Error", "Vui lòng nhập username và password", "Try Again")
+        }
+        else if checkLogin(userName.text!, passWord.text!) {
+            let nextScr = storyboard?.instantiateViewController(withIdentifier: "LangDetailVC") as! LanguageDetailVC
+            self.navigationController?.pushViewController(nextScr, animated: true)
+        }
+        else {
+            alertBox("Error", "Username hoặc mật khẩu không đúng", "Try Again")
+        }
         
-        // study word
-//        let listLangVC = storyboard?.instantiateViewController(withIdentifier: "ListLangVC") as! ListLanguageVC
-//        self.navigationController?.pushViewController(listLangVC, animated: true)
-        
-        //         AddNewWordVC
-        //        let addNewWordVC = storyboard?.instantiateViewController(withIdentifier: "AddNewWordVC") as! AddNewWordVC
-        //        self.navigationController?.pushViewController(addNewWordVC, animated: true)
-        
-        //         SettingsVC
-        let settingsVC = storyboard?.instantiateViewController(withIdentifier: "SettingsVC") as! SettingsVC
-        self.navigationController?.pushViewController(settingsVC, animated: true)
     }
     
     @IBAction func signupAction(_ sender: UIButton) {

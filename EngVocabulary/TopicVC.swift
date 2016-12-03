@@ -11,11 +11,10 @@ import UIKit
 class TopicVC: UIViewController {
     var items: [LangItem] = []
     var settingParams: SettingParam!
-    var wordTime: Int!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
-
+        
         var myDict: NSDictionary?
         if let path = Bundle.main.path(forResource: "topic", ofType: "plist") {
             myDict = NSDictionary(contentsOfFile: path)
@@ -29,11 +28,16 @@ class TopicVC: UIViewController {
             }
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //    override func viewWillDisappear(_ animated: Bool) {
+    //        super.viewWillDisappear(animated)
+    //        self.navigationController?.isNavigationBarHidden = true
+    //    }
 }
 
 extension TopicVC: UICollectionViewDataSource {
@@ -57,10 +61,6 @@ extension TopicVC: UICollectionViewDelegate {
         
         studyWordView?.category = items[(indexPath as NSIndexPath).item].name
         studyWordView?.settings = settingParams
-        
-        // get name of plist file: TOEIC/ TOEFL/ IELTS ...
-        // level, flashcardColor, wordType, ? time restudy
-        print("items: \(items[(indexPath as NSIndexPath).item].name)")
         self.navigationController?.pushViewController(studyWordView!, animated: true)
     }
 }

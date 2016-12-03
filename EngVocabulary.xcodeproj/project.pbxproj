@@ -10,11 +10,6 @@
 		84044C731DE7F732007E6B60 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84044C721DE7F732007E6B60 /* BaseViewController.swift */; };
 		84044C771DE7F784007E6B60 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84044C761DE7F784007E6B60 /* LoginVC.swift */; };
 		84044C791DE7F874007E6B60 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84044C781DE7F874007E6B60 /* SignUpVC.swift */; };
-		841852211DED3E1D00C06D95 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 8418521C1DED3E1D00C06D95 /* new.png */; };
-		841852221DED3E1D00C06D95 /* major.png in Resources */ = {isa = PBXBuildFile; fileRef = 8418521D1DED3E1D00C06D95 /* major.png */; };
-		841852231DED3E1D00C06D95 /* ielts.png in Resources */ = {isa = PBXBuildFile; fileRef = 8418521E1DED3E1D00C06D95 /* ielts.png */; };
-		841852241DED3E1D00C06D95 /* toefl.png in Resources */ = {isa = PBXBuildFile; fileRef = 8418521F1DED3E1D00C06D95 /* toefl.png */; };
-		841852251DED3E1D00C06D95 /* toeic.png in Resources */ = {isa = PBXBuildFile; fileRef = 841852201DED3E1D00C06D95 /* toeic.png */; };
 		841852271DED42B000C06D95 /* DetailCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841852261DED42B000C06D95 /* DetailCellVC.swift */; };
 		842025201DE824C100D356FC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420251F1DE824C100D356FC /* CustomTextField.swift */; };
 		842025221DE82E0500D356FC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842025211DE82E0500D356FC /* BaseNavigationController.swift */; };
@@ -23,7 +18,6 @@
 		842025251DE8358600D356FC /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84044C6C1DE7F000007E6B60 /* SF-UI-Text-Medium.otf */; };
 		842025261DE8358800D356FC /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84044C6D1DE7F000007E6B60 /* SF-UI-Text-Regular.otf */; };
 		842025271DE8358A00D356FC /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84044C6E1DE7F000007E6B60 /* SF-UI-Text-Semibold.otf */; };
-		8420252C1DE8433600D356FC /* ListLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420252B1DE8433600D356FC /* ListLanguageVC.swift */; };
 		8420252E1DE84B4F00D356FC /* LanguageDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420252D1DE84B4F00D356FC /* LanguageDetailVC.swift */; };
 		843EEFA11DEE5E5900468693 /* homeData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843EEFA01DEE5E5900468693 /* homeData.plist */; };
 		843EEFA31DEE6AD900468693 /* homePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843EEFA21DEE6AD900468693 /* homePost.swift */; };
@@ -32,14 +26,39 @@
 		84A1B2E41DEE78610027B476 /* user2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1B2E21DEE78610027B476 /* user2.png */; };
 		84A1B2E61DEE7A810027B476 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1B2E51DEE7A810027B476 /* CustomTextView.swift */; };
 		84A1B2EC1DEE914C0027B476 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1B2EB1DEE914C0027B476 /* HomeVC.swift */; };
-		84A1B2EE1DEE945C0027B476 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1B2ED1DEE945C0027B476 /* HomeCell.swift */; };
 		84A92A001DE87A11004CBA08 /* LangItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A929FF1DE87A11004CBA08 /* LangItem.swift */; };
 		84A92A021DE87C02004CBA08 /* language.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A92A011DE87C02004CBA08 /* language.plist */; };
 		84AD17BD1DED281B001D7C1B /* InfoScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD17BC1DED281B001D7C1B /* InfoScreenVC.swift */; };
 		84AD17BF1DED288B001D7C1B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD17BE1DED288B001D7C1B /* UserInfo.swift */; };
 		84AD17C11DED2B66001D7C1B /* AddPhotoUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD17C01DED2B66001D7C1B /* AddPhotoUser.png */; };
-		84AD17C31DED2E45001D7C1B /* topic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AD17C21DED2E45001D7C1B /* topic.plist */; };
 		84AD17C51DED3354001D7C1B /* TopicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD17C41DED3354001D7C1B /* TopicVC.swift */; };
+		84AF76461DF2513D00B8A44B /* topic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76451DF2513D00B8A44B /* topic.plist */; };
+		84AF764C1DF2517700B8A44B /* nouveau.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76481DF2517700B8A44B /* nouveau.png */; };
+		84AF764D1DF2517700B8A44B /* FreC1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76491DF2517700B8A44B /* FreC1.jpg */; };
+		84AF764E1DF2517700B8A44B /* FreB1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF764A1DF2517700B8A44B /* FreB1.jpg */; };
+		84AF764F1DF2517700B8A44B /* FreA1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF764B1DF2517700B8A44B /* FreA1.jpg */; };
+		84AF76541DF2518000B8A44B /* EspB2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76501DF2518000B8A44B /* EspB2.jpg */; };
+		84AF76551DF2518000B8A44B /* Espnew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76511DF2518000B8A44B /* Espnew.jpg */; };
+		84AF76561DF2518000B8A44B /* EspA1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76521DF2518000B8A44B /* EspA1.png */; };
+		84AF76571DF2518000B8A44B /* EspC1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76531DF2518000B8A44B /* EspC1.jpg */; };
+		84AF765D1DF2518600B8A44B /* JapN2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76581DF2518600B8A44B /* JapN2.jpg */; };
+		84AF765E1DF2518600B8A44B /* JapNew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76591DF2518600B8A44B /* JapNew.jpg */; };
+		84AF765F1DF2518600B8A44B /* JapN1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF765A1DF2518600B8A44B /* JapN1.jpg */; };
+		84AF76601DF2518600B8A44B /* JapN3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF765B1DF2518600B8A44B /* JapN3.jpg */; };
+		84AF76611DF2518600B8A44B /* JapN5.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF765C1DF2518600B8A44B /* JapN5.png */; };
+		84AF76661DF2518E00B8A44B /* GerNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76621DF2518E00B8A44B /* GerNew.png */; };
+		84AF76671DF2518E00B8A44B /* GerC1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76631DF2518E00B8A44B /* GerC1.jpg */; };
+		84AF76681DF2518E00B8A44B /* GerB1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76641DF2518E00B8A44B /* GerB1.png */; };
+		84AF76691DF2518E00B8A44B /* GerA2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76651DF2518E00B8A44B /* GerA2.png */; };
+		84AF766F1DF2519400B8A44B /* newword.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF766A1DF2519400B8A44B /* newword.png */; };
+		84AF76701DF2519400B8A44B /* ielts.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF766B1DF2519400B8A44B /* ielts.png */; };
+		84AF76711DF2519400B8A44B /* major.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF766C1DF2519400B8A44B /* major.png */; };
+		84AF76721DF2519400B8A44B /* toefl.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF766D1DF2519400B8A44B /* toefl.png */; };
+		84AF76731DF2519400B8A44B /* toeic.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF766E1DF2519400B8A44B /* toeic.png */; };
+		84AF767F1DF2594100B8A44B /* English Majors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AF767E1DF2594100B8A44B /* English Majors.plist */; };
+		84AF76811DF2594800B8A44B /* TOEIC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76801DF2594800B8A44B /* TOEIC.plist */; };
+		84AF76831DF2594D00B8A44B /* TOEFL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76821DF2594D00B8A44B /* TOEFL.plist */; };
+		84AF76851DF2595200B8A44B /* IELTS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AF76841DF2595200B8A44B /* IELTS.plist */; };
 		84E69D431DE7075400C754A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E69D421DE7075400C754A7 /* AppDelegate.swift */; };
 		84E69D451DE7075400C754A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E69D441DE7075400C754A7 /* ViewController.swift */; };
 		84E69D481DE7075500C754A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E69D461DE7075500C754A7 /* Main.storyboard */; };
@@ -50,11 +69,6 @@
 		84E69D721DE7085500C754A7 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E69D711DE7085500C754A7 /* SplashScreen.png */; };
 		84F9F4E01DED772B00D4D238 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F4DF1DED772B00D4D238 /* CustomButton.swift */; };
 		84F9F4E21DED775C00D4D238 /* ACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F4E11DED775C00D4D238 /* ACell.swift */; };
-		84F9F4E51DED7ABA00D4D238 /* toeic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4E41DED7ABA00D4D238 /* toeic.plist */; };
-		84F9F4E71DED7AD300D4D238 /* toefl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4E61DED7AD300D4D238 /* toefl.plist */; };
-		84F9F4E91DED7B3200D4D238 /* ielts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4E81DED7B3200D4D238 /* ielts.plist */; };
-		84F9F4EB1DED7B4B00D4D238 /* engmajors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4EA1DED7B4B00D4D238 /* engmajors.plist */; };
-		84F9F4ED1DED802100D4D238 /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4EC1DED802100D4D238 /* items.plist */; };
 		84F9F4EF1DED816E00D4D238 /* DetailWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F4EE1DED816E00D4D238 /* DetailWordVC.swift */; };
 		84F9F5BA1DED955100D4D238 /* abandon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4F11DED955100D4D238 /* abandon.jpeg */; };
 		84F9F5BB1DED955100D4D238 /* abbreviate.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F4F21DED955100D4D238 /* abbreviate.jpeg */; };
@@ -290,15 +304,9 @@
 		84044C721DE7F732007E6B60 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		84044C761DE7F784007E6B60 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		84044C781DE7F874007E6B60 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		8418521C1DED3E1D00C06D95 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
-		8418521D1DED3E1D00C06D95 /* major.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = major.png; sourceTree = "<group>"; };
-		8418521E1DED3E1D00C06D95 /* ielts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ielts.png; sourceTree = "<group>"; };
-		8418521F1DED3E1D00C06D95 /* toefl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toefl.png; sourceTree = "<group>"; };
-		841852201DED3E1D00C06D95 /* toeic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toeic.png; sourceTree = "<group>"; };
 		841852261DED42B000C06D95 /* DetailCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCellVC.swift; sourceTree = "<group>"; };
 		8420251F1DE824C100D356FC /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		842025211DE82E0500D356FC /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		8420252B1DE8433600D356FC /* ListLanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListLanguageVC.swift; sourceTree = "<group>"; };
 		8420252D1DE84B4F00D356FC /* LanguageDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageDetailVC.swift; sourceTree = "<group>"; };
 		843EEFA01DEE5E5900468693 /* homeData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = homeData.plist; sourceTree = "<group>"; };
 		843EEFA21DEE6AD900468693 /* homePost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePost.swift; sourceTree = "<group>"; };
@@ -307,14 +315,39 @@
 		84A1B2E21DEE78610027B476 /* user2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user2.png; sourceTree = "<group>"; };
 		84A1B2E51DEE7A810027B476 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		84A1B2EB1DEE914C0027B476 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		84A1B2ED1DEE945C0027B476 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		84A929FF1DE87A11004CBA08 /* LangItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LangItem.swift; sourceTree = "<group>"; };
 		84A92A011DE87C02004CBA08 /* language.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = language.plist; sourceTree = "<group>"; };
 		84AD17BC1DED281B001D7C1B /* InfoScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoScreenVC.swift; sourceTree = "<group>"; };
 		84AD17BE1DED288B001D7C1B /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		84AD17C01DED2B66001D7C1B /* AddPhotoUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddPhotoUser.png; sourceTree = "<group>"; };
-		84AD17C21DED2E45001D7C1B /* topic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topic.plist; sourceTree = "<group>"; };
 		84AD17C41DED3354001D7C1B /* TopicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicVC.swift; sourceTree = "<group>"; };
+		84AF76451DF2513D00B8A44B /* topic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topic.plist; sourceTree = "<group>"; };
+		84AF76481DF2517700B8A44B /* nouveau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nouveau.png; sourceTree = "<group>"; };
+		84AF76491DF2517700B8A44B /* FreC1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FreC1.jpg; sourceTree = "<group>"; };
+		84AF764A1DF2517700B8A44B /* FreB1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FreB1.jpg; sourceTree = "<group>"; };
+		84AF764B1DF2517700B8A44B /* FreA1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FreA1.jpg; sourceTree = "<group>"; };
+		84AF76501DF2518000B8A44B /* EspB2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EspB2.jpg; sourceTree = "<group>"; };
+		84AF76511DF2518000B8A44B /* Espnew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Espnew.jpg; sourceTree = "<group>"; };
+		84AF76521DF2518000B8A44B /* EspA1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EspA1.png; sourceTree = "<group>"; };
+		84AF76531DF2518000B8A44B /* EspC1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EspC1.jpg; sourceTree = "<group>"; };
+		84AF76581DF2518600B8A44B /* JapN2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapN2.jpg; sourceTree = "<group>"; };
+		84AF76591DF2518600B8A44B /* JapNew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapNew.jpg; sourceTree = "<group>"; };
+		84AF765A1DF2518600B8A44B /* JapN1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapN1.jpg; sourceTree = "<group>"; };
+		84AF765B1DF2518600B8A44B /* JapN3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapN3.jpg; sourceTree = "<group>"; };
+		84AF765C1DF2518600B8A44B /* JapN5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JapN5.png; sourceTree = "<group>"; };
+		84AF76621DF2518E00B8A44B /* GerNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GerNew.png; sourceTree = "<group>"; };
+		84AF76631DF2518E00B8A44B /* GerC1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GerC1.jpg; sourceTree = "<group>"; };
+		84AF76641DF2518E00B8A44B /* GerB1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GerB1.png; sourceTree = "<group>"; };
+		84AF76651DF2518E00B8A44B /* GerA2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GerA2.png; sourceTree = "<group>"; };
+		84AF766A1DF2519400B8A44B /* newword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newword.png; sourceTree = "<group>"; };
+		84AF766B1DF2519400B8A44B /* ielts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ielts.png; sourceTree = "<group>"; };
+		84AF766C1DF2519400B8A44B /* major.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = major.png; sourceTree = "<group>"; };
+		84AF766D1DF2519400B8A44B /* toefl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toefl.png; sourceTree = "<group>"; };
+		84AF766E1DF2519400B8A44B /* toeic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toeic.png; sourceTree = "<group>"; };
+		84AF767E1DF2594100B8A44B /* English Majors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "English Majors.plist"; sourceTree = "<group>"; };
+		84AF76801DF2594800B8A44B /* TOEIC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TOEIC.plist; sourceTree = "<group>"; };
+		84AF76821DF2594D00B8A44B /* TOEFL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TOEFL.plist; sourceTree = "<group>"; };
+		84AF76841DF2595200B8A44B /* IELTS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IELTS.plist; sourceTree = "<group>"; };
 		84E69D3F1DE7075400C754A7 /* EngVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E69D421DE7075400C754A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E69D441DE7075400C754A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -331,11 +364,6 @@
 		84E69D711DE7085500C754A7 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
 		84F9F4DF1DED772B00D4D238 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		84F9F4E11DED775C00D4D238 /* ACell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACell.swift; sourceTree = "<group>"; };
-		84F9F4E41DED7ABA00D4D238 /* toeic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = toeic.plist; sourceTree = "<group>"; };
-		84F9F4E61DED7AD300D4D238 /* toefl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = toefl.plist; sourceTree = "<group>"; };
-		84F9F4E81DED7B3200D4D238 /* ielts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ielts.plist; sourceTree = "<group>"; };
-		84F9F4EA1DED7B4B00D4D238 /* engmajors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = engmajors.plist; sourceTree = "<group>"; };
-		84F9F4EC1DED802100D4D238 /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
 		84F9F4EE1DED816E00D4D238 /* DetailWordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailWordVC.swift; sourceTree = "<group>"; };
 		84F9F4F11DED955100D4D238 /* abandon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abandon.jpeg; sourceTree = "<group>"; };
 		84F9F4F21DED955100D4D238 /* abbreviate.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abbreviate.jpeg; sourceTree = "<group>"; };
@@ -585,9 +613,9 @@
 		84044C6F1DE7F17C007E6B60 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				84AF76471DF2516800B8A44B /* topicimg */,
 				E285EB121DF1622600198FBD /* sound1.png */,
 				84A1B2DC1DEE759F0027B476 /* iconUser */,
-				84A1B2DB1DEE758D0027B476 /* engTopic */,
 				84F9F4F01DED955100D4D238 /* cardImages */,
 				84AD17C01DED2B66001D7C1B /* AddPhotoUser.png */,
 				84E69D711DE7085500C754A7 /* SplashScreen.png */,
@@ -601,7 +629,6 @@
 				841852181DED356D00C06D95 /* Cell */,
 				84044C761DE7F784007E6B60 /* LoginVC.swift */,
 				84044C781DE7F874007E6B60 /* SignUpVC.swift */,
-				8420252B1DE8433600D356FC /* ListLanguageVC.swift */,
 				8420252D1DE84B4F00D356FC /* LanguageDetailVC.swift */,
 				84AD17BC1DED281B001D7C1B /* InfoScreenVC.swift */,
 				84AD17C41DED3354001D7C1B /* TopicVC.swift */,
@@ -627,7 +654,6 @@
 			isa = PBXGroup;
 			children = (
 				84F9F4E11DED775C00D4D238 /* ACell.swift */,
-				84A1B2ED1DEE945C0027B476 /* HomeCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -641,18 +667,6 @@
 				E2EF1C351DF023C700F370EE /* CustomButtonSettings.swift */,
 			);
 			name = "Custom Class";
-			sourceTree = "<group>";
-		};
-		84A1B2DB1DEE758D0027B476 /* engTopic */ = {
-			isa = PBXGroup;
-			children = (
-				8418521C1DED3E1D00C06D95 /* new.png */,
-				8418521D1DED3E1D00C06D95 /* major.png */,
-				8418521E1DED3E1D00C06D95 /* ielts.png */,
-				8418521F1DED3E1D00C06D95 /* toefl.png */,
-				841852201DED3E1D00C06D95 /* toeic.png */,
-			);
-			name = engTopic;
 			sourceTree = "<group>";
 		};
 		84A1B2DC1DEE759F0027B476 /* iconUser */ = {
@@ -679,13 +693,45 @@
 		84A92A031DE87C13004CBA08 /* plist file */ = {
 			isa = PBXGroup;
 			children = (
-				84F9F4E31DED7A6F00D4D238 /* eng plist */,
+				84AF76841DF2595200B8A44B /* IELTS.plist */,
+				84AF76821DF2594D00B8A44B /* TOEFL.plist */,
+				84AF76801DF2594800B8A44B /* TOEIC.plist */,
+				84AF767E1DF2594100B8A44B /* English Majors.plist */,
+				84AF76451DF2513D00B8A44B /* topic.plist */,
 				84A92A011DE87C02004CBA08 /* language.plist */,
-				84AD17C21DED2E45001D7C1B /* topic.plist */,
 				843EEFA01DEE5E5900468693 /* homeData.plist */,
 				E2EF1C371DF0293500F370EE /* settings.plist */,
 			);
 			name = "plist file";
+			sourceTree = "<group>";
+		};
+		84AF76471DF2516800B8A44B /* topicimg */ = {
+			isa = PBXGroup;
+			children = (
+				84AF76501DF2518000B8A44B /* EspB2.jpg */,
+				84AF76511DF2518000B8A44B /* Espnew.jpg */,
+				84AF76581DF2518600B8A44B /* JapN2.jpg */,
+				84AF76591DF2518600B8A44B /* JapNew.jpg */,
+				84AF765A1DF2518600B8A44B /* JapN1.jpg */,
+				84AF765B1DF2518600B8A44B /* JapN3.jpg */,
+				84AF76621DF2518E00B8A44B /* GerNew.png */,
+				84AF76631DF2518E00B8A44B /* GerC1.jpg */,
+				84AF76641DF2518E00B8A44B /* GerB1.png */,
+				84AF76651DF2518E00B8A44B /* GerA2.png */,
+				84AF765C1DF2518600B8A44B /* JapN5.png */,
+				84AF766A1DF2519400B8A44B /* newword.png */,
+				84AF766B1DF2519400B8A44B /* ielts.png */,
+				84AF766C1DF2519400B8A44B /* major.png */,
+				84AF766D1DF2519400B8A44B /* toefl.png */,
+				84AF766E1DF2519400B8A44B /* toeic.png */,
+				84AF76521DF2518000B8A44B /* EspA1.png */,
+				84AF76531DF2518000B8A44B /* EspC1.jpg */,
+				84AF76481DF2517700B8A44B /* nouveau.png */,
+				84AF76491DF2517700B8A44B /* FreC1.jpg */,
+				84AF764A1DF2517700B8A44B /* FreB1.jpg */,
+				84AF764B1DF2517700B8A44B /* FreA1.jpg */,
+			);
+			name = topicimg;
 			sourceTree = "<group>";
 		};
 		84E69D361DE7075400C754A7 = {
@@ -753,18 +799,6 @@
 				84044C691DE7EFF4007E6B60 /* font */,
 			);
 			name = source;
-			sourceTree = "<group>";
-		};
-		84F9F4E31DED7A6F00D4D238 /* eng plist */ = {
-			isa = PBXGroup;
-			children = (
-				84F9F4EC1DED802100D4D238 /* items.plist */,
-				84F9F4E41DED7ABA00D4D238 /* toeic.plist */,
-				84F9F4E61DED7AD300D4D238 /* toefl.plist */,
-				84F9F4E81DED7B3200D4D238 /* ielts.plist */,
-				84F9F4EA1DED7B4B00D4D238 /* engmajors.plist */,
-			);
-			name = "eng plist";
 			sourceTree = "<group>";
 		};
 		84F9F4F01DED955100D4D238 /* cardImages */ = {
@@ -1108,13 +1142,16 @@
 				84F9F6781DED955100D4D238 /* transcend_v.mp3 in Resources */,
 				84F9F5F21DED955100D4D238 /* guarantee.jpeg in Resources */,
 				84F9F6021DED955100D4D238 /* necessitate.jpeg in Resources */,
+				84AF765F1DF2518600B8A44B /* JapN1.jpg in Resources */,
 				84F9F5BF1DED955100D4D238 /* accomplish.jpeg in Resources */,
+				84AF76851DF2595200B8A44B /* IELTS.plist in Resources */,
 				84F9F5D21DED955100D4D238 /* complement.jpeg in Resources */,
 				84F9F62E1DED955100D4D238 /* browse_v.mp3 in Resources */,
 				84F9F5FA1DED955100D4D238 /* inverse.jpeg in Resources */,
 				84F9F65C1DED955100D4D238 /* innovate_v.mp3 in Resources */,
 				84F9F5D31DED955100D4D238 /* component.jpeg in Resources */,
 				84F9F5C71DED955100D4D238 /* bewilder.jpeg in Resources */,
+				84AF76731DF2519400B8A44B /* toeic.png in Resources */,
 				84F9F63C1DED955100D4D238 /* defeat_v.mp3 in Resources */,
 				84F9F6791DED955100D4D238 /* transcribe_v.mp3 in Resources */,
 				84F9F5FE1DED955100D4D238 /* memorize.jpeg in Resources */,
@@ -1128,14 +1165,12 @@
 				84F9F5DF1DED955100D4D238 /* endure.jpeg in Resources */,
 				84F9F6751DED955100D4D238 /* succeed_v.mp3 in Resources */,
 				84F9F66E1DED955100D4D238 /* qualify_v.mp3 in Resources */,
-				84F9F4E91DED7B3200D4D238 /* ielts.plist in Resources */,
 				84F9F6451DED955100D4D238 /* enhance_v.mp3 in Resources */,
 				84F9F6001DED955100D4D238 /* modify.jpeg in Resources */,
 				84F9F5FD1DED955100D4D238 /* legislate.jpeg in Resources */,
 				84F9F6621DED955100D4D238 /* memorize_v.mp3 in Resources */,
 				84F9F6611DED955100D4D238 /* legislate_v.mp3 in Resources */,
 				84F9F5F71DED955100D4D238 /* immigrate.jpeg in Resources */,
-				84F9F4EB1DED7B4B00D4D238 /* engmajors.plist in Resources */,
 				84F9F6041DED955100D4D238 /* nominate.jpeg in Resources */,
 				84F9F5E71DED955100D4D238 /* exert.jpeg in Resources */,
 				84F9F6291DED955100D4D238 /* balance_v.mp3 in Resources */,
@@ -1153,16 +1188,17 @@
 				84F9F5CA1DED955100D4D238 /* browse.jpeg in Resources */,
 				84F9F6711DED955100D4D238 /* renowned_adj.mp3 in Resources */,
 				84F9F5F11DED955100D4D238 /* grasp.jpeg in Resources */,
-				841852211DED3E1D00C06D95 /* new.png in Resources */,
-				84F9F4E71DED7AD300D4D238 /* toefl.plist in Resources */,
+				84AF76831DF2594D00B8A44B /* TOEFL.plist in Resources */,
 				84F9F64B1DED955100D4D238 /* exert_v.mp3 in Resources */,
 				84F9F5FF1DED955100D4D238 /* modernize.jpeg in Resources */,
 				84F9F6031DED955100D4D238 /* neglect.jpeg in Resources */,
 				84F9F6271DED955100D4D238 /* antipathy_v.mp3 in Resources */,
-				84F9F4ED1DED802100D4D238 /* items.plist in Resources */,
+				84AF76551DF2518000B8A44B /* Espnew.jpg in Resources */,
 				84F9F6521DED955100D4D238 /* gorgeous_adj.mp3 in Resources */,
+				84AF76691DF2518E00B8A44B /* GerA2.png in Resources */,
 				84F9F60C1DED955100D4D238 /* remote.jpeg in Resources */,
 				84F9F5C21DED955100D4D238 /* anticipate.jpeg in Resources */,
+				84AF76601DF2518600B8A44B /* JapN3.jpg in Resources */,
 				E285EB131DF1622600198FBD /* sound1.png in Resources */,
 				84F9F5BB1DED955100D4D238 /* abbreviate.jpeg in Resources */,
 				84F9F5BC1DED955100D4D238 /* absorb.jpeg in Resources */,
@@ -1182,12 +1218,11 @@
 				84F9F66B1DED955100D4D238 /* penetrate_v.mp3 in Resources */,
 				84F9F66A1DED955100D4D238 /* occur_v.mp3 in Resources */,
 				84F9F6201DED955100D4D238 /* absorb_v.mp3 in Resources */,
-				84AD17C31DED2E45001D7C1B /* topic.plist in Resources */,
 				84F9F5D01DED955100D4D238 /* collide.jpeg in Resources */,
 				84F9F6651DED955100D4D238 /* narrate_v.mp3 in Resources */,
-				841852241DED3E1D00C06D95 /* toefl.png in Resources */,
 				84F9F5C51DED955100D4D238 /* balance.jpeg in Resources */,
 				84F9F67B1DED955100D4D238 /* ultimate_adj.mp3 in Resources */,
+				84AF76701DF2519400B8A44B /* ielts.png in Resources */,
 				84F9F6361DED955100D4D238 /* complement_v.mp3 in Resources */,
 				84F9F67C1DED955100D4D238 /* undertake_v.mp3 in Resources */,
 				84F9F6371DED955100D4D238 /* component_n.mp3 in Resources */,
@@ -1195,18 +1230,17 @@
 				84F9F61F1DED955100D4D238 /* abbreviate_v.mp3 in Resources */,
 				84F9F6331DED955100D4D238 /* collapse_v.mp3 in Resources */,
 				84F9F5CE1DED955100D4D238 /* coincide.jpeg in Resources */,
-				84F9F4E51DED7ABA00D4D238 /* toeic.plist in Resources */,
 				84F9F5CF1DED955100D4D238 /* collapse.jpeg in Resources */,
 				84F9F60A1DED955100D4D238 /* qualify.jpeg in Resources */,
 				84F9F5DC1DED955100D4D238 /* distort.jpeg in Resources */,
 				84F9F6581DED955100D4D238 /* hazardous_adj.mp3 in Resources */,
 				84E69D4A1DE7075500C754A7 /* Assets.xcassets in Resources */,
+				84AF76671DF2518E00B8A44B /* GerC1.jpg in Resources */,
 				84F9F6301DED955100D4D238 /* claim_v.mp3 in Resources */,
 				84F9F6681DED955100D4D238 /* nominate_v.mp3 in Resources */,
 				84F9F6231DED955100D4D238 /* accomplish_v.mp3 in Resources */,
 				84F9F5CD1DED955100D4D238 /* clarify.jpeg in Resources */,
 				84F9F5FC1DED955100D4D238 /* justify.jpeg in Resources */,
-				841852221DED3E1D00C06D95 /* major.png in Resources */,
 				84F9F6191DED955100D4D238 /* utter.jpeg in Resources */,
 				84F9F63E1DED955100D4D238 /* destroy_v.mp3 in Resources */,
 				84F9F5EB1DED955100D4D238 /* foster.jpeg in Resources */,
@@ -1214,6 +1248,7 @@
 				84F9F6571DED955100D4D238 /* habituated_adj.mp3 in Resources */,
 				84F9F60D1DED955100D4D238 /* renowned.jpeg in Resources */,
 				E2EF1C381DF0293500F370EE /* settings.plist in Resources */,
+				84AF76661DF2518E00B8A44B /* GerNew.png in Resources */,
 				84F9F5C11DED955100D4D238 /* analyze.jpeg in Resources */,
 				84F9F63B1DED955100D4D238 /* contribute_v.mp3 in Resources */,
 				84F9F6171DED955100D4D238 /* ultimate.jpeg in Resources */,
@@ -1221,11 +1256,14 @@
 				84F9F6601DED955100D4D238 /* justify_v.mp3 in Resources */,
 				84F9F6801DED955100D4D238 /* yield_v.mp3 in Resources */,
 				84F9F5ED1DED955100D4D238 /* glimpse.jpeg in Resources */,
+				84AF764E1DF2517700B8A44B /* FreB1.jpg in Resources */,
+				84AF764C1DF2517700B8A44B /* nouveau.png in Resources */,
 				84F9F5C91DED955100D4D238 /* breach.jpeg in Resources */,
 				84F9F6071DED955100D4D238 /* penetrate.jpeg in Resources */,
 				84F9F64C1DED955100D4D238 /* expand_v.mp3 in Resources */,
 				84F9F6101DED955100D4D238 /* stimulate.jpeg in Resources */,
 				84F9F64E1DED955100D4D238 /* falsify_v.mp3 in Resources */,
+				84AF76721DF2519400B8A44B /* toefl.png in Resources */,
 				84F9F62B1DED955100D4D238 /* bewilder_v.mp3 in Resources */,
 				84E69D721DE7085500C754A7 /* SplashScreen.png in Resources */,
 				84F9F5D41DED955100D4D238 /* compress.jpeg in Resources */,
@@ -1247,12 +1285,14 @@
 				84F9F6741DED955100D4D238 /* stimulate_v.mp3 in Resources */,
 				84F9F60E1DED955100D4D238 /* resist.jpeg in Resources */,
 				84F9F6111DED955100D4D238 /* succeed.jpeg in Resources */,
+				84AF76571DF2518000B8A44B /* EspC1.jpg in Resources */,
 				84F9F6721DED955100D4D238 /* resist_v.mp3 in Resources */,
 				84F9F6411DED955100D4D238 /* domesticate_v.mp3 in Resources */,
 				84F9F6241DED955100D4D238 /* adapt_v.mp3 in Resources */,
 				84F9F6061DED955100D4D238 /* occur.jpeg in Resources */,
 				84F9F62D1DED955100D4D238 /* breach_v.mp3 in Resources */,
 				84F9F64F1DED955100D4D238 /* foster_v.mp3 in Resources */,
+				84AF76811DF2594800B8A44B /* TOEIC.plist in Resources */,
 				84F9F65D1DED955100D4D238 /* invalidate_v.mp3 in Resources */,
 				84F9F6761DED955100D4D238 /* suspend_v.mp3 in Resources */,
 				84F9F62F1DED955100D4D238 /* circulate_v.mp3 in Resources */,
@@ -1260,9 +1300,12 @@
 				84A92A021DE87C02004CBA08 /* language.plist in Resources */,
 				84F9F67D1DED955100D4D238 /* utter_v.mp3 in Resources */,
 				84F9F5C61DED955100D4D238 /* benefit.jpeg in Resources */,
-				841852231DED3E1D00C06D95 /* ielts.png in Resources */,
+				84AF76611DF2518600B8A44B /* JapN5.png in Resources */,
+				84AF764D1DF2517700B8A44B /* FreC1.jpg in Resources */,
 				84F9F6321DED955100D4D238 /* coincide_v.mp3 in Resources */,
+				84AF76711DF2519400B8A44B /* major.png in Resources */,
 				84F9F5F61DED955100D4D238 /* hostile.jpeg in Resources */,
+				84AF767F1DF2594100B8A44B /* English Majors.plist in Resources */,
 				84F9F6551DED955100D4D238 /* grasp_v.mp3 in Resources */,
 				84F9F6311DED955100D4D238 /* clarify_v.mp3 in Resources */,
 				84F9F5F51DED955100D4D238 /* host.jpeg in Resources */,
@@ -1274,14 +1317,17 @@
 				84F9F63A1DED955100D4D238 /* contaminate_v.mp3 in Resources */,
 				84F9F67E1DED955100D4D238 /* vaporize_v.mp3 in Resources */,
 				843EEFA11DEE5E5900468693 /* homeData.plist in Resources */,
-				841852251DED3E1D00C06D95 /* toeic.png in Resources */,
+				84AF76541DF2518000B8A44B /* EspB2.jpg in Resources */,
+				84AF765D1DF2518600B8A44B /* JapN2.jpg in Resources */,
 				84F9F5D91DED955100D4D238 /* defer.jpeg in Resources */,
 				84F9F5E01DED955100D4D238 /* energize.jpeg in Resources */,
+				84AF76561DF2518000B8A44B /* EspA1.png in Resources */,
 				84F9F6181DED955100D4D238 /* undertake.jpeg in Resources */,
 				84F9F5BD1DED955100D4D238 /* accommodate.jpeg in Resources */,
 				84F9F66F1DED955100D4D238 /* recruit_v.mp3 in Resources */,
 				84F9F5DE1DED955100D4D238 /* endorse.jpeg in Resources */,
 				84F9F5EE1DED955100D4D238 /* gorgeous.jpeg in Resources */,
+				84AF76681DF2518E00B8A44B /* GerB1.png in Resources */,
 				84F9F6671DED955100D4D238 /* neglect_v.mp3 in Resources */,
 				84F9F6471DED955100D4D238 /* exaggerate_v.mp3 in Resources */,
 				84F9F5DB1DED955100D4D238 /* determine.jpeg in Resources */,
@@ -1292,6 +1338,7 @@
 				84F9F5BE1DED955100D4D238 /* accompany.jpeg in Resources */,
 				84F9F5E11DED955100D4D238 /* enhance.jpeg in Resources */,
 				84F9F6481DED955100D4D238 /* examine_v.mp3 in Resources */,
+				84AF765E1DF2518600B8A44B /* JapNew.jpg in Resources */,
 				84F9F6131DED955100D4D238 /* tame.jpeg in Resources */,
 				842025271DE8358A00D356FC /* SF-UI-Text-Semibold.otf in Resources */,
 				84F9F5D71DED955100D4D238 /* contribute.jpeg in Resources */,
@@ -1306,9 +1353,12 @@
 				84F9F6561DED955100D4D238 /* guarantee_v.mp3 in Resources */,
 				84F9F5F91DED955100D4D238 /* invalidate.jpeg in Resources */,
 				84F9F62A1DED955100D4D238 /* benefit_v.mp3 in Resources */,
+				84AF766F1DF2519400B8A44B /* newword.png in Resources */,
+				84AF764F1DF2517700B8A44B /* FreA1.jpg in Resources */,
 				84F9F5E81DED955100D4D238 /* expand.jpeg in Resources */,
 				84F9F65A1DED955100D4D238 /* hostile_adj.mp3 in Resources */,
 				84F9F6591DED955100D4D238 /* host_v.mp3 in Resources */,
+				84AF76461DF2513D00B8A44B /* topic.plist in Resources */,
 				84F9F61A1DED955100D4D238 /* vaporize.jpeg in Resources */,
 				84F9F6011DED955100D4D238 /* narrate.jpeg in Resources */,
 				84F9F6691DED955100D4D238 /* obligate_v.mp3 in Resources */,
@@ -1349,7 +1399,6 @@
 				841852271DED42B000C06D95 /* DetailCellVC.swift in Sources */,
 				84F9F4E21DED775C00D4D238 /* ACell.swift in Sources */,
 				842025201DE824C100D356FC /* CustomTextField.swift in Sources */,
-				84A1B2EE1DEE945C0027B476 /* HomeCell.swift in Sources */,
 				84044C771DE7F784007E6B60 /* LoginVC.swift in Sources */,
 				848E312A1DF1032D001E3AD1 /* SettingParam.swift in Sources */,
 				E2BF3BAC1DEFE2E300AB20CE /* SettingsVC.swift in Sources */,
@@ -1363,7 +1412,6 @@
 				84F9F4EF1DED816E00D4D238 /* DetailWordVC.swift in Sources */,
 				84AD17C51DED3354001D7C1B /* TopicVC.swift in Sources */,
 				8420252E1DE84B4F00D356FC /* LanguageDetailVC.swift in Sources */,
-				8420252C1DE8433600D356FC /* ListLanguageVC.swift in Sources */,
 				84044C731DE7F732007E6B60 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

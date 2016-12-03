@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accomplish</key>
+	<dict>
+		<key>sentence</key>
+		<string>Surprisingly, the students accomplished the 30-minute test in only less than ten minutes.</string>
+		<key>meaning</key>
+		<string>hoàn thành</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əˈkɑːmplɪʃ /</string>
+		<key>sound</key>
+		<string>accomplish_v</string>
+		<key>image</key>
+		<string>accomplish.jpeg</string>
+		<key>synonym</key>
+		<string>complete</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>accompany</key>
+	<dict>
+		<key>sentence</key>
+		<string>The patient does not need the nurse to accompany him to the bathroom.</string>
+		<key>meaning</key>
+		<string>đi theo, hộ tống</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əˈkʌmpəni /</string>
+		<key>sound</key>
+		<string>accompany_v</string>
+		<key>image</key>
+		<string>accompany.jpeg</string>
+		<key>synonym</key>
+		<string>escort</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>adapt</key>
+	<dict>
+		<key>sentence</key>
+		<string>Tom is very healthy, which is why he can adapt to all kinds of weather.</string>
+		<key>meaning</key>
+		<string>làm thích nghi</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ əˈdæpt /</string>
+		<key>sound</key>
+		<string>adapt_v</string>
+		<key>image</key>
+		<string>adapt.jpeg</string>
+		<key>synonym</key>
+		<string></string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>analyze</key>
+	<dict>
+		<key>sentence</key>
+		<string>The student is analyzing water samples in the laboratory.</string>
+		<key>meaning</key>
+		<string>phân tích</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ ˈænəlaɪz /</string>
+		<key>sound</key>
+		<string>analyze_v</string>
+		<key>image</key>
+		<string>analyze.jpeg</string>
+		<key>synonym</key>
+		<string>examine</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>anticipate</key>
+	<dict>
+		<key>sentence</key>
+		<string>The director anticipates that the share price will increase tomorrow.</string>
+		<key>meaning</key>
+		<string>mong đợi</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ ænˈtɪsɪpeɪt /</string>
+		<key>sound</key>
+		<string>anticipate_v</string>
+		<key>image</key>
+		<string>anticipate.jpeg</string>
+		<key>synonym</key>
+		<string>expect</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+	<key>antipathy</key>
+	<dict>
+		<key>sentence</key>
+		<string>Mrs. Green has deep antipathy towards her stepson. She never treats him well.</string>
+		<key>meaning</key>
+		<string>ác cảm</string>
+		<key>type</key>
+		<string>verb</string>
+		<key>vocalization</key>
+		<string>/ ænˈtɪpəθi /</string>
+		<key>sound</key>
+		<string>antipathy_v</string>
+		<key>image</key>
+		<string>antipathy.jpeg</string>
+		<key>synonym</key>
+		<string>dislike</string>
+		<key>time</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

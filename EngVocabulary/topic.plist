@@ -47,10 +47,173 @@
 			<key>content</key>
 			<string>Từ mới được thêm vào</string>
 			<key>image</key>
-			<string>new.png</string>
+			<string>newword.png</string>
+		</dict>
+	</dict>
+	<key>French</key>
+	<dict>
+		<key>CEFRA1</key>
+		<dict>
+			<key>name</key>
+			<string>Débutant</string>
+			<key>content</key>
+			<string>100 từ vựng trình A1</string>
+			<key>image</key>
+			<string>FreA1.jpg</string>
+		</dict>
+		<key>CEFRB1</key>
+		<dict>
+			<key>name</key>
+			<string>Intermédiaire</string>
+			<key>content</key>
+			<string>300 từ vựng trình B1</string>
+			<key>image</key>
+			<string>FreB1.jpg</string>
+		</dict>
+		<key>CEFRC1</key>
+		<dict>
+			<key>name</key>
+			<string>Avancée</string>
+			<key>content</key>
+			<string>600 từ vựng trình C1</string>
+			<key>image</key>
+			<string>FreC1.jpg</string>
+		</dict>
+		<key>New added words</key>
+		<dict>
+			<key>name</key>
+			<string>Nouveau mot</string>
+			<key>content</key>
+			<string>Từ mới được thêm vào</string>
+			<key>image</key>
+			<string>nouveau.png</string>
+		</dict>
+	</dict>
+	<key>Spanish</key>
+	<dict>
+		<key>CEFA1</key>
+		<dict>
+			<key>name</key>
+			<string>Elemental</string>
+			<key>content</key>
+			<string>200 từ vựng trình A1</string>
+			<key>image</key>
+			<string>EspA1.png</string>
+		</dict>
+		<key>CEFB2</key>
+		<dict>
+			<key>name</key>
+			<string>Avanzado</string>
+			<key>content</key>
+			<string>500 từ vựng trình B2</string>
+			<key>image</key>
+			<string>EspB2.jpg</string>
+		</dict>
+		<key>CEFC1</key>
+		<dict>
+			<key>name</key>
+			<string>Competente</string>
+			<key>content</key>
+			<string>600 từ vựng trình C1</string>
+			<key>image</key>
+			<string>EspC1.jpg</string>
+		</dict>
+		<key>New added words</key>
+		<dict>
+			<key>name</key>
+			<string>Nueva palabra</string>
+			<key>content</key>
+			<string>Từ mới được thêm vào</string>
+			<key>image</key>
+			<string>Espnew.jpg</string>
 		</dict>
 	</dict>
 	<key>Japanese</key>
-	<dict/>
+	<dict>
+		<key>JLPTN1</key>
+		<dict>
+			<key>name</key>
+			<string>エキスパート</string>
+			<key>content</key>
+			<string>100 chữ Kanji trình N1</string>
+			<key>image</key>
+			<string>JapN1.jpg</string>
+		</dict>
+		<key>JLPTN2</key>
+		<dict>
+			<key>name</key>
+			<string>上級</string>
+			<key>content</key>
+			<string>50 chữ Kanji trình N2</string>
+			<key>image</key>
+			<string>JapN2.jpg</string>
+		</dict>
+		<key>JLPTN3</key>
+		<dict>
+			<key>name</key>
+			<string>堪能な</string>
+			<key>content</key>
+			<string>100 chữ Kanji trình N3</string>
+			<key>image</key>
+			<string>JapN3.jpg</string>
+		</dict>
+		<key>JLPTN5</key>
+		<dict>
+			<key>name</key>
+			<string>初心者</string>
+			<key>content</key>
+			<string>Tiếng Nhật vỡ lòng trình N5</string>
+			<key>image</key>
+			<string>JapN5.png</string>
+		</dict>
+		<key>New added words</key>
+		<dict>
+			<key>name</key>
+			<string>新しい言葉</string>
+			<key>content</key>
+			<string>Từ mới được thêm vào</string>
+			<key>image</key>
+			<string>JapNew.jpg</string>
+		</dict>
+	</dict>
+	<key>German</key>
+	<dict>
+		<key>GERA2</key>
+		<dict>
+			<key>name</key>
+			<string>Elementary</string>
+			<key>content</key>
+			<string>500 từ vựng trình A2</string>
+			<key>image</key>
+			<string>GerA2.png</string>
+		</dict>
+		<key>GERB1</key>
+		<dict>
+			<key>name</key>
+			<string>Zwischen</string>
+			<key>content</key>
+			<string>400 từ vựng trình B1</string>
+			<key>image</key>
+			<string>GerB1.png</string>
+		</dict>
+		<key>GERC1</key>
+		<dict>
+			<key>name</key>
+			<string>fließend</string>
+			<key>content</key>
+			<string>500 từ vựng trình C1</string>
+			<key>image</key>
+			<string>GerC1.jpg</string>
+		</dict>
+		<key>New added words</key>
+		<dict>
+			<key>name</key>
+			<string>Neue Wörter</string>
+			<key>content</key>
+			<string>Từ mới được thêm vào</string>
+			<key>image</key>
+			<string>GerNew.png</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
